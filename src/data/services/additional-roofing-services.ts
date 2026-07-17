@@ -130,15 +130,6 @@ const configs: ServiceConfig[] = [
     checklist: ["Wind and hail damage assessment", "Emergency make-safe work", "Tile and metal repairs", "Permanent storm repair scopes"],
   },
   {
-    slug: "services/ridge-capping-restoration-roof-repointing",
-    title: "Ridge Capping Restoration / Roof Repointing",
-    eyebrow: "Restore Roof Ridges",
-    summary: "Ridge capping restoration, rebedding and roof repointing for cracked, loose or weathered ridge mortar on tile roofs.",
-    focus: "The correct scope depends on whether existing ridge bedding remains sound enough for repointing or requires removal and rebedding first.",
-    image: "/images/services03.webp",
-    checklist: ["Ridge capping inspection", "Flexible pointing renewal", "Rebedding where required", "Hip and ridge repairs"],
-  },
-  {
     slug: "services/roof-cleaning-painting",
     title: "Roof Cleaning & Painting",
     eyebrow: "Improve Roof Presentation",
@@ -146,6 +137,15 @@ const configs: ServiceConfig[] = [
     focus: "Preparation is central to the result, so roof condition, repairs, coating compatibility and surrounding property protection are reviewed before painting.",
     image: "/images/service-hero.webp",
     checklist: ["Pressure cleaning for suitable roofs", "Repairs before coating", "Primer and roof coating systems", "Colour consultation"],
+  },
+  {
+    slug: "services/ridge-capping-restoration-roof-repointing",
+    title: "Ridge Capping Restoration / Roof Repointing",
+    eyebrow: "Restore Roof Ridges",
+    summary: "Ridge capping restoration, rebedding and roof repointing for cracked, loose or weathered ridge mortar on tile roofs.",
+    focus: "The correct scope depends on whether existing ridge bedding remains sound enough for repointing or requires removal and rebedding first.",
+    image: "/images/services03.webp",
+    checklist: ["Ridge capping inspection", "Flexible pointing renewal", "Rebedding where required", "Hip and ridge repairs"],
   },
 ];
 

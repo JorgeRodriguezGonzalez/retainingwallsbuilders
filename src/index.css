@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/fonts/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer base {
+  :root {
+    --background: 42 43% 96%;
+    --foreground: 161 34% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 161 34% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 161 34% 13%;
+    --primary: 162 31% 36%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 24 52% 53%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 142 17% 89%;
+    --muted-foreground: 161 13% 37%;
+    --accent: 36 66% 81%;
+    --accent-foreground: 161 34% 13%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 142 17% 86%;
+    --input: 142 17% 86%;
+    --ring: 162 31% 36%;
+    --radius: 1rem;
+  }
+
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; scrollbar-gutter: stable; }
+  body { @apply bg-background text-foreground antialiased; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; overflow-x: hidden; }
+  h1, h2, h3, h4, h5, h6 { font-family: "Gilroy", system-ui, sans-serif; letter-spacing: -0.025em; }
+  a, button { -webkit-tap-highlight-color: transparent; }
+}
+
+@layer utilities {
+  .text-balance { text-wrap: balance; }
+  .surface-grid {
+    background-image: linear-gradient(rgba(22,58,53,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(22,58,53,.045) 1px, transparent 1px);
+    background-size: 28px 28px;
+  }
+}

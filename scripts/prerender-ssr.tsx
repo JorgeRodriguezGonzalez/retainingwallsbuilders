@@ -21,12 +21,18 @@ const [
   { services },
   { locations },
   { blogPosts },
+  { suburbs },
+  { serviceInSuburbs },
+  { guides },
 ] = await Promise.all([
   import("../src/App"),
   import("../src/lib/helmet"),
   import("../src/data/services/index"),
   import("../src/data/locations/index"),
   import("../src/data/blog/index"),
+  import("../src/data/suburbs/index"),
+  import("../src/data/service-in-suburbs/index"),
+  import("../src/data/guides/index"),
 ]);
 
 const staticRoutes = [
@@ -54,6 +60,9 @@ const routes = Array.from(
       ...services.map((service) => `/${service.slug}/`),
       ...locations.map((location) => `/${location.slug}/`),
       ...blogPosts.map((post) => post.path),
+      ...suburbs.map((suburb) => `/${suburb.slug}/`),
+      ...serviceInSuburbs.map((page) => `/${page.slug}/`),
+      ...guides.map((guide) => guide.path),
     ].map(normalizeRoute)
   )
 );

@@ -9,7 +9,7 @@ import { business } from "@/data/business";
 export default function ContactUs() {
   return (
     <div className="min-h-screen bg-roof-cream">
-      <SEO title={`Contact ${business.name} | Request a Roofing Quote`} description={`Contact ${business.name} for roof repairs, leak detection, restoration, replacement, gutter work and roofing services across the Hunter Valley, NSW.`} canonical={`${business.url}/contact-us/`} />
+      <SEO title={`Contact ${business.name} | Request a Roofing Quote`} description={`Contact ${business.name} for roof repairs, leak detection, restoration, replacement, gutter work and roofing services across ${business.areaServed.display}.`} canonical={`${business.url}/contact-us/`} />
       <Header />
       <main>
         <PageHero eyebrow="Contact Us" title="Tell us about your roof or planned project" description="Send the property location, roof concern and any helpful details. For urgent leaks or storm damage, call us directly." image="/images/contact-us-hero.webp" />
@@ -17,7 +17,7 @@ export default function ContactUs() {
           <div className="mx-auto grid max-w-7xl gap-10 px-5 sm:px-6 lg:grid-cols-[.8fr_1.2fr] lg:px-8">
             <div>
               <p className="text-xs font-bold uppercase tracking-[0.24em] text-roof-copper">Contact Details</p>
-              <h2 className="mt-3 text-3xl font-bold text-roof-deep">Speak with Hunter Valley Roofing</h2>
+              <h2 className="mt-3 text-3xl font-bold text-roof-deep">{`Speak with ${business.name}`}</h2>
               <p className="mt-4 text-base leading-8 text-roof-slate">Describe the leak, damage, maintenance need or project. Ground-level photos can be useful, but never climb onto a roof to take them.</p>
               <div className="mt-8 space-y-4">
                 <a href={business.contact.phoneHref} className="flex items-center gap-4 rounded-2xl bg-roof-cream p-4"><span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-roof-teal text-white"><Phone className="h-5 w-5" /></span><span><strong className="block text-roof-deep">Phone</strong><span className="text-sm text-roof-slate">{business.contact.phoneDisplay}</span></span></a>

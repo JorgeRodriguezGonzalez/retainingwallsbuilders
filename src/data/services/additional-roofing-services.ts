@@ -179,7 +179,7 @@ const createServicePage = (config: ServiceConfig): ServicePageData => {
       ],
     },
     intro: {
-      eyebrow: "Hunter Valley Roofing Services",
+      eyebrow: `${business.name} Services`,
       heading: `${config.title} for local properties`,
       paragraphs: [
         `${config.summary} ${business.name} supports homeowners, landlords, rural property owners, commercial clients and property managers throughout the region.`,

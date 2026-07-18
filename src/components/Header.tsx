@@ -27,7 +27,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 border-b border-roof-mist bg-white/95 shadow-[0_10px_30px_rgba(22,58,53,0.08)] backdrop-blur-xl">
       <div className="bg-roof-deep text-white">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-4 py-2 text-xs sm:px-6">
-          <span className="hidden text-white/65 md:inline">Roofing across Maitland, Cessnock, Singleton and the wider Hunter Valley</span>
+          <span className="hidden text-white/65 md:inline">{`Roofing across ${business.areaServed.primaryLocationNames.slice(0, 3).join(", ")} and the wider ${business.areaServed.name}`}</span>
           <div className="flex items-center gap-4">
             <a href={business.contact.phoneHref} className="flex items-center gap-2 hover:text-roof-sand"><Phone className="h-3.5 w-3.5" />{business.contact.phoneDisplay}</a>
             <a href={business.contact.emailHref} className="hidden items-center gap-2 hover:text-roof-sand sm:flex"><Mail className="h-3.5 w-3.5" />{business.contact.email}</a>

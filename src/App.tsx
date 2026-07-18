@@ -18,6 +18,7 @@ import ThankYou from "@/pages/ThankYou";
 import ServiceTemplate from "@/components/ServiceTemplate";
 import LocationTemplate from "@/components/LocationTemplate";
 import BlogPostTemplate from "@/components/BlogPostTemplate";
+import DynamicSlugRouter from "@/components/DynamicSlugRouter";
 import { blogRoutes } from "@/data/blog";
 import { serviceRoutes } from "@/data/services";
 import { locationRoutes } from "@/data/locations";
@@ -45,6 +46,7 @@ const AppRoutes = () => (
       {serviceRoutes.map((route) => <Route key={route.slug} path={route.path} element={<ServiceTemplate data={route.data} />} />)}
       {locationRoutes.map((route) => <Route key={route.slug} path={route.path} element={<LocationTemplate data={route.data} />} />)}
       {blogRoutes.map((route) => <Route key={route.slug} path={route.path} element={<BlogPostTemplate data={route.data} />} />)}
+      <Route path="/:slug" element={<DynamicSlugRouter />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </>

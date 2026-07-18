@@ -14,10 +14,10 @@ export default function Areas() {
   const [quoteOpen, setQuoteOpen] = useState(false);
   return (
     <div className="min-h-screen bg-roof-cream">
-      <SEO title={`Roofing Service Areas Hunter Valley | ${business.name}`} description={`${business.name} provides roof repairs, restoration, replacement, gutter and storm-damage roofing services across Maitland, Cessnock, Singleton, Muswellbrook, Scone and surrounding Hunter Valley areas.`} canonical={`${business.url}/areas/`} />
+      <SEO title={`Roofing Service Areas ${business.areaServed.name} | ${business.name}`} description={`${business.name} provides roof repairs, restoration, replacement, gutter and storm-damage roofing services across ${business.areaServed.primaryLocationListText} and surrounding ${business.areaServed.name} areas.`} canonical={`${business.url}/areas/`} />
       <Header />
       <main>
-        <PageHero eyebrow="Local Service Areas" title="Roofing across the Hunter Valley" description="Explore local roofing information for major towns, growing residential communities, vineyard districts and Upper Hunter service areas." image="/images/home-hero.webp" />
+        <PageHero eyebrow="Local Service Areas" title={`Roofing across ${business.areaServed.withArticle}`} description="Explore local roofing information for major towns, growing residential communities, vineyard districts and Upper Hunter service areas." image="/images/home-hero.webp" />
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
             <div className="max-w-3xl"><p className="text-xs font-bold uppercase tracking-[0.24em] text-roof-copper">Areas We Cover</p><h2 className="mt-3 text-3xl font-bold text-roof-deep sm:text-4xl">Local pages for homes, rural properties and businesses</h2><p className="mt-4 text-base leading-8 text-roof-slate">Select an area to read about common roof types, property needs, nearby coverage and available services.</p></div>

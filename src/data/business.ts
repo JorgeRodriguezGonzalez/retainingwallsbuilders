@@ -55,7 +55,11 @@ export const business = {
     country: "AU",
   },
   areaServed: {
+    name: "Hunter Valley",
+    withArticle: "the Hunter Valley",
     display: "Hunter Valley, NSW",
+    primaryLocationNames: serviceAreaNames.slice(0, 5),
+    primaryLocationListText: formatLocationList(serviceAreaNames.slice(0, 5)),
     schemaPrimary: "Hunter Valley NSW",
     locationNames: serviceAreaNames,
     locationListText: formatLocationList(serviceAreaNames),

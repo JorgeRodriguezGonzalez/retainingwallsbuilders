@@ -19,8 +19,8 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-roof-cream text-roof-ink">
       <SEO
-        title={`${business.name} | Roof Repairs & Roofing Services Hunter Valley`}
-        description={`${business.name} provides roof repairs, leak detection, emergency make safes, restoration, replacement, gutters, Colorbond and commercial roofing across the Hunter Valley, NSW.`}
+        title={`${business.name} | Roof Repairs & Roofing Services ${business.areaServed.name}`}
+        description={`${business.name} provides roof repairs, leak detection, emergency make safes, restoration, replacement, gutters, Colorbond and commercial roofing across ${business.areaServed.display}.`}
         canonical={`${business.url}/`}
         schema={[
           {

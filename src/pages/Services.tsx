@@ -14,10 +14,10 @@ export default function Services() {
   const [quoteOpen, setQuoteOpen] = useState(false);
   return (
     <div className="min-h-screen bg-roof-cream">
-      <SEO title={`Roofing Services Hunter Valley | ${business.name}`} description={`Explore roof repairs, emergency make safes, leak detection, restoration, replacement, roof inspections, gutters, Colorbond, tile, commercial and residential roofing services across ${business.areaServed.display}.`} canonical={`${business.url}/services/`} />
+      <SEO title={`Roofing Services ${business.areaServed.name} | ${business.name}`} description={`Explore roof repairs, emergency make safes, leak detection, restoration, replacement, roof inspections, gutters, Colorbond, tile, commercial and residential roofing services across ${business.areaServed.display}.`} canonical={`${business.url}/services/`} />
       <Header />
       <main>
-        <PageHero eyebrow="Complete Roofing Support" title="Roofing services across the Hunter Valley" description="Find practical information about repairs, maintenance, restoration, replacement and specialist roofing work for homes, rural properties and commercial buildings." image="/images/service-hero.webp" />
+        <PageHero eyebrow="Complete Roofing Support" title={`Roofing services across ${business.areaServed.withArticle}`} description="Find practical information about repairs, maintenance, restoration, replacement and specialist roofing work for homes, rural properties and commercial buildings." image="/images/service-hero.webp" />
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
             <div className="max-w-3xl"><p className="text-xs font-bold uppercase tracking-[0.24em] text-roof-copper">Choose a Service</p><h2 className="mt-3 text-3xl font-bold text-roof-deep sm:text-4xl">Start with the issue, roof type or planned outcome</h2><p className="mt-4 text-base leading-8 text-roof-slate">Each service page explains common use cases, what an assessment considers, the typical process and answers to frequent questions.</p></div>

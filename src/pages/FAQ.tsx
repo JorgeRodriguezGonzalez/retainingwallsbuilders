@@ -9,7 +9,7 @@ import { business } from "@/data/business";
 import { createFaqSchema } from "@/lib/seo";
 
 const faqs = [
-  { question: "What roofing services do you provide in the Hunter Valley?", answer: "We provide roof repairs, emergency make safes, leak detection, restoration, replacement, maintenance, inspections, gutter work, metal and Colorbond roofing, tile and terracotta work, commercial roofing, residential roofing, storm damage repairs, ridge capping restoration, cleaning and painting." },
+  { question: `What roofing services do you provide in ${business.areaServed.withArticle}?`, answer: "We provide roof repairs, emergency make safes, leak detection, restoration, replacement, maintenance, inspections, gutter work, metal and Colorbond roofing, tile and terracotta work, commercial roofing, residential roofing, storm damage repairs, ridge capping restoration, cleaning and painting." },
   { question: "Which areas do you service?", answer: `Our listed service areas include ${business.areaServed.locationListText}. Contact us for nearby properties that are not listed.` },
   { question: "Do you repair both tile and metal roofs?", answer: "Yes. We work with common concrete tile, terracotta, metal and Colorbond roofing systems. The exact scope depends on the profile, condition, pitch and access." },
   { question: "What should I do if my roof is leaking during a storm?", answer: "Keep people away from unsafe areas, avoid wet electrical fittings and do not climb onto the roof. Protect belongings only where it is safe, then contact a roofer for make-safe advice." },
@@ -27,7 +27,7 @@ export default function FAQ() {
   const [quoteOpen, setQuoteOpen] = useState(false);
   return (
     <div className="min-h-screen bg-roof-cream">
-      <SEO title={`Roofing FAQs Hunter Valley | ${business.name}`} description={`Answers to common questions about roof repairs, leaks, emergency make safes, restoration, replacement, gutters, Colorbond roofing and service areas across the Hunter Valley.`} canonical={`${business.url}/faqs/`} schema={createFaqSchema(faqs)} />
+      <SEO title={`Roofing FAQs ${business.areaServed.name} | ${business.name}`} description={`Answers to common questions about roof repairs, leaks, emergency make safes, restoration, replacement, gutters, Colorbond roofing and service areas across ${business.areaServed.withArticle}.`} canonical={`${business.url}/faqs/`} schema={createFaqSchema(faqs)} />
       <Header />
       <main>
         <PageHero eyebrow="Frequently Asked Questions" title="Straight answers about roofing work" description="Use these answers as a starting point, then contact us with the details of your roof and property for advice relevant to your situation." image="/images/roof-hero.webp" />

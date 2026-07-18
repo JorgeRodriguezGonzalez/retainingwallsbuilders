@@ -1,7 +1,9 @@
+import { business } from "@/data/business";
+
 const notes = [
   { title: "Clear priorities", text: "We explain which issues need prompt attention and which can be included in planned maintenance." },
   { title: "Property-aware planning", text: "Access, roof size, building use and surrounding property conditions are considered before work begins." },
-  { title: "Regional coverage", text: "Our area pages make it easy to find roofing information for major Hunter Valley towns and communities." },
+  { title: "Regional coverage", text: `Our area pages make it easy to find roofing information for major ${business.areaServed.name} towns and communities.` },
 ];
 
 export default function HomeTestimonials() {

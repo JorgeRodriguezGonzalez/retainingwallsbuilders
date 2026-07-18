@@ -242,7 +242,7 @@ const createPost = (config: PostConfig): BlogPostData => ({
     ogImage: business.brand.assets.ogImage,
   },
   hero: {
-    eyebrow: "Hunter Valley Roofing Advice",
+    eyebrow: `${business.name} Advice`,
     kicker: config.category,
   },
   intro: config.intro,

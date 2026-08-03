@@ -30,7 +30,9 @@ export default function Header() {
           <span className="hidden text-white/65 md:inline">{`Roofing across ${business.areaServed.primaryLocationNames.slice(0, 3).join(", ")} and the wider ${business.areaServed.name}`}</span>
           <div className="flex items-center gap-4">
             <a href={business.contact.phoneHref} className="flex items-center gap-2 hover:text-roof-sand"><Phone className="h-3.5 w-3.5" />{business.contact.phoneDisplay}</a>
-            <a href={business.contact.emailHref} className="hidden items-center gap-2 hover:text-roof-sand sm:flex"><Mail className="h-3.5 w-3.5" />{business.contact.email}</a>
+            {business.contact.email && (
+              <a href={business.contact.emailHref} className="hidden items-center gap-2 hover:text-roof-sand sm:flex"><Mail className="h-3.5 w-3.5" />{business.contact.email}</a>
+            )}
           </div>
         </div>
       </div>

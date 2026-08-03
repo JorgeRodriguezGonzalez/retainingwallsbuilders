@@ -82,7 +82,7 @@ export const roofingProvider = (): JsonLd => ({
   name: business.name,
   url: `${business.url}/`,
   telephone: business.contact.phoneSchema,
-  email: business.contact.email,
+  ...(business.contact.email ? { email: business.contact.email } : {}),
   areaServed: {
     "@type": "AdministrativeArea",
     name: business.legalArea,

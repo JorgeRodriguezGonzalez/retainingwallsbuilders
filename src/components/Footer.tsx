@@ -12,7 +12,9 @@ export default function Footer() {
           <p className="mt-5 max-w-sm text-sm leading-7 text-white/65">{business.brand.tagline} We provide roof repairs, restoration, replacement, gutter work and roofing maintenance across the region.</p>
           <div className="mt-6 space-y-3 text-sm">
             <a href={business.contact.phoneHref} className="flex items-center gap-3 hover:text-roof-sand"><Phone className="h-4 w-4 text-roof-copper" />{business.contact.phoneDisplay}</a>
-            <a href={business.contact.emailHref} className="flex items-center gap-3 hover:text-roof-sand"><Mail className="h-4 w-4 text-roof-copper" />{business.contact.email}</a>
+            {business.contact.email && (
+              <a href={business.contact.emailHref} className="flex items-center gap-3 hover:text-roof-sand"><Mail className="h-4 w-4 text-roof-copper" />{business.contact.email}</a>
+            )}
             <span className="flex items-center gap-3 text-white/70"><MapPin className="h-4 w-4 text-roof-copper" />{business.address.display}</span>
           </div>
         </div>

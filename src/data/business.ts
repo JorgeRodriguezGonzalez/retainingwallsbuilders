@@ -42,11 +42,11 @@ export const business = {
     },
   },
   contact: {
-    phoneDisplay: "(03) 1234 5678",
-    phoneHref: "tel:0312345678",
-    phoneSchema: "+61 3 1234 5678",
-    email: "info@huntervalley.com.au",
-    emailHref: "mailto:info@huntervalley.com.au",
+    phoneDisplay: "(02) 4063 3440",
+    phoneHref: "tel:0240633440",
+    phoneSchema: "+61 2 4063 3440",
+    email: "",
+    emailHref: "",
   },
   address: {
     display: "Hunter Valley, NSW",

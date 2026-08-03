@@ -31,7 +31,7 @@ export default function Index() {
             description: business.brand.tagline,
             url: `${SITE_URL}/`,
             telephone: business.contact.phoneSchema,
-            email: business.contact.email,
+            ...(business.contact.email ? { email: business.contact.email } : {}),
             image: DEFAULT_OG_IMAGE,
             logo: BRAND_LOGO_URL,
             areaServed: business.areaServed.locations,

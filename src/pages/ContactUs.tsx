@@ -21,7 +21,9 @@ export default function ContactUs() {
               <p className="mt-4 text-base leading-8 text-roof-slate">Describe the leak, damage, maintenance need or project. Ground-level photos can be useful, but never climb onto a roof to take them.</p>
               <div className="mt-8 space-y-4">
                 <a href={business.contact.phoneHref} className="flex items-center gap-4 rounded-2xl bg-roof-cream p-4"><span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-roof-teal text-white"><Phone className="h-5 w-5" /></span><span><strong className="block text-roof-deep">Phone</strong><span className="text-sm text-roof-slate">{business.contact.phoneDisplay}</span></span></a>
-                <a href={business.contact.emailHref} className="flex items-center gap-4 rounded-2xl bg-roof-cream p-4"><span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-roof-teal text-white"><Mail className="h-5 w-5" /></span><span><strong className="block text-roof-deep">Email</strong><span className="text-sm text-roof-slate">{business.contact.email}</span></span></a>
+                {business.contact.email && (
+                  <a href={business.contact.emailHref} className="flex items-center gap-4 rounded-2xl bg-roof-cream p-4"><span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-roof-teal text-white"><Mail className="h-5 w-5" /></span><span><strong className="block text-roof-deep">Email</strong><span className="text-sm text-roof-slate">{business.contact.email}</span></span></a>
+                )}
                 <div className="flex items-center gap-4 rounded-2xl bg-roof-cream p-4"><span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-roof-teal text-white"><MapPin className="h-5 w-5" /></span><span><strong className="block text-roof-deep">Service Area</strong><span className="text-sm text-roof-slate">{business.areaServed.display}</span></span></div>
               </div>
             </div>

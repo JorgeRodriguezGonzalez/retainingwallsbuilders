@@ -166,7 +166,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Link
                     to={data.hero.primaryCtaHref}
-                    className="inline-flex items-center gap-2 rounded-full bg-[#c97845] px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-[#163a35] shadow-[0_18px_38px_rgba(252,185,0,0.28)] transition hover:-translate-y-0.5 hover:bg-[#efd8ad]"
+                    className="inline-flex items-center gap-2 rounded-full bg-[#c97845] px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-[#163a35] shadow-[0_18px_38px_rgba(201,120,69,0.28)] transition hover:-translate-y-0.5 hover:bg-[#efd8ad]"
                   >
                     {data.hero.primaryCtaLabel}
                     <ArrowRight className="h-4 w-4" />

@@ -49,9 +49,11 @@ export const business = {
     emailHref: "",
   },
   address: {
-    display: "Hunter Valley, NSW",
-    locality: "Hunter Valley",
+    display: "79 Barton St, Kurri Kurri NSW 2327",
+    streetAddress: "79 Barton St",
+    locality: "Kurri Kurri",
     region: "NSW",
+    postalCode: "2327",
     country: "AU",
   },
   areaServed: {

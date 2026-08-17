@@ -87,6 +87,14 @@ export const roofingProvider = (): JsonLd => ({
     "@type": "AdministrativeArea",
     name: business.legalArea,
   },
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: business.address.streetAddress,
+    addressLocality: business.address.locality,
+    addressRegion: business.address.region,
+    postalCode: business.address.postalCode,
+    addressCountry: business.address.country,
+  },
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: business.hours.schemaDays,

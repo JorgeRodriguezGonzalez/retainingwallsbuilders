@@ -6,7 +6,7 @@ export interface WhatWeDoItem { icon: LucideIcon; text: string; }
 
 export const homeImages = {
   hero: "/images/home-hero.webp",
-  about: "/images/Standing-Seam-Metal-Roof.webp",
+  about: "/images/standing-seam-metal-roof.webp",
   contact: "/images/contact-workers.webp",
 };
 

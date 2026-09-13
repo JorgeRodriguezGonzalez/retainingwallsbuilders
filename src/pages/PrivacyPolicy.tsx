@@ -6,7 +6,7 @@ import { business } from "@/data/business";
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-roof-cream">
+    <div className="min-h-screen bg-brand-cream">
       <SEO title={`Privacy Policy | ${business.name}`} description={`Read the ${business.name} privacy policy covering website enquiries, contact details, analytics and information handling.`} canonical={`${business.url}/privacy-policy/`} />
       <Header />
       <main>

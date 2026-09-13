@@ -26,7 +26,7 @@ type ServiceTemplateProps = {
 
 function Eyebrow({ children }: { children: React.ReactNode }) {
   return (
-    <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#c97845]">
+    <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#c4a35a]">
       {children}
     </p>
   );
@@ -42,7 +42,7 @@ function SectionTitle({
   return (
     <h2
       className={`text-3xl font-semibold leading-tight md:text-4xl ${
-        dark ? "text-white" : "text-[#163a35]"
+        dark ? "text-white" : "text-[#2c3424]"
       }`}
     >
       {children}
@@ -67,7 +67,7 @@ function Checklist({ items }: { items: string[] }) {
     <div className="mt-8 grid gap-4 sm:grid-cols-2">
       {items.map((item, index) => (
         <div key={index} className="flex items-start gap-3">
-          <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#c97845]" />
+          <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#c4a35a]" />
           <span className="text-sm leading-7 text-neutral-700">{item}</span>
         </div>
       ))}
@@ -84,9 +84,9 @@ function FAQAccordion({
     <div className="mx-auto mt-10 max-w-4xl divide-y divide-neutral-200 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
       {items.map((item, index) => (
         <details key={index} className="group">
-          <summary className="flex cursor-pointer list-none items-center justify-between gap-5 px-6 py-5 text-left font-medium text-[#163a35]">
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-5 px-6 py-5 text-left font-medium text-[#2c3424]">
             <span>{item.question}</span>
-            <span className="text-[#c97845] transition-transform duration-200 group-open:rotate-45">
+            <span className="text-[#c4a35a] transition-transform duration-200 group-open:rotate-45">
               +
             </span>
           </summary>
@@ -166,7 +166,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Link
                     to={data.hero.primaryCtaHref}
-                    className="inline-flex items-center gap-2 rounded-full bg-[#c97845] px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-[#163a35] shadow-[0_18px_38px_rgba(201,120,69,0.28)] transition hover:-translate-y-0.5 hover:bg-[#efd8ad]"
+                    className="inline-flex items-center gap-2 rounded-full bg-[#c4a35a] px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-[#2c3424] shadow-[0_18px_38px_rgba(201,120,69,0.28)] transition hover:-translate-y-0.5 hover:bg-[#ded4bf]"
                   >
                     {data.hero.primaryCtaLabel}
                     <ArrowRight className="h-4 w-4" />
@@ -175,7 +175,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                   {data.hero.secondaryCtaLabel && data.hero.secondaryCtaHref && (
                     <a
                       href={data.hero.secondaryCtaHref}
-                      className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-white backdrop-blur-sm transition hover:-translate-y-0.5 hover:bg-white hover:text-[#163a35]"
+                      className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-white backdrop-blur-sm transition hover:-translate-y-0.5 hover:bg-white hover:text-[#2c3424]"
                     >
                       <Phone className="h-4 w-4" />
                       {data.hero.secondaryCtaLabel}
@@ -187,7 +187,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                   <div className="mt-10 grid max-w-3xl grid-cols-2 gap-6 border-t border-white/15 pt-8 md:grid-cols-4">
                     {data.hero.stats.map((stat, index) => (
                       <div key={index}>
-                        <div className="text-2xl font-semibold text-[#c97845]">
+                        <div className="text-2xl font-semibold text-[#c4a35a]">
                           {stat.value}
                         </div>
                         <div className="mt-1 text-sm text-white/70">{stat.label}</div>
@@ -227,7 +227,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
 
           {/* BENEFITS */}
           {data.benefits?.items?.length ? (
-            <section className="bg-[#163a35] py-20 md:py-24">
+            <section className="bg-[#2c3424] py-20 md:py-24">
               <div className="mx-auto max-w-7xl px-6">
                 <div className="max-w-2xl">
                   {data.benefits.eyebrow && <Eyebrow>{data.benefits.eyebrow}</Eyebrow>}
@@ -240,7 +240,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                       key={index}
                       className="rounded-2xl border border-white/10 bg-white/5 p-6"
                     >
-                      <div className="mb-4 text-3xl font-semibold text-[#c97845]">
+                      <div className="mb-4 text-3xl font-semibold text-[#c4a35a]">
                         {String(index + 1).padStart(2, "0")}
                       </div>
                       <h3 className="text-white text-xl font-semibold">{item.title}</h3>
@@ -265,11 +265,11 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                   <div className="mt-10 space-y-6">
                     {data.process.steps.map((step, index) => (
                       <div key={index} className="flex gap-4">
-                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#c97845]/10 text-sm font-semibold text-[#c97845]">
+                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#c4a35a]/10 text-sm font-semibold text-[#c4a35a]">
                           {index + 1}
                         </div>
                         <div>
-                          <h3 className="text-[#163a35] text-xl font-semibold">
+                          <h3 className="text-[#2c3424] text-xl font-semibold">
                             {step.title}
                           </h3>
                           <p className="mt-2 text-sm leading-7 text-neutral-600">
@@ -299,7 +299,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
             return (
               <section
                 key={`${section.heading}-${index}`}
-                className={index % 2 === 0 ? "bg-[#163a35] py-20 md:py-24" : "bg-white py-20 md:py-24"}
+                className={index % 2 === 0 ? "bg-[#2c3424] py-20 md:py-24" : "bg-white py-20 md:py-24"}
               >
                 <div
                   className={`mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2 ${
@@ -335,7 +335,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                       <div className="mt-8 grid gap-4 sm:grid-cols-2">
                         {section.items.map((item, itemIndex) => (
                           <div key={itemIndex} className="flex items-start gap-3">
-                            <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#c97845]" />
+                            <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#c4a35a]" />
                             <span
                               className={`text-sm leading-7 ${
                                 index % 2 === 0 ? "text-white/80" : "text-neutral-700"
@@ -355,7 +355,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
 
           {/* CTA */}
           {data.cta ? (
-            <section className="bg-[#c97845] py-14 md:py-16">
+            <section className="bg-[#c4a35a] py-14 md:py-16">
               <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-6 lg:flex-row lg:items-center">
                 <div className="max-w-2xl">
                   {data.cta.eyebrow && (

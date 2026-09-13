@@ -54,7 +54,7 @@ const configs: ServiceConfig[] = [
     eyebrow: "New Roofing Systems",
     summary: "Roof replacement and new roof installation for ageing, extensively damaged or newly constructed residential and commercial properties.",
     focus: "We help compare suitable roofing profiles, materials, drainage details and ventilation considerations for the building and local conditions.",
-    image: "/images/Standing-Seam-Metal-Roof.webp",
+    image: "/images/standing-seam-metal-roof.webp",
     checklist: ["Full roof replacement planning", "New-build roof installation", "Metal and Colorbond options", "Roofing for extensions and additions"],
   },
   {
@@ -90,7 +90,7 @@ const configs: ServiceConfig[] = [
     eyebrow: "Durable Metal Roofing",
     summary: "Metal and Colorbond roofing for homes, sheds, rural buildings, commercial properties, extensions and full roof replacement projects.",
     focus: "Material selection considers roof pitch, building use, exposure, drainage layout, appearance and compatibility with flashings and roof penetrations.",
-    image: "/images/Standing-Seam-Metal-Roof.webp",
+    image: "/images/standing-seam-metal-roof.webp",
     checklist: ["Colorbond roof installation", "Metal roof repairs", "Flashings and cappings", "Residential, rural and commercial applications"],
   },
   {

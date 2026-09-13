@@ -14,3 +14,10 @@ export const suburbRoutes = suburbs.map((suburb) => ({
 
 export const getSuburbBySlug = (slug: string) =>
   suburbs.find((suburb) => suburb.slug.replace(/^\/+|\/+$/g, "") === slug);
+
+/**
+ * Returns all suburbs belonging to a given parent area.
+ * Used by LocationTemplate to list child suburb links on area pages.
+ */
+export const getSuburbsByParentArea = (areaSlug: string): SuburbPageData[] =>
+  suburbs.filter((suburb) => suburb.parentArea === areaSlug);

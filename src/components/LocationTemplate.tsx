@@ -10,18 +10,30 @@ import {
   serviceProvider,
 } from "@/lib/seo";
 import { Link } from "react-router-dom";
-import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
+import { ArrowRight, CheckCircle2, Phone, MapPin } from "lucide-react";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import FloatingCTA from "@/components/FloatingCTA";
 import QuoteModal from "@/components/QuoteModal";
 import type { LocationPageData } from "@/types/location";
+import type { SuburbPageData } from "@/types/suburb";
 import { business } from "@/data/business";
+import { getSuburbsByParentArea } from "@/data/suburbs";
+import { getLocationBySlug } from "@/data/locations";
 
 type LocationTemplateProps = {
-  data: LocationPageData;
+  data: LocationPageData | SuburbPageData;
 };
+
+/**
+ * Type guard to check if data is a SuburbPageData (has parentArea).
+ */
+function isSuburbPage(
+  data: LocationPageData | SuburbPageData
+): data is SuburbPageData {
+  return "parentArea" in data && typeof data.parentArea === "string";
+}
 
 function Eyebrow({ children }: { children: React.ReactNode }) {
   return (
@@ -114,11 +126,24 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
     provider: serviceProvider(),
   };
 
-  const breadcrumbSchema = createBreadcrumbSchema([
-    { name: "Home", url: `${SITE_URL}/` },
-    { name: "Areas", url: `${SITE_URL}/areas/` },
-    { name: data.hero.title, url: canonical },
-  ]);
+  const breadcrumbItems = isSuburbPage(data)
+    ? (() => {
+        const parentLocation = getLocationBySlug(data.parentArea);
+        const parentName = parentLocation?.hero.title || data.parentArea;
+        return [
+          { name: "Home", url: `${SITE_URL}/` },
+          { name: "Areas", url: `${SITE_URL}/areas/` },
+          { name: parentName, url: `${SITE_URL}/${data.parentArea}/` },
+          { name: data.hero.title, url: canonical },
+        ];
+      })()
+    : [
+        { name: "Home", url: `${SITE_URL}/` },
+        { name: "Areas", url: `${SITE_URL}/areas/` },
+        { name: data.hero.title, url: canonical },
+      ];
+
+  const breadcrumbSchema = createBreadcrumbSchema(breadcrumbItems);
 
   const schemas = [serviceSchema, breadcrumbSchema];
   if (data.faq?.items?.length) {
@@ -226,6 +251,52 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
               </div>
             </div>
           </section>
+
+          {/* CHILD SUBURBS - Only rendered for area pages with children */}
+          {(() => {
+            const childSuburbs =
+              !isSuburbPage(data) && data.childSuburbSlugs?.length
+                ? data.childSuburbSlugs
+                    .map((slug) => {
+                      const suburb = getSuburbsByParentArea(data.slug).find(
+                        (s) => s.slug === slug
+                      );
+                      return suburb ? { slug: suburb.slug, title: suburb.hero.title } : null;
+                    })
+                    .filter(Boolean)
+                : !isSuburbPage(data)
+                  ? getSuburbsByParentArea(data.slug).map((s) => ({
+                      slug: s.slug,
+                      title: s.hero.title,
+                    }))
+                  : [];
+
+            return childSuburbs.length > 0 ? (
+              <section className="bg-[#f8fafc] py-16 md:py-20">
+                <div className="mx-auto max-w-7xl px-6">
+                  <div className="mb-10 text-center">
+                    <Eyebrow>Areas We Serve</Eyebrow>
+                    <SectionTitle>Suburbs in {data.hero.title}</SectionTitle>
+                  </div>
+
+                  <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                    {childSuburbs.map((suburb) => (
+                      <Link
+                        key={suburb!.slug}
+                        to={`/${suburb!.slug}/`}
+                        className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-white px-5 py-4 transition hover:border-[#5c6b4a] hover:shadow-sm"
+                      >
+                        <MapPin className="h-5 w-5 shrink-0 text-[#5c6b4a]" />
+                        <span className="font-medium text-[#2c3424]">
+                          {suburb!.title}
+                        </span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              </section>
+            ) : null;
+          })()}
 
           {/* BENEFITS */}
           {data.benefits?.items?.length ? (

@@ -5,4 +5,10 @@ import type { LocationPageData } from "@/types/location";
  * The shape intentionally matches LocationPageData so the proven location
  * layout and schema model can be reused without duplicating presentation code.
  */
-export interface SuburbPageData extends LocationPageData {}
+export interface SuburbPageData extends LocationPageData {
+  /**
+   * Slug of the parent area page this suburb belongs to (e.g. "northern-beaches").
+   * Used for breadcrumb hierarchy and area-to-suburb navigation.
+   */
+  parentArea: string;
+}

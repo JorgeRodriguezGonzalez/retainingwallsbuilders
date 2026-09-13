@@ -66,6 +66,12 @@ export interface LocationSchema {
 export interface LocationPageData {
   slug: string;
 
+  /**
+   * Optional list of child suburb slugs for area pages.
+   * Used by LocationTemplate to render links to child suburb pages.
+   */
+  childSuburbSlugs?: string[];
+
   seo: LocationSEO;
 
   hero: {

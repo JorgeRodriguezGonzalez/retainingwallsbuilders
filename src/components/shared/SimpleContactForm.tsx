@@ -20,10 +20,10 @@ type SimpleContactFormProps = {
 };
 
 const inputClassName =
-  'h-12 w-full rounded-2xl border border-roof-mist bg-white/95 px-4 text-sm text-roof-ink outline-none transition placeholder:text-roof-slate/60 focus:border-roof-teal focus:ring-4 focus:ring-roof-teal/15';
+  'h-12 w-full rounded-2xl border border-brand-mist bg-white/95 px-4 text-sm text-brand-ink outline-none transition placeholder:text-brand-slate/60 focus:border-brand-olive focus:ring-4 focus:ring-brand-olive/15';
 
 const textareaBaseClassName =
-  'w-full rounded-2xl border border-roof-mist bg-white/95 px-4 py-3 text-sm text-roof-ink outline-none transition placeholder:text-roof-slate/60 focus:border-roof-teal focus:ring-4 focus:ring-roof-teal/15';
+  'w-full rounded-2xl border border-brand-mist bg-white/95 px-4 py-3 text-sm text-brand-ink outline-none transition placeholder:text-brand-slate/60 focus:border-brand-olive focus:ring-4 focus:ring-brand-olive/15';
 
 const honeypotClassName =
   'absolute left-[-10000px] top-auto h-px w-px overflow-hidden';
@@ -149,7 +149,7 @@ const SimpleContactForm = ({
         <button
           type="submit"
           disabled={isSubmitting}
-          className={`inline-flex items-center justify-center gap-2 rounded-full bg-roof-teal text-sm font-bold uppercase tracking-[0.2em] text-white shadow-[0_14px_30px_rgba(63,120,104,0.28)] transition hover:-translate-y-0.5 hover:bg-roof-tealDark hover:shadow-[0_18px_36px_rgba(63,120,104,0.34)] disabled:cursor-not-allowed disabled:opacity-60 ${
+          className={`inline-flex items-center justify-center gap-2 rounded-full bg-brand-olive text-sm font-bold uppercase tracking-[0.2em] text-white shadow-[0_14px_30px_rgba(63,120,104,0.28)] transition hover:-translate-y-0.5 hover:bg-brand-oliveDark hover:shadow-[0_18px_36px_rgba(63,120,104,0.34)] disabled:cursor-not-allowed disabled:opacity-60 ${
             isHero
               ? 'h-14 w-full px-8'
               : 'h-14 min-w-[210px] px-8 sm:min-w-[230px]'

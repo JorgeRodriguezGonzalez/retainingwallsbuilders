@@ -26,25 +26,25 @@
 
 @layer base {
   :root {
-    --background: 42 43% 96%;
-    --foreground: 161 34% 13%;
+    --background: 87 15% 96%;
+    --foreground: 90 18% 17%;
     --card: 0 0% 100%;
-    --card-foreground: 161 34% 13%;
+    --card-foreground: 90 18% 17%;
     --popover: 0 0% 100%;
-    --popover-foreground: 161 34% 13%;
-    --primary: 162 31% 36%;
+    --popover-foreground: 90 18% 17%;
+    --primary: 87 18% 35%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 24 52% 53%;
+    --secondary: 90 18% 17%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 142 17% 89%;
-    --muted-foreground: 161 13% 37%;
-    --accent: 36 66% 81%;
-    --accent-foreground: 161 34% 13%;
+    --muted: 87 12% 90%;
+    --muted-foreground: 87 10% 40%;
+    --accent: 41 47% 56%;
+    --accent-foreground: 90 18% 17%;
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
-    --border: 142 17% 86%;
-    --input: 142 17% 86%;
-    --ring: 162 31% 36%;
+    --border: 87 12% 86%;
+    --input: 87 12% 86%;
+    --ring: 87 18% 35%;
     --radius: 1rem;
   }
 
@@ -58,7 +58,7 @@
 @layer utilities {
   .text-balance { text-wrap: balance; }
   .surface-grid {
-    background-image: linear-gradient(rgba(22,58,53,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(22,58,53,.045) 1px, transparent 1px);
+    background-image: linear-gradient(rgba(44,52,36,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(44,52,36,.045) 1px, transparent 1px);
     background-size: 28px 28px;
   }
 }

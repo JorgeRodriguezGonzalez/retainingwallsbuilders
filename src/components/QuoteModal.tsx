@@ -39,16 +39,16 @@ export default function QuoteModal({ isOpen, onClose }: QuoteModalProps) {
     setSubmissionError(result.error);
   };
 
-  const inputClass = "h-12 w-full rounded-2xl border border-roof-mist bg-roof-cream/50 px-4 text-sm text-roof-ink outline-none transition focus:border-roof-teal focus:ring-4 focus:ring-roof-teal/10";
+  const inputClass = "h-12 w-full rounded-2xl border border-brand-mist bg-brand-cream/50 px-4 text-sm text-brand-ink outline-none transition focus:border-brand-olive focus:ring-4 focus:ring-brand-olive/10";
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
-      <button className="absolute inset-0 bg-roof-deep/70 backdrop-blur-sm" onClick={onClose} aria-label="Close quote form" />
+      <button className="absolute inset-0 bg-brand-deep/70 backdrop-blur-sm" onClick={onClose} aria-label="Close quote form" />
       <div className="relative z-10 max-h-[92vh] w-full max-w-xl overflow-y-auto rounded-[30px] bg-white p-6 shadow-2xl sm:p-8">
-        <button onClick={onClose} className="absolute right-4 top-4 rounded-full bg-roof-cream p-2 text-roof-ink" aria-label="Close"><X className="h-5 w-5" /></button>
-        <p className="text-xs font-bold uppercase tracking-[0.24em] text-roof-copper">Tell us about your roof</p>
-        <h2 className="mt-2 pr-10 text-3xl font-bold text-roof-deep">Request a roofing quote</h2>
-        <p className="mt-3 text-sm leading-6 text-roof-slate">Include the suburb, roof type and the issue or project you would like us to assess.</p>
+        <button onClick={onClose} className="absolute right-4 top-4 rounded-full bg-brand-cream p-2 text-brand-ink" aria-label="Close"><X className="h-5 w-5" /></button>
+        <p className="text-xs font-bold uppercase tracking-[0.24em] text-brand-gold">Tell us about your roof</p>
+        <h2 className="mt-2 pr-10 text-3xl font-bold text-brand-deep">Request a roofing quote</h2>
+        <p className="mt-3 text-sm leading-6 text-brand-slate">Include the suburb, roof type and the issue or project you would like us to assess.</p>
 
         <form name={NETLIFY_FORM_NAME} method="POST" action={`${NETLIFY_THANK_YOU_PATH}/`} data-netlify-honeypot="bot-field" onSubmit={handleSubmit} className="mt-6 grid gap-4 sm:grid-cols-2" aria-busy={isSubmitting}>
           <input type="hidden" name="form-name" value={NETLIFY_FORM_NAME} />
@@ -62,9 +62,9 @@ export default function QuoteModal({ isOpen, onClose }: QuoteModalProps) {
             <option value="">Select a service</option>
             {serviceNavigation.map((item) => <option key={item.href} value={item.name}>{item.name}</option>)}
           </select>
-          <textarea className="min-h-28 w-full rounded-2xl border border-roof-mist bg-roof-cream/50 px-4 py-3 text-sm text-roof-ink outline-none transition focus:border-roof-teal focus:ring-4 focus:ring-roof-teal/10 sm:col-span-2" name="description" placeholder="Describe the roof issue or planned work" required />
+          <textarea className="min-h-28 w-full rounded-2xl border border-brand-mist bg-brand-cream/50 px-4 py-3 text-sm text-brand-ink outline-none transition focus:border-brand-olive focus:ring-4 focus:ring-brand-olive/10 sm:col-span-2" name="description" placeholder="Describe the roof issue or planned work" required />
           {submissionError && <p className="text-sm font-semibold text-red-700 sm:col-span-2" role="alert">{submissionError}</p>}
-          <button type="submit" disabled={isSubmitting} className="inline-flex h-13 items-center justify-center gap-2 rounded-full bg-roof-copper px-6 py-3.5 text-sm font-bold text-white transition hover:bg-roof-copperDark disabled:opacity-60 sm:col-span-2">
+          <button type="submit" disabled={isSubmitting} className="inline-flex h-13 items-center justify-center gap-2 rounded-full bg-brand-gold px-6 py-3.5 text-sm font-bold text-white transition hover:bg-brand-goldDark disabled:opacity-60 sm:col-span-2">
             <Send className="h-4 w-4" />{isSubmitting ? "Sending..." : "Submit Request"}
           </button>
         </form>

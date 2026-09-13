@@ -33,9 +33,9 @@ export const business = {
   brand: {
     tagline: "Strong roofs for Hunter Valley homes, farms and businesses.",
     assets: {
-      headerLogo: "/images/hunter-valley-roofing-logo.svg",
-      footerLogo: "/images/hunter-valley-roofing-logo-footer.svg",
-      ogImage: "/images/hunter-valley-roofing-og.png",
+      headerLogo: "/images/retaining-walls-builders-logo.svg",
+      footerLogo: "/images/retaining-walls-builders-logo-footer.svg",
+      ogImage: "/images/retaining-walls-builders-og.png",
       favicon: "/favicon.svg",
       appleTouchIcon: "/apple-touch-icon.png",
       manifest: "/site.webmanifest",

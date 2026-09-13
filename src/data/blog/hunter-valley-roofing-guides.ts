@@ -131,7 +131,7 @@ const configs: PostConfig[] = [
     category: "Local Roofing Guides",
     date: "2026-07-03",
     readTime: "8 min read",
-    image: "/images/Standing-Seam-Metal-Roof.webp",
+    image: "/images/standing-seam-metal-roof.webp",
     imageAlt: "Colorbond metal roofing on a Hunter Valley home",
     intro: "Colorbond and roof tiles can both perform well when the design, installation and drainage details suit the building. The better choice depends on the project rather than a universal winner.",
     sections: [

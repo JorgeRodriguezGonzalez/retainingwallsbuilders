@@ -24,14 +24,14 @@ export default function Header() {
   }, [location.pathname]);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-roof-mist bg-white/95 shadow-[0_10px_30px_rgba(22,58,53,0.08)] backdrop-blur-xl">
-      <div className="bg-roof-deep text-white">
+    <header className="sticky top-0 z-50 border-b border-brand-mist bg-white/95 shadow-[0_10px_30px_rgba(22,58,53,0.08)] backdrop-blur-xl">
+      <div className="bg-brand-deep text-white">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-4 py-2 text-xs sm:px-6">
           <span className="hidden text-white/65 md:inline">{`Roofing across ${business.areaServed.primaryLocationNames.slice(0, 3).join(", ")} and the wider ${business.areaServed.name}`}</span>
           <div className="flex items-center gap-4">
-            <a href={business.contact.phoneHref} className="flex items-center gap-2 hover:text-roof-sand"><Phone className="h-3.5 w-3.5" />{business.contact.phoneDisplay}</a>
+            <a href={business.contact.phoneHref} className="flex items-center gap-2 hover:text-brand-sand"><Phone className="h-3.5 w-3.5" />{business.contact.phoneDisplay}</a>
             {business.contact.email && (
-              <a href={business.contact.emailHref} className="hidden items-center gap-2 hover:text-roof-sand sm:flex"><Mail className="h-3.5 w-3.5" />{business.contact.email}</a>
+              <a href={business.contact.emailHref} className="hidden items-center gap-2 hover:text-brand-sand sm:flex"><Mail className="h-3.5 w-3.5" />{business.contact.email}</a>
             )}
           </div>
         </div>
@@ -48,16 +48,16 @@ export default function Header() {
               const active = isActive(location.pathname, item.href, item.children);
               return (
                 <li key={item.name} className="relative" onMouseEnter={() => item.children && setDesktopMenu(item.name)} onMouseLeave={() => setDesktopMenu(null)}>
-                  <div className={`flex items-center rounded-full px-3 py-2 text-sm font-semibold transition ${active ? "bg-roof-teal text-white" : "text-roof-ink hover:bg-roof-cream hover:text-roof-tealDark"}`}>
+                  <div className={`flex items-center rounded-full px-3 py-2 text-sm font-semibold transition ${active ? "bg-brand-olive text-white" : "text-brand-ink hover:bg-brand-cream hover:text-brand-oliveDark"}`}>
                     <Link to={item.href}>{item.name}</Link>
                     {item.children && <ChevronDown className="ml-1 h-4 w-4" />}
                   </div>
                   {item.children && (
                     <div className={`absolute right-0 top-full w-[390px] pt-3 transition ${desktopMenu === item.name ? "visible translate-y-0 opacity-100" : "invisible -translate-y-1 opacity-0"}`}>
-                      <div className="max-h-[68vh] overflow-y-auto rounded-3xl border border-roof-mist bg-white p-3 shadow-[0_24px_70px_rgba(22,58,53,0.18)]">
+                      <div className="max-h-[68vh] overflow-y-auto rounded-3xl border border-brand-mist bg-white p-3 shadow-[0_24px_70px_rgba(22,58,53,0.18)]">
                         <div className="grid grid-cols-2 gap-1">
                           {item.children.map((child) => (
-                            <Link key={child.href} to={child.href} className="rounded-2xl px-3 py-2.5 text-sm leading-5 text-roof-slate transition hover:bg-roof-cream hover:text-roof-tealDark">{child.name}</Link>
+                            <Link key={child.href} to={child.href} className="rounded-2xl px-3 py-2.5 text-sm leading-5 text-brand-slate transition hover:bg-brand-cream hover:text-brand-oliveDark">{child.name}</Link>
                           ))}
                         </div>
                       </div>
@@ -69,18 +69,18 @@ export default function Header() {
           </ul>
         </nav>
 
-        <button type="button" onClick={() => setMobileOpen((value) => !value)} className="rounded-2xl border border-roof-mist bg-roof-cream p-2.5 text-roof-ink lg:hidden" aria-expanded={mobileOpen} aria-label="Toggle navigation">
+        <button type="button" onClick={() => setMobileOpen((value) => !value)} className="rounded-2xl border border-brand-mist bg-brand-cream p-2.5 text-brand-ink lg:hidden" aria-expanded={mobileOpen} aria-label="Toggle navigation">
           {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
         </button>
       </div>
 
       {mobileOpen && (
-        <nav className="border-t border-roof-mist bg-white px-4 py-4 lg:hidden" aria-label="Mobile navigation">
+        <nav className="border-t border-brand-mist bg-white px-4 py-4 lg:hidden" aria-label="Mobile navigation">
           <ul className="mx-auto max-w-7xl space-y-2">
             {mainNavigation.map((item) => (
-              <li key={item.name} className="overflow-hidden rounded-2xl border border-roof-mist">
+              <li key={item.name} className="overflow-hidden rounded-2xl border border-brand-mist">
                 <div className="flex items-center">
-                  <Link to={item.href} className="flex-1 px-4 py-3 text-sm font-semibold text-roof-ink">{item.name}</Link>
+                  <Link to={item.href} className="flex-1 px-4 py-3 text-sm font-semibold text-brand-ink">{item.name}</Link>
                   {item.children && (
                     <button type="button" onClick={() => setMobileMenus((current) => ({ ...current, [item.name]: !current[item.name] }))} className="px-4 py-3" aria-label={`Toggle ${item.name}`}>
                       <ChevronDown className={`h-4 w-4 transition ${mobileMenus[item.name] ? "rotate-180" : ""}`} />
@@ -88,8 +88,8 @@ export default function Header() {
                   )}
                 </div>
                 {item.children && mobileMenus[item.name] && (
-                  <div className="max-h-72 overflow-y-auto border-t border-roof-mist bg-roof-cream/60 p-2">
-                    {item.children.map((child) => <Link key={child.href} to={child.href} className="block rounded-xl px-3 py-2 text-sm text-roof-slate hover:bg-white hover:text-roof-tealDark">{child.name}</Link>)}
+                  <div className="max-h-72 overflow-y-auto border-t border-brand-mist bg-brand-cream/60 p-2">
+                    {item.children.map((child) => <Link key={child.href} to={child.href} className="block rounded-xl px-3 py-2 text-sm text-brand-slate hover:bg-white hover:text-brand-oliveDark">{child.name}</Link>)}
                   </div>
                 )}
               </li>

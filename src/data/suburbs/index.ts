@@ -1,11 +1,19 @@
 import type { SuburbPageData } from "@/types/suburb";
+import { sutherlandShireSuburbs } from "./sutherland-shire";
+import { hillsDistrictSuburbs } from "./hills-district";
+import { upperNorthShoreSuburbs } from "./upper-north-shore";
+import { northernBeachesSuburbs } from "./northern-beaches";
 import { lowerNorthShoreSuburbs } from "./lower-north-shore";
 
 /**
- * Cloud Agents factory - suburb hub records for location pages.
+ * Cloud Agents factory, not OpenClaw.
  * Keep paths at the site root, for example /northern-beaches/.
  */
 export const suburbs: SuburbPageData[] = [
+  ...sutherlandShireSuburbs,
+  ...hillsDistrictSuburbs,
+  ...upperNorthShoreSuburbs,
+  ...northernBeachesSuburbs,
   ...lowerNorthShoreSuburbs,
 ];
 

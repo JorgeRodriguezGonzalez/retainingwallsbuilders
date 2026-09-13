@@ -1,10 +1,12 @@
 import type { SuburbPageData } from "@/types/suburb";
 
+import { northernBeachesSuburbs } from "./northern-beaches";
+
 /**
- * OpenClaw writes generated suburb hub records into this collection.
+ * Cloud Agents factory writes these records.
  * Keep paths at the site root, for example /northern-beaches/.
  */
-export const suburbs: SuburbPageData[] = [];
+export const suburbs: SuburbPageData[] = [...northernBeachesSuburbs];
 
 export const suburbRoutes = suburbs.map((suburb) => ({
   slug: suburb.slug,

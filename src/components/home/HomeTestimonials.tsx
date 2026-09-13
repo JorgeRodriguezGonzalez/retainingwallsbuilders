@@ -1,9 +1,9 @@
 import { business } from "@/data/business";
 
 const notes = [
-  { title: "Clear priorities", text: "We explain which issues need prompt attention and which can be included in planned maintenance." },
-  { title: "Property-aware planning", text: "Access, roof size, building use and surrounding property conditions are considered before work begins." },
-  { title: "Regional coverage", text: `Our area pages make it easy to find roofing information for major ${business.areaServed.name} towns and communities.` },
+  { title: "Clear priorities", text: "We explain which aspects need professional attention and which can be addressed in staged work if budget requires." },
+  { title: "Property-aware planning", text: "Access, site conditions, existing structures and drainage requirements are considered before work begins." },
+  { title: "Regional coverage", text: `Our service area spans ${business.areaServed.name}, making it easy to get retaining wall support for major suburbs and communities.` },
 ];
 
 export default function HomeTestimonials() {

@@ -1,7 +1,6 @@
 import type { LocationPageData } from "@/types/location";
-import { hunterValleyAreas } from "./hunter-valley-areas";
 
-export const locations: LocationPageData[] = hunterValleyAreas;
+export const locations: LocationPageData[] = [];
 
 export const locationRoutes = locations.map((location) => ({
   slug: location.slug,

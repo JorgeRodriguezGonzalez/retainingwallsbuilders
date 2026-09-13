@@ -318,13 +318,13 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
 
               <div className="rounded-[24px] border border-neutral-200 bg-[#163a35] p-6 text-white shadow-sm">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#c97845]">
-                  Roofing enquiries
+                  Retaining wall enquiries
                 </p>
                 <h3 className="mt-3 text-xl font-semibold">
-                  Need help with roof repairs in {business.areaServed.display}?
+                  Need help with retaining walls in {business.areaServed.display}?
                 </h3>
                 <p className="mt-3 text-sm leading-7 text-white/75">
-                  Speak with our team about roof leaks, damaged tiles, flashing issues and practical repair options.
+                  Speak with our team about wall construction, materials, drainage and practical solutions for your site.
                 </p>
                 <div className="mt-6 flex flex-col gap-3">
                   <Link

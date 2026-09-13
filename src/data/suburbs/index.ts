@@ -2,7 +2,7 @@ import type { SuburbPageData } from "@/types/suburb";
 
 /**
  * OpenClaw writes generated suburb hub records into this collection.
- * Keep paths at the site root, for example /maitland-roofing/.
+ * Keep paths at the site root, for example /northern-beaches/.
  */
 export const suburbs: SuburbPageData[] = [];
 

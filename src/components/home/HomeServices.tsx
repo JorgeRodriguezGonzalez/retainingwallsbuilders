@@ -8,9 +8,9 @@ export default function HomeServices() {
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
         <div className="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
-            <p className="text-xs font-bold uppercase tracking-[0.24em] text-roof-copper">Roofing Services</p>
-            <h2 className="mt-3 text-3xl font-bold text-roof-deep sm:text-4xl lg:text-5xl">The right scope starts with the roof condition</h2>
-            <p className="mt-4 text-base leading-8 text-roof-slate">From a single leak to full replacement, our service pages explain what the work involves and when each option may be appropriate.</p>
+            <p className="text-xs font-bold uppercase tracking-[0.24em] text-roof-copper">Retaining Wall Services</p>
+            <h2 className="mt-3 text-3xl font-bold text-roof-deep sm:text-4xl lg:text-5xl">The right wall starts with the site conditions</h2>
+            <p className="mt-4 text-base leading-8 text-roof-slate">From a garden bed wall to a structural retaining system, our service pages explain what the work involves and when each material may be appropriate.</p>
           </div>
           <Link to="/services/" className="inline-flex items-center gap-2 text-sm font-bold text-roof-tealDark">View all services <ArrowRight className="h-4 w-4" /></Link>
         </div>

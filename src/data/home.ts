@@ -1,4 +1,4 @@
-import { Building2, Droplets, Home, Paintbrush2, Search, ShieldCheck, Wrench, type LucideIcon } from "lucide-react";
+import { Building2, HardHat, Home, Layers, Mountain, Search, ShieldCheck, type LucideIcon } from "lucide-react";
 import { business } from "@/data/business";
 import { serviceNavigation } from "@/data/navigation";
 
@@ -6,21 +6,21 @@ export interface WhatWeDoItem { icon: LucideIcon; text: string; }
 
 export const homeImages = {
   hero: "/images/home-hero.webp",
-  about: "/images/Standing-Seam-Metal-Roof.webp",
+  about: "/images/services01.webp",
   contact: "/images/contact-workers.webp",
 };
 
 export const quickBenefits = [
-  "Roof repairs for tile, terracotta, metal and Colorbond roofs",
-  "Emergency make-safe support for leaks and storm damage",
-  "Residential, rural and commercial roofing services",
-  "Coverage across Maitland, Cessnock, Singleton and the Upper Hunter",
+  "Block, concrete, sandstone and timber retaining walls",
+  "Structural engineering coordination when required",
+  "Residential, commercial and landscape applications",
+  `Coverage across ${business.areaServed.primaryLocationListText} and surrounding areas`,
 ];
 
 export const whyChooseUs = [
-  "Clear advice that separates urgent repairs, preventive work and longer-term options.",
-  "Roofing support for homes, farms, investment properties, hospitality venues and commercial sites.",
-  "A practical approach to roof leaks, storm damage, drainage, restoration and replacement.",
+  "Clear advice that separates structural requirements, drainage and finishing options.",
+  "Retaining wall support for homes, developments, landscaping and commercial sites.",
+  "A practical approach to site assessment, material selection and construction.",
   `Local coverage across ${business.areaServed.locationListText}.`,
 ];
 
@@ -28,11 +28,11 @@ export const serviceLinks = serviceNavigation.map((service) => ({ label: service
 export const locations = [...business.areaServed.locationNames];
 
 export const whatWeDo: WhatWeDoItem[] = [
-  { icon: Search, text: "Inspect roof coverings, flashings, valleys, penetrations, ridge capping and drainage to identify likely causes." },
-  { icon: Wrench, text: "Repair localised defects such as cracked tiles, lifted sheets, failed fixings, flashing faults and damaged cappings." },
-  { icon: Droplets, text: "Improve gutter and downpipe performance where blockages, poor falls or damaged sections are contributing to overflow." },
-  { icon: Paintbrush2, text: "Restore suitable roofs with cleaning, repairs, ridge work and protective coatings." },
-  { icon: Home, text: "Support homeowners, landlords and investors with repairs, maintenance, restoration and roof replacement." },
-  { icon: Building2, text: "Plan commercial and rural roofing work around access, roof size, site operations and drainage needs." },
-  { icon: ShieldCheck, text: "Provide make-safe work after storms to reduce immediate hazards and further weather exposure." },
+  { icon: Search, text: "Assess site conditions, soil type, drainage requirements and load expectations to recommend the right wall system." },
+  { icon: Layers, text: "Construct block, concrete sleeper, poured concrete, sandstone, timber, brick, gabion and rock retaining walls." },
+  { icon: Mountain, text: "Address sloped blocks, level changes, garden beds, driveways and boundary walls." },
+  { icon: HardHat, text: "Coordinate with structural engineers when wall height, proximity to structures or load conditions require certification." },
+  { icon: Home, text: "Support homeowners, developers and landscapers with new construction, repairs and replacements." },
+  { icon: Building2, text: "Plan commercial and subdivision retaining wall work around access, staging and site requirements." },
+  { icon: ShieldCheck, text: "Provide drainage solutions, weep holes and backfill specifications for long-term wall performance." },
 ];

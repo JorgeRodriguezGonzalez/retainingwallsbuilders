@@ -19,13 +19,13 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-roof-cream text-roof-ink">
       <SEO
-        title={`${business.name} | Roof Repairs & Roofing Services ${business.areaServed.name}`}
-        description={`${business.name} provides roof repairs, leak detection, emergency make safes, restoration, replacement, gutters, Colorbond and commercial roofing across ${business.areaServed.display}.`}
+        title={`${business.name} | Retaining Wall Construction ${business.areaServed.name}`}
+        description={`${business.name} provides retaining wall construction, including block, concrete sleeper, sandstone, timber and rock walls across ${business.areaServed.display}. Request a quote today.`}
         canonical={`${business.url}/`}
         schema={[
           {
             "@context": "https://schema.org",
-            "@type": ["LocalBusiness", "RoofingContractor"],
+            "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
             "@id": BUSINESS_ID,
             name: business.name,
             description: business.brand.tagline,

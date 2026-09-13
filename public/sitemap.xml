@@ -1,289 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://huntervalleyroofing.com.au/</loc>
+    <loc>https://retainingwallsbuilders.com.au/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/about-us/</loc>
+    <loc>https://retainingwallsbuilders.com.au/about-us/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/areas/</loc>
+    <loc>https://retainingwallsbuilders.com.au/areas/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/areas/aberglasslyn/</loc>
+    <loc>https://retainingwallsbuilders.com.au/block-retaining-wall/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://retainingwallsbuilders.com.au/blog/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/areas/branxton/</loc>
+    <loc>https://retainingwallsbuilders.com.au/brick-retaining-wall/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/areas/broke/</loc>
+    <loc>https://retainingwallsbuilders.com.au/concrete-retaining-wall/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/areas/cessnock/</loc>
+    <loc>https://retainingwallsbuilders.com.au/concrete-sleeper-retaining-walls/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/areas/chisholm/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/east-maitland/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/greta/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/kurri-kurri/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/lovedale/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/maitland/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/metford/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/morpeth/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/muswellbrook/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/north-rothbury/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/pokolbin/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/rutherford/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/scone/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/singleton/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/thornton/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/areas/weston/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/blog/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/blog/colorbond-vs-tile-roofing-hunter-valley/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/blog/roof-leaks-hunter-valley/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/blog/roof-restoration-or-replacement/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/blog/storm-damage-roof-checklist-hunter-valley/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/contact-us/</loc>
+    <loc>https://retainingwallsbuilders.com.au/contact-us/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/contact-us/thank-you/</loc>
+    <loc>https://retainingwallsbuilders.com.au/contact-us/thank-you/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/faqs/</loc>
+    <loc>https://retainingwallsbuilders.com.au/faqs/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/privacy-policy/</loc>
+    <loc>https://retainingwallsbuilders.com.au/gabion-retaining-wall/</loc>
+    <lastmod>2026-09-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://retainingwallsbuilders.com.au/privacy-policy/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/services/</loc>
+    <loc>https://retainingwallsbuilders.com.au/retaining-wall-repair-sydney/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/services/commercial-roofing/</loc>
+    <loc>https://retainingwallsbuilders.com.au/rock-retaining-wall/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/services/emergency-roof-repairs-make-safes/</loc>
+    <loc>https://retainingwallsbuilders.com.au/sandstone-retaining-wall/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/services/gutter-repairs-installation-cleaning/</loc>
+    <loc>https://retainingwallsbuilders.com.au/services/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://huntervalleyroofing.com.au/services/metal-colorbond-roofing/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/residential-roofing/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/ridge-capping-restoration-roof-repointing/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/roof-cleaning-painting/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/roof-inspections/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/roof-leak-detection-repairs/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/roof-maintenance/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/roof-repairs/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/roof-replacement-installation/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/roof-restoration/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/storm-damage-repairs/</loc>
-    <lastmod>2026-09-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://huntervalleyroofing.com.au/services/tile-terracotta-roofing/</loc>
+    <loc>https://retainingwallsbuilders.com.au/timber-retaining-wall/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>

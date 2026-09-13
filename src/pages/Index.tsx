@@ -17,7 +17,7 @@ import { BRAND_LOGO_URL, BUSINESS_ID, DEFAULT_OG_IMAGE, ORGANIZATION_ID, SITE_UR
 export default function Index() {
   const [quoteOpen, setQuoteOpen] = useState(false);
   return (
-    <div className="min-h-screen bg-roof-cream text-roof-ink">
+    <div className="min-h-screen bg-brand-cream text-brand-ink">
       <SEO
         title={`${business.name} | Retaining Wall Construction ${business.areaServed.name}`}
         description={`${business.name} provides retaining wall construction, including block, concrete sleeper, sandstone, timber and rock walls across ${business.areaServed.display}. Request a quote today.`}

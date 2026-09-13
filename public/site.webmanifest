@@ -1,11 +1,11 @@
 {
-  "name": "Hunter Valley Roofing",
-  "short_name": "HV Roofing",
-  "description": "Roof repairs, restoration, replacement and roofing services across the Hunter Valley, NSW.",
+  "name": "Retaining Walls Builders",
+  "short_name": "RW Builders",
+  "description": "Retaining wall construction and repair services across Greater Sydney, NSW.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F8F4EC",
-  "theme_color": "#163A35",
+  "theme_color": "#5c6b4a",
   "icons": [
     { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }

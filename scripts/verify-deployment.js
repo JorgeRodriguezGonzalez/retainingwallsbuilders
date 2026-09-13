@@ -70,7 +70,7 @@ async function verifyPage(pathname) {
   const url = new URL(pathname, `${deploymentBaseUrl}/`).href;
   const response = await fetch(url, {
     redirect: "follow",
-    headers: { "user-agent": "HunterValleyRoofingDeploymentVerifier/1.0" },
+    headers: { "user-agent": "RetainingWallsBuildersDeploymentVerifier/1.0" },
   });
   const html = await response.text();
 
@@ -107,7 +107,7 @@ async function verifyOgImage() {
   const imageUrl = new URL(ogImagePath, `${deploymentBaseUrl}/`).href;
   const response = await fetch(imageUrl, {
     redirect: "follow",
-    headers: { "user-agent": "HunterValleyRoofingDeploymentVerifier/1.0" },
+    headers: { "user-agent": "RetainingWallsBuildersDeploymentVerifier/1.0" },
   });
 
   if (!response.ok) {

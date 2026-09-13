@@ -129,7 +129,7 @@ const SimpleContactForm = ({
       <textarea
         name="description"
         rows={isHero ? 5 : 4}
-        placeholder={fields?.messagePlaceholder ?? 'Tell us about your roof'}
+        placeholder={fields?.messagePlaceholder ?? 'Tell us about your project'}
         required
         maxLength={2000}
         className={`${textareaBaseClassName} ${isHero ? '' : 'md:col-span-2'}`}

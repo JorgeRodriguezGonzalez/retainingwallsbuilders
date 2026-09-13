@@ -1,7 +1,7 @@
 import type { ServicePageData } from "@/types/service";
-import { additionalRoofingServices } from "./additional-roofing-services";
+import { retainingWallsServices } from "./retaining-walls-services";
 
-export const services: ServicePageData[] = additionalRoofingServices;
+export const services: ServicePageData[] = retainingWallsServices;
 
 export const serviceRoutes = services.map((service) => ({
   slug: service.slug,

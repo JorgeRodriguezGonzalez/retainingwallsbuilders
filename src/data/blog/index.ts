@@ -1,7 +1,6 @@
 import type { BlogPostData } from "@/types/blog";
-import { hunterValleyRoofingPosts } from "./hunter-valley-roofing-guides";
 
-export const blogPosts: BlogPostData[] = hunterValleyRoofingPosts;
+export const blogPosts: BlogPostData[] = [];
 
 export const blogRoutes = blogPosts.map((post) => ({
   slug: post.slug,

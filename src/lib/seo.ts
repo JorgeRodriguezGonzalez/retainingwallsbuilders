@@ -76,8 +76,8 @@ export const createFaqSchema = (
   })),
 });
 
-export const roofingProvider = (): JsonLd => ({
-  "@type": "RoofingContractor",
+export const serviceProvider = (): JsonLd => ({
+  "@type": "HomeAndConstructionBusiness",
   "@id": BUSINESS_ID,
   name: business.name,
   url: `${business.url}/`,

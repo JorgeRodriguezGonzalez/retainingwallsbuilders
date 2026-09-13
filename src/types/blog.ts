@@ -1,8 +1,8 @@
 export type BlogCategory =
-  | 'Roof Repairs'
-  | 'Roof Restoration'
-  | 'Roof Maintenance'
-  | 'Local Roofing Guides';
+  | 'Retaining Walls'
+  | 'Wall Construction'
+  | 'Wall Repair'
+  | 'Local Guides';
 
 export interface BlogIndexCard {
   title: string;

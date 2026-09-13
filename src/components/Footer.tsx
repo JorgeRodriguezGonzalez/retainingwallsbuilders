@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:px-6 md:grid-cols-2 lg:grid-cols-[1.25fr_0.75fr_1fr_1fr] lg:px-8">
         <div>
           <img src={business.brand.assets.footerLogo} alt={business.name} className="w-[230px]" />
-          <p className="mt-5 max-w-sm text-sm leading-7 text-white/65">{business.brand.tagline} We provide roof repairs, restoration, replacement, gutter work and roofing maintenance across the region.</p>
+          <p className="mt-5 max-w-sm text-sm leading-7 text-white/65">{business.brand.tagline} We provide block, concrete, sandstone, timber and rock retaining wall construction across the region.</p>
           <div className="mt-6 space-y-3 text-sm">
             <a href={business.contact.phoneHref} className="flex items-center gap-3 hover:text-brand-sand"><Phone className="h-4 w-4 text-brand-gold" />{business.contact.phoneDisplay}</a>
             {business.contact.email && (
@@ -45,7 +45,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-5 text-xs text-white/45 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
           <span>© {new Date().getFullYear()} {business.name}. All rights reserved.</span>
-          <span>{`Roofing services across ${business.areaServed.display}.`}</span>
+          <span>{`Retaining wall services across ${business.areaServed.display}.`}</span>
         </div>
       </div>
     </footer>

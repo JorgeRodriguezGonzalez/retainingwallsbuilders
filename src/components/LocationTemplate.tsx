@@ -7,7 +7,7 @@ import {
   canonicalUrl,
   createBreadcrumbSchema,
   createFaqSchema,
-  roofingProvider,
+  serviceProvider,
 } from "@/lib/seo";
 import { Link } from "react-router-dom";
 import { ArrowRight, CheckCircle2, Phone } from "lucide-react";
@@ -111,7 +111,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
     description: data.schema?.description || data.seo.description,
     url: canonical,
     areaServed: data.schema?.areaServed || business.areaServed.display,
-    provider: roofingProvider(),
+    provider: serviceProvider(),
   };
 
   const breadcrumbSchema = createBreadcrumbSchema([

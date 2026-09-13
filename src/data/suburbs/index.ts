@@ -1,11 +1,15 @@
 import type { SuburbPageData } from "@/types/suburb";
 import { sutherlandShireSuburbs } from "./sutherland-shire";
+import { hillsDistrictSuburbs } from "./hills-district";
 
 /**
  * Cloud Agents factory, not OpenClaw.
  * Keep paths at the site root, for example /northern-beaches/.
  */
-export const suburbs: SuburbPageData[] = [...sutherlandShireSuburbs];
+export const suburbs: SuburbPageData[] = [
+  ...sutherlandShireSuburbs,
+  ...hillsDistrictSuburbs,
+];
 
 export const suburbRoutes = suburbs.map((suburb) => ({
   slug: suburb.slug,

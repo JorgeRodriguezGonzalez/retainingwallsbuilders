@@ -1,0 +1,137 @@
+// seo-plan.jsonc — Retaining Walls Builders (Greater Sydney)
+// Generado desde el CSV de Google Keyword Planner (2025-09 a 2026-08).
+// ACTUALIZADO: se añade la jerarquía geográfica de 2 niveles (área -> suburbs hijos).
+// URLs PLANAS: cada suburb es una raíz (/newport/), la relación padre-hijo vive en el
+// enlazado interno + breadcrumb, no en la URL. El router actual (/:slug) ya lo soporta.
+//
+// REGLA volúmenes: del CSV real; sin dato -> null (nunca inventado). Competition = Ads.
+// Los suburbs salen con volume null a propósito: son long-tail de alta intención que
+// Keyword Planner no reporta pero existen ("retaining walls builders newport").
+//
+// Lee esto: Fase 3/4 (money pages), Fase 8a (estructura de jerarquía), Fase 8b (bulk geo).
+{
+  "primary": {
+    "keyword": "retaining walls sydney",
+    "volume": 260,
+    "targetPage": "/",
+    "intent": "commercial",
+    "secondary": [
+      { "keyword": "retaining walls", "volume": 2900 },
+      { "keyword": "retaining wall builders sydney", "volume": 90 },
+      { "keyword": "retaining wall contractors sydney", "volume": 20 }
+    ]
+  },
+
+  "services": [
+    { "keyword": "block retaining wall", "volume": 1300, "slug": "block-retaining-wall", "priority": 1, "secondary": ["besser block retaining wall", "interlocking retaining wall", "link block retaining wall"] },
+    { "keyword": "concrete sleeper retaining walls", "volume": 880, "slug": "concrete-sleeper-retaining-walls", "priority": 2 },
+    { "keyword": "concrete retaining wall", "volume": 480, "slug": "concrete-retaining-wall", "priority": 3, "secondary": ["rendered retaining wall"] },
+    { "keyword": "sandstone retaining wall", "volume": 480, "slug": "sandstone-retaining-wall", "priority": 4 },
+    { "keyword": "timber retaining wall", "volume": 260, "slug": "timber-retaining-wall", "priority": 5, "secondary": ["timber sleeper retaining wall"] },
+    { "keyword": "brick retaining wall", "volume": 210, "slug": "brick-retaining-wall", "priority": 6 },
+    { "keyword": "gabion retaining wall", "volume": 140, "slug": "gabion-retaining-wall", "priority": 7 },
+    { "keyword": "rock retaining wall", "volume": 50, "slug": "rock-retaining-wall", "priority": 8, "secondary": ["boulder retaining wall"] },
+    { "keyword": "retaining wall repair sydney", "volume": 40, "slug": "retaining-wall-repair-sydney", "priority": 9, "intent": "commercial-action", "secondary": ["retaining wall replacement sydney"] }
+  ],
+
+  "informational": [
+    { "keyword": "retaining wall cost", "volume": 110, "slug": "retaining-wall-cost", "intent": "informational", "secondary": ["retaining wall prices", "how much does a retaining wall cost", "retaining wall cost per metre", "retaining wall cost per m2"] },
+    { "keyword": "retaining wall drainage", "volume": 110, "slug": "retaining-wall-drainage", "intent": "informational" },
+    { "keyword": "retaining wall council approval nsw", "volume": 10, "slug": "retaining-wall-council-approval-nsw", "intent": "informational", "secondary": ["do i need a permit for a retaining wall", "retaining wall height limit nsw"] }
+  ],
+
+  // ---- JERARQUÍA GEOGRÁFICA (2 niveles, URLs planas) ----
+  // Cada área es una página hub que ENLAZA a sus suburbs hijos.
+  // Cada suburb es una página raíz (slug plano) con parentArea = slug del área.
+  // areaVolume: del CSV. suburbs.volume: null (long-tail de intención, no en GKP).
+  // localContext: nota para el agente sobre qué hace ÚNICA a esa zona (terreno, propiedad,
+  //   drenaje). OBLIGATORIO usarlo para que cada página sea diferenciada, no plantilla girada.
+  "areas": [
+    {
+      "keyword": "retaining walls northern beaches", "volume": 40,
+      "slug": "northern-beaches", "areaLabel": "Northern Beaches",
+      "localContext": "Costa con pendiente al mar; bloques inclinados hacia el agua, suelo arenoso, exposición salina. Muros para nivelar jardines en cuesta y estabilizar accesos.",
+      "suburbs": [
+        { "slug": "avalon-beach", "name": "Avalon Beach" },
+        { "slug": "newport", "name": "Newport" },
+        { "slug": "mona-vale", "name": "Mona Vale" },
+        { "slug": "freshwater", "name": "Freshwater" },
+        { "slug": "manly", "name": "Manly" },
+        { "slug": "narrabeen", "name": "Narrabeen" }
+      ]
+    },
+    {
+      "keyword": "retaining walls upper north shore", "volume": null,
+      "slug": "upper-north-shore", "areaLabel": "Upper North Shore",
+      "localContext": "Laderas de bush, suelo arcilloso y desniveles marcados; propiedades grandes. Muros para terrazas de jardín, control de erosión y estabilización de taludes.",
+      "suburbs": [
+        { "slug": "wahroonga", "name": "Wahroonga" },
+        { "slug": "pymble", "name": "Pymble" },
+        { "slug": "st-ives", "name": "St Ives" },
+        { "slug": "turramurra", "name": "Turramurra" },
+        { "slug": "killara", "name": "Killara" },
+        { "slug": "roseville", "name": "Roseville" }
+      ]
+    },
+    {
+      "keyword": "retaining walls sutherland shire", "volume": 20,
+      "slug": "sutherland-shire", "areaLabel": "Sutherland Shire",
+      "localContext": "Costera y ribereña; bloques inclinados, suelo arenoso cerca de la costa. Muros para nivelar patios traseros y accesos en pendiente.",
+      "suburbs": [
+        { "slug": "cronulla", "name": "Cronulla" },
+        { "slug": "caringbah", "name": "Caringbah" },
+        { "slug": "sylvania", "name": "Sylvania" },
+        { "slug": "gymea", "name": "Gymea" },
+        { "slug": "engadine", "name": "Engadine" },
+        { "slug": "menai", "name": "Menai" }
+      ]
+    },
+    {
+      "keyword": "retaining walls hills district", "volume": 10,
+      "slug": "hills-district", "areaLabel": "The Hills District",
+      "localContext": "Terreno ondulado, arcilla reactiva y mucha obra nueva/estates. Muros para rebajes de estate, terrazas y drenaje en suelo expansivo.",
+      "suburbs": [
+        { "slug": "castle-hill", "name": "Castle Hill" },
+        { "slug": "baulkham-hills", "name": "Baulkham Hills" },
+        { "slug": "kellyville", "name": "Kellyville" },
+        { "slug": "bella-vista", "name": "Bella Vista" },
+        { "slug": "dural", "name": "Dural" },
+        { "slug": "west-pennant-hills", "name": "West Pennant Hills" }
+      ]
+    },
+    {
+      "keyword": "retaining walls eastern suburbs", "volume": 10,
+      "slug": "eastern-suburbs", "areaLabel": "Eastern Suburbs",
+      "localContext": "Bloques costeros empinados y compactos, roca cercana a la superficie, alto valor. Muros de sandstone/hormigón para maximizar jardines pequeños en cuesta.",
+      "suburbs": [
+        { "slug": "vaucluse", "name": "Vaucluse" },
+        { "slug": "bellevue-hill", "name": "Bellevue Hill" },
+        { "slug": "dover-heights", "name": "Dover Heights" },
+        { "slug": "bondi", "name": "Bondi" },
+        { "slug": "coogee", "name": "Coogee" },
+        { "slug": "bronte", "name": "Bronte" }
+      ]
+    },
+    {
+      "keyword": "retaining walls lower north shore", "volume": null,
+      "slug": "lower-north-shore", "areaLabel": "Lower North Shore",
+      "localContext": "Bloques a puerto con pendientes fuertes hacia el agua, roca de Sydney, propiedades premium. Muros de sandstone/hormigón para terrazas con vistas y accesos empinados.",
+      "suburbs": [
+        { "slug": "mosman", "name": "Mosman" },
+        { "slug": "cremorne", "name": "Cremorne" },
+        { "slug": "northbridge", "name": "Northbridge" },
+        { "slug": "cammeray", "name": "Cammeray" },
+        { "slug": "willoughby", "name": "Willoughby" },
+        { "slug": "naremburn", "name": "Naremburn" }
+      ]
+    }
+  ],
+
+  "serviceInSuburb": {
+    "note": "NO se generan páginas service-in-suburb en esta web (decisión del usuario). Solo áreas y suburbs.",
+    "generateBy": "none"
+  },
+
+  "source": "Google Keyword Planner CSV 2026-09-12 + selección manual de áreas/suburbs por volumen, poder adquisitivo y terreno (criterio de mercado del usuario).",
+  "notes": "6 áreas x 6 suburbs = 36 páginas de zona, URLs planas, jerarquía por enlazado interno. Suburbs con volume null = long-tail de alta intención no reportado por GKP. Regla dura Fase 8b: cada página usa su localContext para ser diferenciada; nada de plantilla girada."
+}

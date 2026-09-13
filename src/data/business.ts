@@ -11,14 +11,6 @@ const serviceAreaNames = [
   "Parramatta",
   "Penrith",
   "Western Sydney",
-  "Cronulla",
-  "Inner West",
-  "Liverpool",
-  "Ryde",
-  "Bankstown",
-  "Canterbury",
-  "Hurstville",
-  "Chatswood",
 ] as const;
 
 const formatLocationList = (locations: readonly string[]) => {

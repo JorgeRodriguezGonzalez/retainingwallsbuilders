@@ -5,7 +5,37 @@ import { tsImport } from "tsx/esm/api";
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const businessPath = path.join(projectRoot, "src", "data", "business.ts");
+const configPath = path.join(projectRoot, "build-config.jsonc");
 const { business } = await tsImport(pathToFileURL(businessPath).href, import.meta.url);
+
+const configText = await readFile(configPath, "utf8");
+const stripJsoncComments = (text) => {
+  let result = "";
+  let inString = false;
+  let escape = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (escape) { escape = false; result += c; continue; }
+    if (c === "\\") { escape = true; result += c; continue; }
+    if (c === '"' && !escape) { inString = !inString; result += c; continue; }
+    if (!inString && c === "/" && text[i + 1] === "/") {
+      while (i < text.length && text[i] !== "\n") i++;
+      result += "\n";
+      continue;
+    }
+    if (!inString && c === "/" && text[i + 1] === "*") {
+      i += 2;
+      while (i < text.length && !(text[i] === "*" && text[i + 1] === "/")) i++;
+      i++;
+      continue;
+    }
+    result += c;
+  }
+  return result;
+};
+const configJson = JSON.parse(stripJsoncComments(configText));
+const expectedAreaCount = configJson.areaServed?.length ?? 0;
+
 const failures = [];
 
 for (const relative of [
@@ -33,11 +63,11 @@ for (const asset of Object.values(business.brand.assets)) {
 if (!business.url.startsWith("https://")) failures.push("business.url must use HTTPS");
 if (!/^tel:\d+$/.test(business.contact.phoneHref)) failures.push("business.contact.phoneHref must use a digits-only tel link");
 if (!business.contact.emailHref.endsWith(business.contact.email)) failures.push("business.contact.emailHref must match business.contact.email");
-if (business.areaServed.locationNames.length !== 20) failures.push("business.areaServed.locationNames must contain the 20 approved service areas");
+if (business.areaServed.locationNames.length !== expectedAreaCount) failures.push(`business.areaServed.locationNames must contain the ${expectedAreaCount} approved service areas from build-config.jsonc`);
 
 if (failures.length) {
   console.error(`Business data check failed with ${failures.length} issue(s):`);
   failures.forEach((failure) => console.error(`- ${failure}`));
   process.exit(1);
 }
-console.log("Business data check passed: central contact details, 20 service areas and all brand assets verified.");
+console.log(`Business data check passed: central contact details, ${expectedAreaCount} service areas and all brand assets verified.`);

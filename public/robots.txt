@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://huntervalleyroofing.com.au/sitemap.xml
+Sitemap: https://retainingwallsbuilders.com.au/sitemap.xml

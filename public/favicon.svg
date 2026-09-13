@@ -1,6 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Hunter Valley Roofing">
-  <rect width="128" height="128" rx="24" fill="#163A35"/>
-  <circle cx="64" cy="37" r="19" fill="#C97845"/>
-  <path d="M18 72 64 28l46 44" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M18 88c20-13 39-13 57 0 18 13 35 13 53 0" fill="none" stroke="#8EC0AF" stroke-width="8" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Retaining Walls Builders">
+  <rect width="128" height="128" rx="24" fill="#5c6b4a"/>
+  <path d="M20 90 V50 H40 V90 H60 V40 H80 V90 H100 V30 H108 V98 H20 V90 Z" fill="#c4a35a"/>
+  <path d="M16 100 H112" stroke="#2c3424" stroke-width="6" stroke-linecap="round"/>
 </svg>

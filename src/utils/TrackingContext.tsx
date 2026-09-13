@@ -20,7 +20,7 @@ const phoneMap: Record<TrafficSource, PhoneConfig> = {
 };
 
 const PARAMS_TO_KEEP = ['gclid','gbraid','wbraid','gad_source','utm_source','utm_medium','utm_campaign','utm_term','utm_content'] as const;
-const COOKIE_NAME = 'hunter_valley_roofing_tracking';
+const COOKIE_NAME = 'retaining_walls_builders_tracking_params';
 const COOKIE_MAX_AGE = 60 * 60 * 24 * 5;
 
 type TrackingParams = Partial<Record<(typeof PARAMS_TO_KEEP)[number], string>>;

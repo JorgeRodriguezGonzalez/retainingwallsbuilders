@@ -1,0 +1,189 @@
+// seo-plan.jsonc — Plan SEO / mapa de keywords de la web.
+// Generado por PM Bot desde Keyword Planner CSV (confirmado por el usuario).
+// REGLA: volumes del CSV real. Sin dato -> null. Competition = Ads, no dificultad SEO.
+{
+  "primary": {
+    "keyword": "retaining walls sydney",
+    "volume": 260,
+    "targetPage": "/",
+    "intent": "commercial",
+    "secondary": [
+      { "keyword": "retaining walls", "volume": 2900 },
+      { "keyword": "retaining wall builders sydney", "volume": 90 },
+      { "keyword": "retaining wall contractors sydney", "volume": 20 },
+      { "keyword": "retaining wall company sydney", "volume": 10 },
+      { "keyword": "retaining wall specialists sydney", "volume": 10 },
+      { "keyword": "retaining wall installation sydney", "volume": 10 }
+    ]
+  },
+
+  "services": [
+    {
+      "keyword": "block retaining wall",
+      "volume": 1300,
+      "slug": "block-retaining-wall",
+      "intent": "commercial",
+      "priority": 1,
+      "secondary": [
+        "besser block retaining wall",
+        "interlocking retaining wall",
+        "link block retaining wall"
+      ]
+    },
+    {
+      "keyword": "concrete sleeper retaining walls",
+      "volume": 880,
+      "slug": "concrete-sleeper-retaining-walls",
+      "intent": "commercial",
+      "priority": 2,
+      "secondary": []
+    },
+    {
+      "keyword": "concrete retaining wall",
+      "volume": 480,
+      "slug": "concrete-retaining-wall",
+      "intent": "commercial",
+      "priority": 3,
+      "secondary": ["rendered retaining wall"]
+    },
+    {
+      "keyword": "sandstone retaining wall",
+      "volume": 480,
+      "slug": "sandstone-retaining-wall",
+      "intent": "commercial",
+      "priority": 4,
+      "secondary": []
+    },
+    {
+      "keyword": "timber retaining wall",
+      "volume": 260,
+      "slug": "timber-retaining-wall",
+      "intent": "commercial",
+      "priority": 5,
+      "secondary": ["timber sleeper retaining wall"]
+    },
+    {
+      "keyword": "brick retaining wall",
+      "volume": 210,
+      "slug": "brick-retaining-wall",
+      "intent": "commercial",
+      "priority": 6,
+      "secondary": []
+    },
+    {
+      "keyword": "gabion retaining wall",
+      "volume": 140,
+      "slug": "gabion-retaining-wall",
+      "intent": "commercial",
+      "priority": 7,
+      "secondary": []
+    },
+    {
+      "keyword": "rock retaining wall",
+      "volume": 50,
+      "slug": "rock-retaining-wall",
+      "intent": "commercial",
+      "priority": 8,
+      "secondary": ["boulder retaining wall"]
+    },
+    {
+      "keyword": "retaining wall repair sydney",
+      "volume": 40,
+      "slug": "retaining-wall-repair-sydney",
+      "intent": "commercial",
+      "priority": 9,
+      "secondary": ["retaining wall replacement sydney"]
+    }
+  ],
+
+  "foldedOrDropped": [
+    { "keyword": "besser block retaining wall", "volume": 170, "action": "fold-into-block-retaining-wall" },
+    { "keyword": "timber sleeper retaining wall", "volume": 210, "action": "fold-into-timber-retaining-wall" },
+    { "keyword": "rendered retaining wall", "volume": 40, "action": "fold-into-concrete-retaining-wall" },
+    { "keyword": "boulder retaining wall", "volume": 10, "action": "fold-into-rock-retaining-wall" },
+    { "keyword": "interlocking retaining wall", "volume": 10, "action": "fold-into-block-retaining-wall" },
+    { "keyword": "link block retaining wall", "volume": 10, "action": "fold-into-block-retaining-wall" },
+    { "keyword": "retaining wall prices", "volume": 110, "action": "fold-into-retaining-wall-cost" },
+    { "keyword": "how much does a retaining wall cost", "volume": 30, "action": "fold-into-retaining-wall-cost" },
+    { "keyword": "retaining wall cost per metre", "volume": 10, "action": "fold-into-retaining-wall-cost" },
+    { "keyword": "retaining wall cost per m2", "volume": 10, "action": "fold-into-retaining-wall-cost" },
+    { "keyword": "do i need a permit for a retaining wall", "volume": 10, "action": "fold-into-retaining-wall-council-approval-nsw" },
+    { "keyword": "retaining wall height limit nsw", "volume": null, "action": "fold-into-retaining-wall-council-approval-nsw" },
+    { "keyword": "retaining wall contractors sydney", "volume": 20, "action": "fold-into-home" },
+    { "keyword": "retaining wall company sydney", "volume": 10, "action": "fold-into-home" },
+    { "keyword": "retaining wall specialists sydney", "volume": 10, "action": "fold-into-home" },
+    { "keyword": "retaining wall installation sydney", "volume": 10, "action": "fold-into-home" },
+    { "keyword": "retaining wall replacement sydney", "volume": null, "action": "fold-into-retaining-wall-repair-sydney" },
+    { "keyword": "best material for retaining wall", "volume": 10, "action": "fold-into-services-overview" },
+    { "keyword": "retaining wall builders hills district", "volume": null, "action": "fold-into-area-hills-district / SIS fase 8" },
+    { "keyword": "retaining wall builders north shore", "volume": null, "action": "fold-into-area-north-shore / SIS fase 8" },
+    { "keyword": "retaining wall builders northern beaches", "volume": null, "action": "fold-into-area-northern-beaches / SIS fase 8" },
+    { "keyword": "retaining wall builders sutherland shire", "volume": null, "action": "fold-into-area-sutherland-shire / SIS fase 8" },
+    { "keyword": "retaining wall contractors western sydney", "volume": null, "action": "fold-into-area-western-sydney / SIS fase 8" }
+  ],
+
+  "serviceInSuburb": {
+    "pattern": "{service} {suburb}",
+    "seedSuburbs": ["northern-beaches", "campbelltown", "sutherland-shire"],
+    "generateBy": "factory-scaling"
+  },
+
+  "areas": [
+    { "keyword": "retaining walls northern beaches", "volume": 40, "slug": "northern-beaches" },
+    { "keyword": "retaining walls campbelltown", "volume": 20, "slug": "campbelltown" },
+    { "keyword": "retaining walls sutherland shire", "volume": 20, "slug": "sutherland-shire" }
+  ],
+  "areasBulk": {
+    "generateBy": "factory-scaling",
+    "candidates": [
+      { "keyword": "retaining walls castle hill", "volume": 20 },
+      { "keyword": "retaining walls blacktown", "volume": 10 },
+      { "keyword": "retaining walls eastern suburbs", "volume": 10 },
+      { "keyword": "retaining walls hills district", "volume": 10 },
+      { "keyword": "retaining walls hornsby", "volume": 10 },
+      { "keyword": "retaining walls north shore", "volume": 10 },
+      { "keyword": "retaining walls parramatta", "volume": 10 },
+      { "keyword": "retaining walls penrith", "volume": 10 },
+      { "keyword": "retaining walls western sydney", "volume": 10 },
+      { "keyword": "retaining walls cronulla", "volume": null },
+      { "keyword": "retaining walls inner west", "volume": null },
+      { "keyword": "retaining walls liverpool", "volume": null }
+    ],
+    "note": "Incluye términos de bajo volumen y sin dato (cobertura). Baja prioridad. Escalado en fase 8 por lotes."
+  },
+
+  "informational": [
+    {
+      "keyword": "retaining wall cost",
+      "volume": 110,
+      "slug": "retaining-wall-cost",
+      "intent": "informational",
+      "secondary": [
+        "retaining wall prices",
+        "how much does a retaining wall cost",
+        "retaining wall cost per metre",
+        "retaining wall cost per m2"
+      ]
+    },
+    {
+      "keyword": "retaining wall drainage",
+      "volume": 110,
+      "slug": "retaining-wall-drainage",
+      "intent": "informational",
+      "secondary": []
+    },
+    {
+      "keyword": "retaining wall council approval nsw",
+      "volume": 10,
+      "slug": "retaining-wall-council-approval-nsw",
+      "intent": "informational",
+      "secondary": [
+        "do i need a permit for a retaining wall",
+        "retaining wall height limit nsw"
+      ]
+    }
+  ],
+
+  "source": "Google Keyword Planner CSV 2026-09-12",
+  "notes": "Competition del CSV es de Ads, no dificultad SEO. Prioridad por volumen + bid. In Account cubierto en Home (builders/contractors/installation sydney). Repair incluido por valor comercial (bid alto) pese a volume 40. SIS/area/blog se escalan en la fase 8 con la propia fábrica."
+}

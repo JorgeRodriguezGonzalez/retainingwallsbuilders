@@ -1,0 +1,77 @@
+// build-config.jsonc — ÚNICA fuente de los parámetros del cliente.
+// Rellenado por entrevista PM Bot. No reutilizar de otra web.
+{
+  // --- Repos ---
+  "templateRepo": "https://github.com/JorgeRodriguezGonzalez/hunter-valley-roofing",
+  "clientRepo":   "https://github.com/JorgeRodriguezGonzalez/retainingwallsbuilders",
+  "defaultBranch": "main",
+
+  // --- Nicho ---
+  "niche": "retaining walls",
+  "originNiche": "roofing",
+  "originKeywords": [
+    "roof", "roofing", "gutter", "colorbond", "flashing", "sarking",
+    "downpipe", "fascia", "eaves", "skylight", "ridge cap", "metal roof",
+    "tile roof", "roofers", "roofer", "gutters"
+  ],
+
+  // --- Identidad del negocio ---
+  "businessName": "Retaining Walls Builders",
+  "domain": "retainingwallsbuilders.com.au",
+  "tagline": "Retaining walls built for Greater Sydney properties.",
+
+  // --- Ubicación ---
+  "location": {
+    "city": "Sydney",
+    "regionLabel": "Greater Sydney",
+    "region": "NSW",
+    "areaCode": "02",
+    "country": "AU"
+  },
+
+  // --- Contacto ---
+  "phone": "(02) 9072 0512",
+  "email": "",
+
+  // --- Áreas servidas ---
+  "areaServed": [
+    "Northern Beaches", "Campbelltown", "Sutherland Shire", "Castle Hill",
+    "Blacktown", "Eastern Suburbs", "Hills District", "Hornsby",
+    "North Shore", "Parramatta", "Penrith", "Western Sydney"
+  ],
+
+  // --- Horario ---
+  "hours": {
+    "display": "Open 24 hours · 7 days",
+    "opens": "00:00",
+    "closes": "23:59",
+    "days": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]
+  },
+
+  // --- Marca / colores ---
+  "brand": {
+    "colors": {
+      "primary":   "#5c6b4a",
+      "secondary": "#2c3424",
+      "accent":    "#c4a35a"
+    },
+    "logoHeader": "/images/retaining-walls-builders-logo.svg",
+    "logoFooter": "/images/retaining-walls-builders-logo-footer.svg",
+    "ogImage":    "/images/retaining-walls-builders-og.png"
+  },
+
+  // --- Reglas de contenido ---
+  "content": {
+    "english": "australian",
+    "forbiddenWords": ["warranty","guarantee","guaranteed","lifetime","assured"],
+    "noDashes": true
+  },
+
+  // --- Tracking ---
+  "trackingCookieName": "retaining_walls_builders_tracking_params",
+
+  // --- Redes ---
+  "social": {
+    "sameAs": []
+  }
+}

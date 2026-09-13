@@ -4,6 +4,7 @@ import { hillsDistrictSuburbs } from "./hills-district";
 import { upperNorthShoreSuburbs } from "./upper-north-shore";
 import { northernBeachesSuburbs } from "./northern-beaches";
 import { lowerNorthShoreSuburbs } from "./lower-north-shore";
+import { easternSuburbsSuburbs } from "./eastern-suburbs";
 
 /**
  * Cloud Agents factory, not OpenClaw.
@@ -15,6 +16,7 @@ export const suburbs: SuburbPageData[] = [
   ...upperNorthShoreSuburbs,
   ...northernBeachesSuburbs,
   ...lowerNorthShoreSuburbs,
+  ...easternSuburbsSuburbs,
 ];
 
 export const suburbRoutes = suburbs.map((suburb) => ({

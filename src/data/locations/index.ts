@@ -4,6 +4,7 @@ import { hillsDistrictLocation } from "./hills-district";
 import { upperNorthShoreLocation } from "./upper-north-shore";
 import { northernBeachesLocation } from "./northern-beaches";
 import { lowerNorthShoreLocation } from "./lower-north-shore";
+import { easternSuburbs } from "./eastern-suburbs";
 
 export const locations: LocationPageData[] = [
   sutherlandShire,
@@ -11,6 +12,7 @@ export const locations: LocationPageData[] = [
   upperNorthShoreLocation,
   northernBeachesLocation,
   lowerNorthShoreLocation,
+  easternSuburbs,
 ];
 
 export const locationRoutes = locations.map((location) => ({

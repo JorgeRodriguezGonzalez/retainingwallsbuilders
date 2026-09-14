@@ -17,7 +17,7 @@ export default function Areas() {
       <SEO title={`Retaining Wall Service Areas ${business.areaServed.name} | ${business.name}`} description={`${business.name} provides retaining wall construction, repair and replacement across ${business.areaServed.primaryLocationListText} and surrounding ${business.areaServed.name} areas.`} canonical={`${business.url}/areas/`} />
       <Header />
       <main>
-        <PageHero eyebrow="Local Service Areas" title={`Retaining walls across ${business.areaServed.name}`} description="Explore local retaining wall information for major suburbs, coastal areas, hills districts and western communities." image="/images/home-hero.webp" />
+        <PageHero eyebrow="Local Service Areas" title={`Retaining walls across ${business.areaServed.name}`} description="Explore local retaining wall information for major suburbs, coastal areas, hills districts and western communities." image="/images/naturalstone2.jpeg" />
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
             <div className="max-w-3xl"><p className="text-xs font-bold uppercase tracking-[0.24em] text-brand-gold">Areas We Cover</p><h2 className="mt-3 text-3xl font-bold text-brand-deep sm:text-4xl">Local pages for residential, commercial and landscape projects</h2><p className="mt-4 text-base leading-8 text-brand-slate">{locations.length > 0 ? "Select an area to read about common site conditions, property needs and available services." : "Area pages are being developed. Contact us directly for projects in any Greater Sydney location."}</p></div>

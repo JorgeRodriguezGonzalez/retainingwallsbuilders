@@ -17,7 +17,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Avalon Beach",
       description:
         "Avalon sits on some of the steepest terrain on the Northern Beaches peninsula. Our retaining walls tame dramatic hillsides, stabilise escarpment blocks and create usable space on properties where the land drops away sharply towards Pittwater or the ocean.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/concretesleeper.jpeg",
       backgroundAlt: "Retaining wall on steep Avalon Beach hillside property",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -39,7 +39,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
         "The combination of steep slopes, sandstone outcrops and mature bushland creates unique construction challenges. We design walls that integrate with existing rock formations, protect established trees and manage stormwater flows down the hillside.",
         "Whether your Avalon property overlooks Pittwater or the ocean, we engineer walls that maximise your flat usable space while maintaining structural integrity on even the steepest blocks.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/concretesleeper2.jpg",
       imageAlt: "Multi-tier retaining wall system on Avalon escarpment",
       checklist: [
         "Escarpment stabilisation",
@@ -79,7 +79,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "Hillside Construction Done Right",
-      image: "/images/services02.webp",
+      image: "/images/concretesleeper3.jpeg",
       imageAlt: "Construction on steep Avalon Beach block",
       steps: [
         {
@@ -162,7 +162,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Newport",
       description:
         "Newport straddles both Pittwater and the ocean, with properties facing unique challenges on each side. Our retaining walls handle waterfront erosion control, hillside garden terracing and the salt exposure that affects properties across this dual-aspect suburb.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/gabion1.jpeg",
       backgroundAlt: "Retaining wall on Newport waterfront property",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -184,7 +184,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
         "Pittwater-side properties often require walls that manage tidal influence and boat wash erosion, while ocean-side blocks face direct salt spray and steeper terrain. We engineer solutions specific to your property position and exposure.",
         "The Newport village area features older properties on established slopes, where retaining walls must work around mature gardens and existing structures. We design walls that integrate seamlessly with Newport established character.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/gabion2.jpg",
       imageAlt: "Terraced retaining walls overlooking Pittwater at Newport",
       checklist: [
         "Waterfront erosion control",
@@ -224,7 +224,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "Tailored to Your Newport Property",
-      image: "/images/services02.webp",
+      image: "/images/gabion3.jpeg",
       imageAlt: "Retaining wall construction on Newport hillside",
       steps: [
         {
@@ -307,7 +307,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Mona Vale",
       description:
         "Mona Vale serves as the commercial hub of the Northern Beaches, with a mix of retail developments, medical precincts and established residential areas. Our retaining walls handle everything from commercial carpark retention to garden terracing on the surrounding hillsides.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/retainingwall4.webp",
       backgroundAlt: "Retaining wall at Mona Vale commercial development",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -329,7 +329,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
         "The basin topography of central Mona Vale creates specific drainage challenges. Properties drain towards Pittwater through various watercourses, requiring walls with proper stormwater management to prevent downstream flooding issues.",
         "Residential areas on the slopes above Mona Vale village experience the same coastal conditions as the wider Northern Beaches - sandy soils, salt exposure and sloping blocks that benefit from terraced retention systems.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/concreteblock1.jpg",
       imageAlt: "Commercial retaining wall project in Mona Vale",
       checklist: [
         "Commercial project capability",
@@ -369,7 +369,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "Scaled to Your Project Requirements",
-      image: "/images/services02.webp",
+      image: "/images/concreteblock2.jpeg",
       imageAlt: "Retaining wall engineering at Mona Vale site",
       steps: [
         {
@@ -452,7 +452,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Freshwater",
       description:
         "Freshwater packs classic beach suburb charm into a compact area, with streets climbing the headlands on either side of the beach. Our retaining walls handle the steep driveways, terraced gardens and boundary walls that make these tight blocks functional family homes.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/sandstone.jpeg",
       backgroundAlt: "Retaining wall on compact Freshwater hillside block",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -474,7 +474,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
         "The streets climbing up to Freshwater View and around to Curl Curl feature some of the steepest residential driveways on the Northern Beaches. We build walls that create level parking areas and safe pedestrian access on these challenging gradients.",
         "Direct ocean exposure means Freshwater properties face significant salt spray, particularly on the southern headland. We engineer walls with marine-grade materials and protective finishes that withstand this harsh coastal environment.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/sandstone2.webp",
       imageAlt: "Space-efficient retaining wall on Freshwater property",
       checklist: [
         "Compact block solutions",
@@ -514,7 +514,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "Efficient Solutions for Compact Sites",
-      image: "/images/services02.webp",
+      image: "/images/sandstone3.jpg",
       imageAlt: "Retaining wall construction on Freshwater slope",
       steps: [
         {
@@ -597,7 +597,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Manly",
       description:
         "Manly combines heritage streetscapes with high-density apartment living, all squeezed onto the narrow peninsula between harbour and ocean. Our retaining walls navigate heritage overlays, strata requirements and the space constraints of this iconic beach suburb.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/brick1.jpeg",
       backgroundAlt: "Retaining wall in Manly heritage streetscape",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -619,7 +619,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
         "The high concentration of apartment buildings means many projects involve strata properties - requiring body corporate coordination, shared wall considerations and construction methodologies that minimise disruption to multiple residents.",
         "Despite the density, Manly retains areas of steep terrain on the headlands and slopes towards North Head. These properties face the same coastal engineering requirements as other Northern Beaches suburbs - salt exposure, sandy soils and ocean views worth protecting.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/brick2.webp",
       imageAlt: "Heritage-sensitive retaining wall in Manly conservation area",
       checklist: [
         "Heritage overlay compliance",
@@ -659,7 +659,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "Professional Delivery in a Complex Environment",
-      image: "/images/services02.webp",
+      image: "/images/brick3.jpg",
       imageAlt: "Retaining wall project in high-density Manly area",
       steps: [
         {
@@ -742,7 +742,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Narrabeen",
       description:
         "Narrabeen wraps around the largest coastal lagoon in Sydney, creating unique engineering requirements. Our retaining walls handle flood zone construction, lakeside erosion control and the specific drainage challenges of properties in this lagoon catchment.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/naturalstone.jpeg",
       backgroundAlt: "Retaining wall near Narrabeen Lake shoreline",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -764,7 +764,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
         "The catchment area extends up the surrounding hillsides, where walls must manage stormwater flows without increasing downstream flood risk. Northern Beaches Council has specific requirements for construction in this sensitive water environment.",
         "Beyond the lakeside areas, Narrabeen extends to ocean-facing slopes with the typical Northern Beaches challenges of sandy soils and salt exposure. We engineer solutions appropriate to each property specific position in this varied landscape.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/naturalstone2.jpeg",
       imageAlt: "Flood-rated retaining wall near Narrabeen Lake",
       checklist: [
         "Flood zone compliant design",
@@ -804,7 +804,7 @@ export const northernBeachesSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "Water-Smart Design and Construction",
-      image: "/images/services02.webp",
+      image: "/images/naturalstone3.jpeg",
       imageAlt: "Construction of drainage-integrated wall at Narrabeen",
       steps: [
         {

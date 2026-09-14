@@ -17,7 +17,7 @@ export default function Services() {
       <SEO title={`Retaining Wall Services ${business.areaServed.name} | ${business.name}`} description={`Explore block, concrete sleeper, sandstone, timber, brick, gabion and rock retaining wall construction services across ${business.areaServed.display}. Repair and replacement also available.`} canonical={`${business.url}/services/`} />
       <Header />
       <main>
-        <PageHero eyebrow="Complete Retaining Wall Support" title={`Retaining wall services across ${business.areaServed.name}`} description="Find practical information about block, concrete, sandstone, timber and rock retaining walls for residential, commercial and landscaping applications." image="/images/service-hero.webp" />
+        <PageHero eyebrow="Complete Retaining Wall Support" title={`Retaining wall services across ${business.areaServed.name}`} description="Find practical information about block, concrete, sandstone, timber and rock retaining walls for residential, commercial and landscaping applications." image="/images/brick2.webp" />
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
             <div className="max-w-3xl"><p className="text-xs font-bold uppercase tracking-[0.24em] text-brand-gold">Choose a Service</p><h2 className="mt-3 text-3xl font-bold text-brand-deep sm:text-4xl">Start with the wall type, material or site requirement</h2><p className="mt-4 text-base leading-8 text-brand-slate">Each service page explains common use cases, what an assessment considers, the typical process and answers to frequent questions.</p></div>

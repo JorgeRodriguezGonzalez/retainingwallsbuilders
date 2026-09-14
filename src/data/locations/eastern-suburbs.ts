@@ -25,7 +25,7 @@ export const easternSuburbs: LocationPageData = {
     title: "Retaining Walls Eastern Suburbs",
     description:
       "Retaining wall solutions for the Eastern Suburbs, where steep coastal blocks, near-surface rock and compact high-value sites demand precise engineering. We build sandstone and concrete walls that maximise usable garden space on challenging slopes.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/sandstone.jpeg",
     backgroundAlt: "Retaining wall construction in Eastern Suburbs Sydney",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact/",
@@ -47,7 +47,7 @@ export const easternSuburbs: LocationPageData = {
       "Our approach accounts for near-surface rock that standard contractors often underestimate. We assess excavation requirements before quoting, specify appropriate wall systems for the substrate, and build structures that turn difficult slopes into functional outdoor areas.",
       "Whether the goal is a terraced garden in Bellevue Hill, additional lawn space in Dover Heights, or stabilising a cliff-edge boundary in Bondi, we match the wall type to the site rather than forcing a standard solution onto unique conditions.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/sandstone2.webp",
     imageAlt: "Retaining wall project in Eastern Suburbs Sydney",
     checklist: [
       "Sandstone wall construction",
@@ -89,7 +89,7 @@ export const easternSuburbs: LocationPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "From site assessment to completed wall",
-    image: "/images/services02.webp",
+    image: "/images/sandstone3.jpg",
     imageAlt: "Retaining wall construction process Eastern Suburbs",
     steps: [
       {

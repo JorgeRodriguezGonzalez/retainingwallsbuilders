@@ -51,8 +51,8 @@
   // --- Marca / colores ---
   "brand": {
     "colors": {
-      "primary":   "#3e6920",
-      "secondary": "#2c3424",
+      "primary":   "#2e6957",
+      "secondary": "#1d5242",
       "accent":    "#c4a35a"
     },
     "logoHeader": "/images/retaining-walls-builders-logo.svg",

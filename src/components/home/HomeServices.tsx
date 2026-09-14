@@ -16,7 +16,7 @@ export default function HomeServices() {
         </div>
         <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {services.slice(0, 6).map((service) => (
-            <Link key={service.slug} to={`/${service.slug}/`} className="group overflow-hidden rounded-[26px] border border-brand-mist bg-brand-cream/60 transition hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(22,58,53,.12)]">
+            <Link key={service.slug} to={`/${service.slug}/`} className="group overflow-hidden border border-brand-mist bg-brand-cream/60 transition hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(22,58,53,.12)]">
               <div className="aspect-[16/9] overflow-hidden"><img src={service.hero.backgroundImage} alt={service.hero.backgroundAlt} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" /></div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-brand-deep">{service.hero.title}</h3>

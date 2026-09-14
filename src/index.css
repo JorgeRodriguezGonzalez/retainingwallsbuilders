@@ -45,7 +45,7 @@
     --border: 87 12% 86%;
     --input: 87 12% 86%;
     --ring: 162 39% 30%;
-    --radius: 1rem;
+    --radius: 0;
   }
 
   * { @apply border-border; }

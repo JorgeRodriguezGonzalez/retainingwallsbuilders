@@ -127,7 +127,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
               </p>
 
               <div className="mb-5 flex flex-wrap items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.22em] text-white/70">
-                <span className="rounded-full border border-white/15 bg-white/10 px-3 py-1 text-white">
+                <span className="border border-white/15 bg-white/10 px-3 py-1 text-white">
                   {data.hero.kicker || data.category}
                 </span>
                 <span className="flex items-center gap-1.5">
@@ -151,14 +151,14 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
                   to="/contact-us/"
-                  className="inline-flex items-center gap-2 rounded-full bg-[#c97845] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+                  className="inline-flex items-center gap-2 bg-[#c97845] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
                 >
                   Request a Free Quote
                   <ArrowRight className="h-4 w-4" />
                 </Link>
                 <Link
                   to="/blog/"
-                  className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/15"
+                  className="inline-flex items-center gap-2 border border-white/15 bg-white/10 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/15"
                 >
                   Back to Blog
                 </Link>
@@ -169,7 +169,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
 
         <section className="bg-[#f5f5f5] py-10 md:py-14">
           <div className="mx-auto flex max-w-7xl flex-col gap-8 px-6 lg:flex-row lg:items-start">
-            <article className="min-w-0 flex-1 rounded-[28px] border border-neutral-200 bg-white p-6 shadow-sm md:p-8 lg:p-10">
+            <article className="min-w-0 flex-1 border border-neutral-200 bg-white p-6 shadow-sm md:p-8 lg:p-10">
               <nav className="mb-8 flex flex-wrap items-center gap-2 text-sm text-neutral-500">
                 <Link to="/" className="transition hover:text-[#c97845]">Home</Link>
                 <ChevronRight className="h-4 w-4" />
@@ -178,7 +178,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                 <span className="text-neutral-900">{data.title}</span>
               </nav>
 
-              <div className="mb-10 overflow-hidden rounded-[24px] border border-neutral-200">
+              <div className="mb-10 overflow-hidden border border-neutral-200">
                 <img
                   src={data.image}
                   alt={data.imageAlt}
@@ -186,9 +186,9 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                 />
               </div>
 
-              <div className="mb-10 rounded-[24px] border border-neutral-200 bg-[#f8f4ec] p-5 md:p-6">
+              <div className="mb-10 border border-neutral-200 bg-[#f8f4ec] p-5 md:p-6">
                 <div className="mb-4 flex items-center gap-3">
-                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#c97845] text-white">
+                  <div className="flex h-10 w-10 items-center justify-center bg-[#c97845] text-white">
                     <List className="h-5 w-5" />
                   </div>
                   <h2 className="text-[#163a35] text-3xl font-semibold leading-tight md:text-4xl">Table of contents</h2>
@@ -222,10 +222,10 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                     </div>
 
                     {section.bullets?.length ? (
-                      <ul className="mt-6 space-y-3 rounded-[20px] bg-neutral-50 p-5">
+                      <ul className="mt-6 space-y-3 bg-neutral-50 p-5">
                         {section.bullets.map((bullet, index) => (
                           <li key={index} className="flex gap-3 text-[15px] leading-7 text-neutral-700">
-                            <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#c97845]" />
+                            <span className="mt-2 h-2 w-2 shrink-0 bg-[#c97845]" />
                             <span>{bullet}</span>
                           </li>
                         ))}
@@ -233,7 +233,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                     ) : null}
 
                     {section.callout ? (
-                      <div className="mt-6 rounded-[20px] border border-[#c97845]/20 bg-[#f8f4ec] p-5 text-[15px] leading-7 text-neutral-800">
+                      <div className="mt-6 border border-[#c97845]/20 bg-[#f8f4ec] p-5 text-[15px] leading-7 text-neutral-800">
                         {section.callout}
                       </div>
                     ) : null}
@@ -249,7 +249,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                       {data.faq.map((item, index) => (
                         <details
                           key={index}
-                          className="group overflow-hidden rounded-[20px] border border-neutral-200 bg-white"
+                          className="group overflow-hidden border border-neutral-200 bg-white"
                         >
                           <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-5 text-left font-semibold text-[#163a35]">
                             <span>{item.question}</span>
@@ -267,7 +267,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
             </article>
 
             <aside className="w-full space-y-6 lg:sticky lg:top-28 lg:w-[320px]">
-              <div className="rounded-[24px] border border-neutral-200 bg-white p-5 shadow-sm">
+              <div className="border border-neutral-200 bg-white p-5 shadow-sm">
                 <label className="mb-3 block text-sm font-semibold text-[#163a35]">Search</label>
                 <div className="relative">
                   <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-neutral-400" />
@@ -276,7 +276,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                     value={search}
                     onChange={(event) => setSearch(event.target.value)}
                     placeholder={data.sidebar.searchPlaceholder || 'Search'}
-                    className="h-11 w-full rounded-full border border-neutral-200 bg-neutral-50 pl-11 pr-4 text-sm outline-none transition focus:border-[#c97845] focus:bg-white"
+                    className="h-11 w-full border border-neutral-200 bg-neutral-50 pl-11 pr-4 text-sm outline-none transition focus:border-[#c97845] focus:bg-white"
                   />
                 </div>
                 <div className="mt-4 space-y-3">
@@ -285,7 +285,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                       <Link
                         key={post.slug}
                         to={post.path}
-                        className="block rounded-2xl border border-neutral-200 p-4 transition hover:border-[#c97845]/40 hover:bg-[#f8f4ec]"
+                        className="block border border-neutral-200 p-4 transition hover:border-[#c97845]/40 hover:bg-[#f8f4ec]"
                       >
                         <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[#c97845]">
                           {post.category}
@@ -301,14 +301,14 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                 </div>
               </div>
 
-              <div className="rounded-[24px] border border-neutral-200 bg-white p-5 shadow-sm">
+              <div className="border border-neutral-200 bg-white p-5 shadow-sm">
                 <h3 className="text-[#163a35] text-xl font-semibold">Useful links</h3>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {data.sidebar.usefulLinks.map((link) => (
                     <Link
                       key={link.href}
                       to={link.href}
-                      className="rounded-full border border-neutral-200 px-3 py-2 text-xs font-medium text-neutral-700 transition hover:border-[#c97845] hover:text-[#c97845]"
+                      className="border border-neutral-200 px-3 py-2 text-xs font-medium text-neutral-700 transition hover:border-[#c97845] hover:text-[#c97845]"
                     >
                       {link.label}
                     </Link>
@@ -316,7 +316,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                 </div>
               </div>
 
-              <div className="rounded-[24px] border border-neutral-200 bg-[#163a35] p-6 text-white shadow-sm">
+              <div className="border border-neutral-200 bg-[#163a35] p-6 text-white shadow-sm">
                 <p className="text-[11px] font-semibold uppercase tracking-[0.28em] text-[#c97845]">
                   Retaining wall enquiries
                 </p>
@@ -329,13 +329,13 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
                 <div className="mt-6 flex flex-col gap-3">
                   <Link
                     to="/contact-us/"
-                    className="inline-flex items-center justify-center rounded-full bg-[#c97845] px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+                    className="inline-flex items-center justify-center bg-[#c97845] px-5 py-3 text-sm font-semibold text-white transition hover:opacity-90"
                   >
                     Contact Us
                   </Link>
                   <a
                     href={business.contact.phoneHref}
-                    className="inline-flex items-center justify-center rounded-full border border-white/15 bg-white/10 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/15"
+                    className="inline-flex items-center justify-center border border-white/15 bg-white/10 px-5 py-3 text-sm font-semibold text-white transition hover:bg-white/15"
                   >
                     Call {business.contact.phoneDisplay}
                   </a>
@@ -343,12 +343,12 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
               </div>
 
               {relatedPosts.length > 0 ? (
-                <div className="rounded-[24px] border border-neutral-200 bg-white p-5 shadow-sm">
+                <div className="border border-neutral-200 bg-white p-5 shadow-sm">
                   <h3 className="text-[#163a35] text-xl font-semibold">You might also like</h3>
                   <div className="mt-4 space-y-4">
                     {relatedPosts.slice(0, 3).map((post) => (
                       <Link key={post.slug} to={post.path} className="group block">
-                        <div className="overflow-hidden rounded-[18px] border border-neutral-200">
+                        <div className="overflow-hidden border border-neutral-200">
                           <img
                             src={post.image}
                             alt={post.title}

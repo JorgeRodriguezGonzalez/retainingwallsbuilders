@@ -13,8 +13,8 @@ export default function HomeWhyChoose() {
           <Link to="/contact-us/" className="mt-7 inline-flex items-center gap-2 text-sm font-bold text-brand-sand">Discuss your project <ArrowRight className="h-4 w-4" /></Link>
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
-          {whyChooseUs.map((item) => <div key={item} className="rounded-[24px] border border-white/10 bg-white/7 p-5"><CheckCircle2 className="h-6 w-6 text-brand-gold" /><p className="mt-4 text-sm leading-7 text-white/75">{item}</p></div>)}
-          <div className="rounded-[24px] bg-brand-gold p-5 sm:col-span-2"><p className="text-xs font-bold uppercase tracking-[0.2em] text-white/70">Areas we cover</p><p className="mt-3 text-sm leading-7 text-white">{locations.join(" - ")}</p></div>
+          {whyChooseUs.map((item) => <div key={item} className="border border-white/10 bg-white/7 p-5"><CheckCircle2 className="h-6 w-6 text-brand-gold" /><p className="mt-4 text-sm leading-7 text-white/75">{item}</p></div>)}
+          <div className="bg-brand-gold p-5 sm:col-span-2"><p className="text-xs font-bold uppercase tracking-[0.2em] text-white/70">Areas we cover</p><p className="mt-3 text-sm leading-7 text-white">{locations.join(" - ")}</p></div>
         </div>
       </div>
     </section>

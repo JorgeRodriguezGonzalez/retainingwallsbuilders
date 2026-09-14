@@ -24,8 +24,8 @@ export default function Areas() {
             {locations.length > 0 && (
               <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                 {locations.map((area) => (
-                  <Link key={area.slug} to={`/${area.slug}/`} className="group rounded-[24px] border border-brand-mist bg-brand-cream/55 p-5 transition hover:-translate-y-1 hover:border-brand-olive/40 hover:bg-white hover:shadow-[0_18px_45px_rgba(22,58,53,.1)]">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-brand-olive text-white"><MapPin className="h-5 w-5" /></div>
+                  <Link key={area.slug} to={`/${area.slug}/`} className="group border border-brand-mist bg-brand-cream/55 p-5 transition hover:-translate-y-1 hover:border-brand-olive/40 hover:bg-white hover:shadow-[0_18px_45px_rgba(22,58,53,.1)]">
+                    <div className="flex h-10 w-10 items-center justify-center bg-brand-olive text-white"><MapPin className="h-5 w-5" /></div>
                     <h3 className="mt-4 text-xl font-bold text-brand-deep">{area.hero.title.replace("Retaining Walls in ", "")}</h3>
                     <p className="mt-2 line-clamp-3 text-sm leading-6 text-brand-slate">{area.hero.description}</p>
                     <span className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-brand-gold">View area <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" /></span>

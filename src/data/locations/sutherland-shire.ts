@@ -26,7 +26,7 @@ export const sutherlandShire: LocationPageData = {
     title: "Retaining Wall Builders in Sutherland Shire",
     description:
       "Expert retaining wall construction for coastal Shire suburbs and sloping blocks. We understand sandy soils, waterfront challenges and hillside properties across Sutherland Shire.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/gabion1.jpeg",
     backgroundAlt: "Retaining wall construction in Sutherland Shire",
     primaryCtaLabel: "Get a Free Quote",
     primaryCtaHref: "#quote",
@@ -48,7 +48,7 @@ export const sutherlandShire: LocationPageData = {
       "Our team has extensive experience working throughout the Shire, from waterfront homes along the Georges River to bushland properties near the Royal National Park. We understand the local geology, drainage requirements and council regulations that affect wall construction in this region.",
       "Whether you need to level a sloping backyard, create usable outdoor space, or stabilise a driveway access on a hillside block, we deliver retaining walls built to handle the specific conditions found across Sutherland Shire.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/gabion2.jpg",
     imageAlt: "Retaining wall project in Sutherland Shire",
     checklist: [
       "Sandy soil stabilisation expertise",
@@ -90,7 +90,7 @@ export const sutherlandShire: LocationPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "How We Build Your Retaining Wall",
-    image: "/images/services02.webp",
+    image: "/images/gabion4.jpeg",
     imageAlt: "Retaining wall construction process in Sutherland Shire",
     steps: [
       {
@@ -130,7 +130,7 @@ export const sutherlandShire: LocationPageData = {
         "Near the coast, sandy soils can shift and settle, requiring deeper footings and robust drainage systems. Inland areas often feature clay soils on sloping terrain, where water management becomes critical to wall longevity.",
         "Our team has worked across every suburb in the Shire, giving us firsthand knowledge of the soil conditions, water table levels and site access challenges you may face.",
       ],
-      image: "/images/services03.webp",
+      image: "/images/brick1.jpeg",
       imageAlt: "Sutherland Shire landscape and terrain",
       imagePosition: "right",
       items: [
@@ -150,7 +150,7 @@ export const sutherlandShire: LocationPageData = {
         "Concrete sleeper walls remain popular for their strength and clean lines. Sandstone walls suit heritage homes and natural bushland settings. Timber options work well for garden walls and lighter applications.",
         "During your consultation, we discuss the pros and cons of each material for your specific site conditions and recommend the best solution for lasting performance.",
       ],
-      image: "/images/services04.webp",
+      image: "/images/brick3.jpg",
       imageAlt: "Retaining wall materials for Sutherland Shire",
       imagePosition: "left",
       items: [

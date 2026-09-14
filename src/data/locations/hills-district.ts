@@ -25,7 +25,7 @@ export const hillsDistrictLocation: LocationPageData = {
     title: "Retaining Walls in The Hills District",
     description:
       "Expert retaining wall construction for undulating terrain and reactive clay soils across The Hills District. From estate developments to established properties, we deliver engineered solutions for cut and fill challenges and effective drainage on expansive soils.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/concreteblock2.jpeg",
     backgroundAlt:
       "Retaining wall construction in The Hills District Sydney",
     primaryCtaLabel: "Get a Free Quote",
@@ -47,7 +47,7 @@ export const hillsDistrictLocation: LocationPageData = {
       "The Hills District presents unique challenges for retaining wall construction. The undulating landscape combined with reactive clay soils requires specialised engineering knowledge and proven construction techniques. Our team has extensive experience working across the region, from established suburbs to new estate developments.",
       "We understand the specific soil conditions prevalent throughout The Hills, including the expansive clays that can cause significant ground movement. Our retaining walls are designed and built to accommodate these conditions, incorporating proper drainage systems and engineering standards that protect your investment long-term.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/concreteblock3.jpeg",
     imageAlt: "Retaining wall construction on Hills District sloped terrain",
     checklist: [
       "Reactive clay soil specialists",
@@ -87,7 +87,7 @@ export const hillsDistrictLocation: LocationPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "How We Deliver Your Retaining Wall",
-    image: "/images/services02.webp",
+    image: "/images/retainingwall4.webp",
     imageAlt: "Professional retaining wall installation process",
     steps: [
       {
@@ -121,7 +121,7 @@ export const hillsDistrictLocation: LocationPageData = {
         "The Hills District spans from established suburbs like Castle Hill and Baulkham Hills through to the newer developments of Kellyville and Bella Vista. Each area presents its own characteristics, from the steep blocks in Dural and West Pennant Hills to the engineered lots in master-planned estates.",
         "Our team has built retaining walls across all these environments. We know which suburbs have the most challenging clay soils, where drainage issues are most common, and what construction methods deliver the best results for each situation.",
       ],
-      image: "/images/services03.webp",
+      image: "/images/brick2.webp",
       imageAlt: "Retaining wall suited to Hills District landscape",
       imagePosition: "right",
       items: [
@@ -138,7 +138,7 @@ export const hillsDistrictLocation: LocationPageData = {
         "We use premium materials selected for durability in Hills District conditions. Our concrete sleeper walls, sandstone blocks, and timber solutions are all chosen for their ability to perform in reactive clay environments.",
         "Every material we specify is backed by appropriate engineering for the soil conditions on your property. Combined with proper installation techniques and drainage systems, your wall is built to last for decades.",
       ],
-      image: "/images/services04.webp",
+      image: "/images/brick4.webp",
       imageAlt: "Quality retaining wall materials for Hills District homes",
       imagePosition: "left",
       items: [

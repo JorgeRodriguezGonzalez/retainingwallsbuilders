@@ -22,7 +22,7 @@ export const vaucluse: SuburbPageData = {
     title: "Retaining Walls Vaucluse",
     description:
       "Retaining wall construction for Vaucluse properties, where harbour-facing slopes, established gardens and heritage considerations require walls that combine structural integrity with refined aesthetics.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/sandstone.jpeg",
     backgroundAlt: "Retaining wall construction in Vaucluse Sydney",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact/",
@@ -38,7 +38,7 @@ export const vaucluse: SuburbPageData = {
       "Many Vaucluse homes feature established landscaping, mature trees and heritage elements that must be protected during construction. We plan wall alignments and excavation methods to preserve existing garden assets while creating the terraced spaces that maximise harbour views.",
       "Our sandstone walls complement the natural geology and period character common in Vaucluse. Where greater height or load capacity is needed, reinforced concrete provides the strength while architectural treatments maintain the aesthetic standard expected in this suburb.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/sandstone2.webp",
     imageAlt: "Sandstone retaining wall in Vaucluse",
     checklist: [
       "Harbour-view terrace creation",
@@ -80,7 +80,7 @@ export const vaucluse: SuburbPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "Vaucluse project delivery",
-    image: "/images/services03.webp",
+    image: "/images/sandstone3.jpg",
     imageAlt: "Retaining wall construction process in Vaucluse",
     steps: [
       {
@@ -163,7 +163,7 @@ export const bellevueHill: SuburbPageData = {
     title: "Retaining Walls Bellevue Hill",
     description:
       "Retaining wall solutions for Bellevue Hill, where dramatic elevation changes, manicured gardens and architectural homes require walls engineered for both function and presentation.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/sandstone2.webp",
     backgroundAlt: "Retaining wall construction in Bellevue Hill Sydney",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact/",
@@ -179,7 +179,7 @@ export const bellevueHill: SuburbPageData = {
       "Many Bellevue Hill blocks require multiple terrace levels to create functional outdoor spaces. We design integrated wall systems that step down slopes gracefully, incorporating planting pockets, stairs and drainage that work together as a cohesive landscape structure.",
       "The mix of sandstone bedrock and clay soils across Bellevue Hill means wall foundations must suit the specific ground conditions on each site. Our assessment identifies the substrate before specifying footings, drainage and wall types that perform reliably long-term.",
     ],
-    image: "/images/services02.webp",
+    image: "/images/sandstone3.jpg",
     imageAlt: "Terraced retaining walls in Bellevue Hill",
     checklist: [
       "Multi-level terrace systems",
@@ -221,7 +221,7 @@ export const bellevueHill: SuburbPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "Bellevue Hill project approach",
-    image: "/images/services04.webp",
+    image: "/images/sandstone.jpeg",
     imageAlt: "Retaining wall construction in Bellevue Hill",
     steps: [
       {
@@ -304,7 +304,7 @@ export const doverHeights: SuburbPageData = {
     title: "Retaining Walls Dover Heights",
     description:
       "Retaining wall construction for Dover Heights properties, where cliff-top locations, ocean exposure and dramatic slopes require walls engineered for extreme conditions.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/sandstone3.jpg",
     backgroundAlt: "Retaining wall construction in Dover Heights Sydney",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact/",
@@ -320,7 +320,7 @@ export const doverHeights: SuburbPageData = {
       "The steep topography of this suburb often places homes high above street level, creating dramatic entrance sequences that rely on robust retaining structures. Driveway walls, boundary stabilisation and garden terraces all face the same demanding exposure.",
       "We specify materials and construction methods suited to the Dover Heights coastal environment. Concrete mixes resist chloride penetration, steel receives appropriate cover depths, and drainage systems handle the rainfall intensity common on exposed headlands.",
     ],
-    image: "/images/services03.webp",
+    image: "/images/concreteblock1.jpg",
     imageAlt: "Coastal retaining wall in Dover Heights",
     checklist: [
       "Cliff-top boundary walls",
@@ -362,7 +362,7 @@ export const doverHeights: SuburbPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "Dover Heights project delivery",
-    image: "/images/services05.webp",
+    image: "/images/concreteblock2.jpeg",
     imageAlt: "Retaining wall construction in Dover Heights",
     steps: [
       {
@@ -445,7 +445,7 @@ export const bondi: SuburbPageData = {
     title: "Retaining Walls Bondi",
     description:
       "Retaining wall solutions for Bondi properties, where compact blocks, tight boundaries and near-surface sandstone demand efficient construction that maximises every square metre of outdoor space.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/concreteblock3.jpeg",
     backgroundAlt: "Retaining wall construction in Bondi Sydney",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact/",
@@ -461,7 +461,7 @@ export const bondi: SuburbPageData = {
       "Sandstone bedrock underlies much of Bondi, surfacing unpredictably across building sites. Excavation for wall footings frequently encounters rock, requiring assessment and appropriate equipment to proceed efficiently without budget surprises.",
       "We work within typical Bondi constraints: limited side access, shared boundaries with neighbours, and expectations for rapid completion that minimise disruption to the surrounding community. Our crews understand the logistics of inner suburban construction.",
     ],
-    image: "/images/services04.webp",
+    image: "/images/retainingwall4.webp",
     imageAlt: "Retaining wall in Bondi Sydney",
     checklist: [
       "Compact block maximisation",
@@ -503,7 +503,7 @@ export const bondi: SuburbPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "Bondi project approach",
-    image: "/images/services06.webp",
+    image: "/images/concreteblock1.jpg",
     imageAlt: "Retaining wall construction in Bondi",
     steps: [
       {
@@ -586,7 +586,7 @@ export const coogee: SuburbPageData = {
     title: "Retaining Walls Coogee",
     description:
       "Retaining wall construction for Coogee properties, where beach-suburb character, variable topography and coastal conditions require walls that balance durability with neighbourhood aesthetics.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/concretesleeper.jpeg",
     backgroundAlt: "Retaining wall construction in Coogee Sydney",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact/",
@@ -602,7 +602,7 @@ export const coogee: SuburbPageData = {
       "The coastal environment brings salt exposure that varies with distance from the water. Properties closer to Coogee Beach face harsher conditions than those further inland, requiring material specifications calibrated to actual exposure levels.",
       "The residential character of Coogee includes a mix of older sandstone and brick homes alongside contemporary renovations. We design walls that complement this varied streetscape while delivering the structural performance each site demands.",
     ],
-    image: "/images/services05.webp",
+    image: "/images/concretesleeper2.jpg",
     imageAlt: "Retaining wall in Coogee Sydney",
     checklist: [
       "Beach-proximity construction",
@@ -644,7 +644,7 @@ export const coogee: SuburbPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "Coogee project delivery",
-    image: "/images/services01.webp",
+    image: "/images/concretesleeper3.jpeg",
     imageAlt: "Retaining wall construction in Coogee",
     steps: [
       {
@@ -727,7 +727,7 @@ export const bronte: SuburbPageData = {
     title: "Retaining Walls Bronte",
     description:
       "Retaining wall solutions for Bronte, where the natural gully amphitheatre creates dramatic slopes and properties that step down toward Bronte Beach through a series of terraced gardens and boundary walls.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/naturalstone.jpeg",
     backgroundAlt: "Retaining wall construction in Bronte Sydney",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact/",
@@ -743,7 +743,7 @@ export const bronte: SuburbPageData = {
       "The gully formation channels stormwater toward the beach, meaning drainage design for Bronte retaining walls must account for not just local runoff but potential flows from upslope properties. Failed drainage in this terrain can cause significant erosion and wall damage.",
       "Sandstone outcrops throughout Bronte provide both a construction material and an excavation challenge. Many walls can be built from rock excavated on site, turning a disposal cost into an aesthetic feature that matches the natural geology.",
     ],
-    image: "/images/services06.webp",
+    image: "/images/naturalstone2.jpeg",
     imageAlt: "Sandstone retaining wall in Bronte",
     checklist: [
       "Gully slope engineering",
@@ -785,7 +785,7 @@ export const bronte: SuburbPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "Bronte project approach",
-    image: "/images/services02.webp",
+    image: "/images/naturalstone3.jpeg",
     imageAlt: "Retaining wall construction in Bronte",
     steps: [
       {

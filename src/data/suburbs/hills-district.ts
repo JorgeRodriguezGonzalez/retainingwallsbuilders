@@ -18,7 +18,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
       title: "Retaining Walls in Castle Hill",
       description:
         "Professional retaining wall construction for Castle Hill properties. From established homes near the showground to hillside blocks throughout the suburb, we deliver engineered solutions suited to local soil and terrain conditions.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/concreteblock1.jpg",
       backgroundAlt: "Retaining wall construction in Castle Hill Sydney",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -39,7 +39,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
         "Castle Hill sits at the heart of The Hills District, with terrain ranging from relatively flat areas near the commercial centre to significantly sloped blocks on the surrounding ridges. Many established properties here require retaining walls to manage level changes, create usable outdoor spaces, or address erosion on ageing slopes.",
         "Our team understands the mix of soil types across Castle Hill, including the reactive clays common throughout the suburb. We design and build walls that accommodate ground movement while providing the structural support your property needs.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/concreteblock2.jpeg",
       imageAlt: "Retaining wall on Castle Hill residential property",
       checklist: [
         "Established property specialists",
@@ -79,7 +79,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "How We Deliver Your Retaining Wall",
-      image: "/images/services02.webp",
+      image: "/images/concreteblock3.jpeg",
       imageAlt: "Professional retaining wall construction in Castle Hill",
       steps: [
         {
@@ -167,7 +167,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
       title: "Retaining Walls in Baulkham Hills",
       description:
         "Professional retaining wall construction for Baulkham Hills properties. This established residential suburb features rolling terrain and clay soils that demand properly engineered retaining solutions with effective drainage.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/brick1.jpeg",
       backgroundAlt: "Retaining wall construction in Baulkham Hills Sydney",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -188,7 +188,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
         "Baulkham Hills is characterised by its gently undulating residential landscape, with many properties built across natural contours over several decades. As these established homes age, retaining walls often need replacement or new walls are required to reclaim sloped areas or address drainage concerns.",
         "The clay-based soils throughout Baulkham Hills respond to moisture changes, expanding and contracting with the seasons. Our retaining walls are designed with this ground movement in mind, incorporating appropriate footings and drainage to maintain structural integrity over time.",
       ],
-      image: "/images/services03.webp",
+      image: "/images/brick2.webp",
       imageAlt: "Retaining wall on Baulkham Hills residential property",
       checklist: [
         "Established suburb specialists",
@@ -228,7 +228,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "How We Deliver Your Retaining Wall",
-      image: "/images/services04.webp",
+      image: "/images/brick3.jpg",
       imageAlt: "Professional retaining wall installation Baulkham Hills",
       steps: [
         {
@@ -316,7 +316,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
       title: "Retaining Walls in Kellyville",
       description:
         "Expert retaining wall construction for Kellyville properties. From new estate cut and fill requirements to established homes, we deliver engineered solutions for this rapidly developing Hills District growth corridor.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/retainingwall4.webp",
       backgroundAlt: "Retaining wall construction in Kellyville Sydney",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -337,7 +337,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
         "Kellyville has transformed dramatically with large-scale estate development across former farmland. These new subdivisions create engineered lots that often require retaining walls to manage level differences between neighbouring properties and to maximise usable outdoor space on cut and fill blocks.",
         "We work extensively across Kellyville estates including The Ponds, Stanhope Gardens borders, and newer releases. Our team understands the specific requirements of development blocks, from boundary wall specifications to coordination with builders during the construction phase.",
       ],
-      image: "/images/services02.webp",
+      image: "/images/concretesleeper.jpeg",
       imageAlt: "Retaining wall on new Kellyville estate block",
       checklist: [
         "New estate specialists",
@@ -377,7 +377,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "How We Deliver Your Retaining Wall",
-      image: "/images/services05.webp",
+      image: "/images/concretesleeper2.jpg",
       imageAlt: "Professional retaining wall construction Kellyville estate",
       steps: [
         {
@@ -465,7 +465,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
       title: "Retaining Walls in Bella Vista",
       description:
         "Professional retaining wall construction for Bella Vista properties. This modern Hills District suburb features planned developments and quality homes that deserve retaining solutions built to the same high standard.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/sandstone.jpeg",
       backgroundAlt: "Retaining wall construction in Bella Vista Sydney",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -486,7 +486,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
         "Bella Vista has developed as a premium Hills District address, with planned communities, quality homes, and the Norwest Business Park nearby. The suburb blends newer estate developments with established residential areas, each with their own retaining wall requirements.",
         "Our work across Bella Vista ranges from boundary walls on development blocks to landscape retaining for established properties. We match the quality and finish that Bella Vista homeowners expect, using premium materials and construction methods throughout.",
       ],
-      image: "/images/services06.webp",
+      image: "/images/sandstone2.webp",
       imageAlt: "Quality retaining wall on Bella Vista property",
       checklist: [
         "Premium finish standards",
@@ -526,7 +526,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "How We Deliver Your Retaining Wall",
-      image: "/images/services01.webp",
+      image: "/images/sandstone3.jpg",
       imageAlt: "Professional retaining wall installation Bella Vista",
       steps: [
         {
@@ -614,7 +614,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
       title: "Retaining Walls in Dural",
       description:
         "Expert retaining wall construction for Dural properties. This semi-rural Hills District suburb features larger blocks, steep terrain, and bushland settings that require specialised retaining solutions suited to acreage environments.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/naturalstone.jpeg",
       backgroundAlt: "Retaining wall construction in Dural Sydney",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -635,7 +635,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
         "Dural sits on the rural edge of The Hills District, with properties ranging from standard residential lots to substantial acreage holdings. The terrain here can be dramatic, with steep gullies, ridgelines, and established bushland creating both challenges and opportunities for retaining wall construction.",
         "Our team has extensive experience on Dural acreage properties. We understand the access considerations, the varied soil conditions from shale to clay, and the importance of working sensitively within bushland environments while delivering structurally sound retaining solutions.",
       ],
-      image: "/images/services03.webp",
+      image: "/images/naturalstone2.jpeg",
       imageAlt: "Retaining wall on Dural acreage property",
       checklist: [
         "Acreage property specialists",
@@ -675,7 +675,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "How We Deliver Your Retaining Wall",
-      image: "/images/services04.webp",
+      image: "/images/naturalstone3.jpeg",
       imageAlt: "Professional retaining wall construction Dural acreage",
       steps: [
         {
@@ -763,7 +763,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
       title: "Retaining Walls in West Pennant Hills",
       description:
         "Professional retaining wall construction for West Pennant Hills properties. This established leafy suburb features mature gardens, significant trees, and sloping terrain that requires careful retaining wall design and construction.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/timber.jpeg",
       backgroundAlt: "Retaining wall construction in West Pennant Hills Sydney",
       primaryCtaLabel: "Get a Free Quote",
       primaryCtaHref: "/contact/",
@@ -784,7 +784,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
         "West Pennant Hills is known for its leafy streetscapes, established homes, and generous blocks with mature gardens. Many properties here have been developed over decades, with existing retaining walls that may need replacement or new walls required to enhance outdoor living spaces.",
         "The suburb occupies elevated terrain with views across surrounding valleys, creating natural slopes that benefit from well-designed retaining structures. Our team works sensitively on these established properties, protecting mature trees and gardens while delivering quality retaining solutions.",
       ],
-      image: "/images/services05.webp",
+      image: "/images/timber2.jpeg",
       imageAlt: "Retaining wall in established West Pennant Hills garden",
       checklist: [
         "Established property specialists",
@@ -824,7 +824,7 @@ export const hillsDistrictSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "How We Deliver Your Retaining Wall",
-      image: "/images/services06.webp",
+      image: "/images/timber3.jpeg",
       imageAlt: "Professional retaining wall construction West Pennant Hills",
       steps: [
         {

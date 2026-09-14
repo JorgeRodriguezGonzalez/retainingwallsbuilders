@@ -23,7 +23,7 @@ const mosmanSuburb: SuburbPageData = {
     title: "Retaining Walls Mosman",
     description:
       "Retaining wall construction for harbour-front estates, steep sandstone blocks and heritage gardens in Mosman. From Balmoral slopes to Clifton Gardens, we build walls suited to this iconic Sydney suburb.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/naturalstone.jpeg",
     backgroundAlt: "Retaining wall construction in Mosman",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact-us/",
@@ -43,7 +43,7 @@ const mosmanSuburb: SuburbPageData = {
       "Properties in Mosman face some of the most demanding retaining wall conditions in Sydney. Blocks drop steeply toward Balmoral Beach, Middle Harbour and Clifton Gardens, with Sydney sandstone close to the surface and established gardens requiring careful integration.",
       "We construct sandstone, concrete sleeper and rendered walls for Mosman homes. Heritage considerations, neighbour relationships and access through narrow streets all factor into our approach for each project.",
     ],
-    image: "/images/services04.webp",
+    image: "/images/naturalstone2.jpeg",
     imageAlt: "Sandstone retaining wall suited to Mosman terrain",
     checklist: [
       "Sandstone walls for heritage properties",
@@ -81,7 +81,7 @@ const mosmanSuburb: SuburbPageData = {
   process: {
     eyebrow: "Our Approach",
     heading: "How we handle Mosman projects",
-    image: "/images/contact-workers.webp",
+    image: "/images/timber2.jpeg",
     imageAlt: `${business.name} preparing a Mosman retaining wall`,
     steps: [
       {
@@ -114,7 +114,7 @@ const mosmanSuburb: SuburbPageData = {
         "Mosman sits on Sydney sandstone with thin topsoil in many areas. This creates excellent foundation conditions but requires excavation planning and drainage management to prevent water pooling against walls.",
         "Properties near Balmoral, Clifton Gardens and the Spit often have multiple level changes requiring terraced retaining systems. We design walls that create usable garden areas while managing stormwater from upper slopes.",
       ],
-      image: "/images/services03.webp",
+      image: "/images/naturalstone3.jpeg",
       imageAlt: "Concrete retaining wall on steep Mosman block",
       imagePosition: "left",
       items: [
@@ -183,7 +183,7 @@ const cremorneSuburb: SuburbPageData = {
     title: "Retaining Walls Cremorne",
     description:
       "Retaining wall construction for compact harbour blocks and terraced gardens in Cremorne. We build walls suited to the mix of period homes, apartments and waterfront properties in this suburb.",
-    backgroundImage: "/images/service-hero.webp",
+    backgroundImage: "/images/sandstone.jpeg",
     backgroundAlt: "Retaining wall construction in Cremorne",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact-us/",
@@ -203,7 +203,7 @@ const cremorneSuburb: SuburbPageData = {
       "Cremorne sits on the Lower North Shore peninsula between Neutral Bay and Mosman, with blocks sloping toward the harbour on multiple aspects. Compact lot sizes and established vegetation in this suburb require retaining walls that maximise usable garden space.",
       "We construct concrete sleeper, rendered concrete and sandstone walls for Cremorne homes. Tight boundaries, established trees and strata considerations all factor into our approach for this densely built suburb.",
     ],
-    image: "/images/services02.webp",
+    image: "/images/sandstone2.webp",
     imageAlt: "Retaining wall construction suited to Cremorne conditions",
     checklist: [
       "Compact lot wall systems",
@@ -241,7 +241,7 @@ const cremorneSuburb: SuburbPageData = {
   process: {
     eyebrow: "Our Approach",
     heading: "How we approach Cremorne projects",
-    image: "/images/contact-workers.webp",
+    image: "/images/timber2.jpeg",
     imageAlt: `${business.name} team on a Cremorne project`,
     steps: [
       {
@@ -274,7 +274,7 @@ const cremorneSuburb: SuburbPageData = {
         "The position of Cremorne on the harbour peninsula means many blocks have multiple level changes across relatively small areas. Retaining walls here create garden terraces, define boundaries and support access paths on sloping sites.",
         "The heritage character of this suburb means walls often need to complement period architecture and existing sandstone features. We select materials and finishes that suit the established streetscape.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/sandstone3.jpg",
       imageAlt: "Block retaining wall in Cremorne garden",
       imagePosition: "right",
       items: [
@@ -343,7 +343,7 @@ const northbridgeSuburb: SuburbPageData = {
     title: "Retaining Walls Northbridge",
     description:
       "Retaining wall construction for bushland properties, rocky terrain and harbour-view blocks in Northbridge. We build walls suited to the natural setting of this suburb near Flat Rock Gully and Middle Harbour foreshore.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/gabion1.jpeg",
     backgroundAlt: "Retaining wall construction in Northbridge",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact-us/",
@@ -363,7 +363,7 @@ const northbridgeSuburb: SuburbPageData = {
       "Northbridge borders Flat Rock Gully reserve and Middle Harbour foreshore, with many properties backing onto bushland. The rocky sandstone terrain and native vegetation of this suburb require retaining walls that work with the natural landscape.",
       "We construct sandstone, concrete and boulder walls for Northbridge homes. Fire protection considerations, bushland asset protection zones and natural rock outcrops all influence wall design in this unique suburb.",
     ],
-    image: "/images/services04.webp",
+    image: "/images/gabion2.jpg",
     imageAlt: "Natural stone retaining wall in Northbridge bushland setting",
     checklist: [
       "Bushland boundary walls",
@@ -401,7 +401,7 @@ const northbridgeSuburb: SuburbPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "Northbridge project approach",
-    image: "/images/contact-workers.webp",
+    image: "/images/timber2.jpeg",
     imageAlt: `${business.name} team assessing a Northbridge site`,
     steps: [
       {
@@ -434,7 +434,7 @@ const northbridgeSuburb: SuburbPageData = {
         "Northbridge sits on sandstone ridges with rocky outcrops across many properties. This terrain creates excellent foundation conditions but requires careful planning to work around existing rock features and manage drainage in sandy soils.",
         "Boulder walls and natural sandstone construction suit properties seeking to blend retaining structures with the bushland character. Concrete systems work well where a cleaner aesthetic is preferred.",
       ],
-      image: "/images/services02.webp",
+      image: "/images/gabion3.jpeg",
       imageAlt: "Boulder retaining wall suited to Northbridge terrain",
       imagePosition: "left",
       items: [
@@ -503,7 +503,7 @@ const cammeraySuburb: SuburbPageData = {
     title: "Retaining Walls Cammeray",
     description:
       "Retaining wall construction for ridge-top properties, established gardens and mixed housing stock in Cammeray. We build walls suited to the varied terrain of this quiet residential suburb.",
-    backgroundImage: "/images/service-hero.webp",
+    backgroundImage: "/images/concreteblock1.jpg",
     backgroundAlt: "Retaining wall construction in Cammeray",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact-us/",
@@ -523,7 +523,7 @@ const cammeraySuburb: SuburbPageData = {
       "Cammeray occupies elevated ground between Crows Nest and Northbridge, with many properties enjoying district views. The suburb includes a mix of original cottages, post-war homes and newer apartment developments, each with different retaining wall requirements.",
       "We construct concrete sleeper, rendered concrete and block walls for Cammeray homes. Garden terracing, driveway support and boundary definition are common applications in this established residential suburb.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/concreteblock2.jpeg",
     imageAlt: "Block retaining wall in Cammeray garden",
     checklist: [
       "Garden terrace construction",
@@ -561,7 +561,7 @@ const cammeraySuburb: SuburbPageData = {
   process: {
     eyebrow: "Our Approach",
     heading: "Cammeray project process",
-    image: "/images/contact-workers.webp",
+    image: "/images/timber2.jpeg",
     imageAlt: `${business.name} preparing Cammeray retaining wall work`,
     steps: [
       {
@@ -594,7 +594,7 @@ const cammeraySuburb: SuburbPageData = {
         "Cammeray offers a quieter residential feel compared to busier Lower North Shore suburbs. Properties here benefit from established street trees, generous setbacks and mature gardens that give the suburb a settled character.",
         "Retaining walls in Cammeray often serve garden purposes, creating level planting beds, defining outdoor rooms and supporting driveways on sloping blocks. The wall design should enhance rather than dominate the garden setting.",
       ],
-      image: "/images/services06.webp",
+      image: "/images/concreteblock3.jpeg",
       imageAlt: "Garden retaining wall in established Cammeray property",
       imagePosition: "right",
       items: [
@@ -663,7 +663,7 @@ const willoughbySuburb: SuburbPageData = {
     title: "Retaining Walls Willoughby",
     description:
       "Retaining wall construction for family homes, generous blocks and established gardens in Willoughby. We build walls suited to the residential character of this accessible Lower North Shore suburb.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/brick1.jpeg",
     backgroundAlt: "Retaining wall construction in Willoughby",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact-us/",
@@ -683,7 +683,7 @@ const willoughbySuburb: SuburbPageData = {
       "Willoughby offers larger blocks and more accessible terrain than the steeper harbour suburbs. Properties here include family homes with substantial gardens, requiring retaining walls for level changes, garden beds and boundary definition.",
       "We construct concrete sleeper, block and rendered walls for Willoughby properties. Better access conditions in this suburb often allow more efficient construction compared to the tighter streets closer to the harbour.",
     ],
-    image: "/images/services03.webp",
+    image: "/images/brick2.webp",
     imageAlt: "Concrete retaining wall for Willoughby family home",
     checklist: [
       "Garden level-change walls",
@@ -721,7 +721,7 @@ const willoughbySuburb: SuburbPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "Willoughby project workflow",
-    image: "/images/contact-workers.webp",
+    image: "/images/timber2.jpeg",
     imageAlt: `${business.name} on a Willoughby retaining wall project`,
     steps: [
       {
@@ -754,7 +754,7 @@ const willoughbySuburb: SuburbPageData = {
         "The character of Willoughby as a family suburb shapes retaining wall requirements. Walls here often define play areas, support pool surrounds, create level lawn space and provide safe boundaries for children.",
         "Durability and low maintenance matter for busy households. We recommend wall systems that perform reliably over time without requiring ongoing attention.",
       ],
-      image: "/images/services05.webp",
+      image: "/images/brick3.jpg",
       imageAlt: "Family garden retaining wall in Willoughby",
       imagePosition: "left",
       items: [
@@ -823,7 +823,7 @@ const naremburnSuburb: SuburbPageData = {
     title: "Retaining Walls Naremburn",
     description:
       "Retaining wall construction for cottage gardens, gentle slopes and tree-lined streets in Naremburn. We build walls suited to the established residential character of this quiet village suburb.",
-    backgroundImage: "/images/service-hero.webp",
+    backgroundImage: "/images/timber.jpeg",
     backgroundAlt: "Retaining wall construction in Naremburn",
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact-us/",
@@ -843,7 +843,7 @@ const naremburnSuburb: SuburbPageData = {
       "Naremburn retains a village character with quiet streets, brick cottages and established gardens. The gentler terrain of this suburb compared to the steeper harbour suburbs means many walls serve garden purposes rather than managing dramatic level changes.",
       "We construct block, concrete sleeper and rendered walls for Naremburn homes. The heritage character and mature street trees of this suburb require walls that complement the established streetscape.",
     ],
-    image: "/images/services06.webp",
+    image: "/images/timber3.jpeg",
     imageAlt: "Garden retaining wall suited to Naremburn cottage setting",
     checklist: [
       "Cottage garden walls",
@@ -881,7 +881,7 @@ const naremburnSuburb: SuburbPageData = {
   process: {
     eyebrow: "Our Approach",
     heading: "Naremburn project process",
-    image: "/images/contact-workers.webp",
+    image: "/images/timber2.jpeg",
     imageAlt: `${business.name} preparing Naremburn garden wall work`,
     steps: [
       {
@@ -914,7 +914,7 @@ const naremburnSuburb: SuburbPageData = {
         "Cottage gardens in Naremburn feature established plantings, layered beds and informal pathways. Retaining walls here often create planting terraces, define garden rooms and edge pathways rather than holding back major excavations.",
         "Materials that weather naturally or accept a painted finish suit these garden settings. The wall becomes part of the planted landscape rather than a dominant structural element.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/timber4.jpeg",
       imageAlt: "Cottage garden retaining wall in Naremburn",
       imagePosition: "right",
       items: [

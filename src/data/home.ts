@@ -5,9 +5,9 @@ import { serviceNavigation } from "@/data/navigation";
 export interface WhatWeDoItem { icon: LucideIcon; text: string; }
 
 export const homeImages = {
-  hero: "/images/home-hero.webp",
-  about: "/images/services01.webp",
-  contact: "/images/contact-workers.webp",
+  hero: "/images/retainingwall4.webp",
+  about: "/images/sandstone.jpeg",
+  contact: "/images/timber3.jpeg",
 };
 
 export const quickBenefits = [

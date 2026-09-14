@@ -26,7 +26,7 @@ export const lowerNorthShoreLocation: LocationPageData = {
     eyebrow: `${areaName} Retaining Walls`,
     title: `Retaining Walls ${areaName}`,
     description: `Retaining wall construction for harbour-facing slopes, premium properties and challenging access across the ${areaName}. From Mosman to Naremburn, we build sandstone, concrete and engineered walls suited to Sydney sandstone terrain and steep blocks with water views.`,
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/naturalstone.jpeg",
     backgroundAlt: `Retaining wall construction across the ${areaName}`,
     primaryCtaLabel: "Request a Quote",
     primaryCtaHref: "/contact-us/",
@@ -46,7 +46,7 @@ export const lowerNorthShoreLocation: LocationPageData = {
       `The ${areaName} presents distinct challenges for retaining wall construction. Blocks slope steeply toward the harbour, often with exposed Sydney sandstone, established gardens and premium homes requiring walls that perform structurally while respecting the streetscape.`,
       `We work across Mosman, Cremorne, Northbridge, Cammeray, Willoughby and Naremburn, constructing sandstone, concrete sleeper, rendered concrete and engineered walls. Each site is assessed for drainage, rock conditions, access constraints and the structural requirements of harbour-facing terrain.`,
     ],
-    image: "/images/services04.webp",
+    image: "/images/naturalstone2.jpeg",
     imageAlt: `Retaining wall suited to ${areaName} sandstone terrain`,
     checklist: [
       "Sandstone and natural stone walls",
@@ -84,7 +84,7 @@ export const lowerNorthShoreLocation: LocationPageData = {
   process: {
     eyebrow: "Our Approach",
     heading: "From enquiry to completed wall",
-    image: "/images/contact-workers.webp",
+    image: "/images/naturalstone3.jpeg",
     imageAlt: `${business.name} team preparing a ${areaName} retaining wall project`,
     steps: [
       {
@@ -117,7 +117,7 @@ export const lowerNorthShoreLocation: LocationPageData = {
         `The ${areaName} runs from the harbour foreshore up to ridge-top suburbs, with many blocks dropping steeply toward the water. Retaining walls here must handle significant height changes, manage stormwater from above and integrate with established landscaping.`,
         `Sandstone walls suit heritage properties and complement the local rock. Concrete sleeper and rendered walls offer clean lines for contemporary homes. We match the wall system to the site conditions, structural load and visual expectations of each property.`,
       ],
-      image: "/images/services03.webp",
+      image: "/images/concreteblock1.jpg",
       imageAlt: "Concrete retaining wall on a sloped Lower North Shore block",
       imagePosition: "left",
       items: [

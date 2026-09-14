@@ -9,7 +9,7 @@ type PageHeroProps = {
   image?: string;
 };
 
-export default function PageHero({ eyebrow, title, description, image = "/images/service-hero.webp" }: PageHeroProps) {
+export default function PageHero({ eyebrow, title, description, image = "/images/retainingwall4.webp" }: PageHeroProps) {
   return (
     <section className="relative isolate overflow-hidden bg-brand-deep pt-28 text-white md:pt-32">
       <div className="absolute inset-0">

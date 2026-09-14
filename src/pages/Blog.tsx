@@ -17,7 +17,7 @@ export default function Blog() {
       <SEO title={`${business.name} Blog`} description={`Read practical ${business.areaServed.name} retaining wall guides about wall types, materials, drainage, council approval and construction considerations.`} canonical={`${business.url}/blog/`} />
       <Header />
       <main>
-        <PageHero eyebrow="Retaining Wall Advice" title={`Practical guides for ${business.areaServed.name} property owners`} description="Learn about retaining wall materials, site considerations, drainage requirements and what to know before requesting a quote." image="/images/services01.webp" />
+        <PageHero eyebrow="Retaining Wall Advice" title={`Practical guides for ${business.areaServed.name} property owners`} description="Learn about retaining wall materials, site considerations, drainage requirements and what to know before requesting a quote." image="/images/timber4.jpeg" />
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
             {blogPosts.length > 0 ? (

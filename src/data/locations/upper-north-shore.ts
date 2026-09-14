@@ -24,7 +24,7 @@ export const upperNorthShoreLocation: LocationPageData = {
     title: "Retaining Walls Upper North Shore",
     description:
       "Expert retaining wall construction for the challenging terrain of the Upper North Shore. We specialise in terraced gardens, erosion control and slope stabilisation across bush hillside properties from Wahroonga to Roseville.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/timber.jpeg",
     backgroundAlt: "Professional retaining wall on Upper North Shore bush property",
     primaryCtaLabel: "Get Free Quote",
     primaryCtaHref: "/contact/",
@@ -46,7 +46,7 @@ export const upperNorthShoreLocation: LocationPageData = {
       "Our team has extensive experience working across Wahroonga, Pymble, St Ives, Turramurra, Killara and Roseville. We understand how to manage clay soil movement, integrate walls with established gardens and create terraces that enhance your property while preventing erosion.",
       "From small garden beds to major slope stabilisation projects, we deliver engineered solutions that work with your landscape rather than against it.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/timber2.jpeg",
     imageAlt: "Retaining wall construction on Upper North Shore hillside",
     checklist: [
       "Clay soil specialists",
@@ -88,7 +88,7 @@ export const upperNorthShoreLocation: LocationPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "How We Build Your Retaining Wall",
-    image: "/images/services02.webp",
+    image: "/images/timber3.jpeg",
     imageAlt: "Retaining wall construction process Upper North Shore",
     steps: [
       {
@@ -127,7 +127,7 @@ export const upperNorthShoreLocation: LocationPageData = {
         "Upper North Shore properties often feature steep rear yards that are difficult to use. Terraced retaining walls transform these slopes into functional outdoor living spaces with level areas for entertaining, gardens and lawn.",
         "We design terrace systems that work with natural contours, creating visual interest while maximising usable space. Integrated stairs and pathways connect levels seamlessly.",
       ],
-      image: "/images/services03.webp",
+      image: "/images/timber4.jpeg",
       imageAlt: "Terraced garden retaining walls Upper North Shore",
       imagePosition: "left",
       items: [
@@ -144,7 +144,7 @@ export const upperNorthShoreLocation: LocationPageData = {
         "Properties backing onto bushland or with significant slopes require proper erosion control. Without retaining walls, clay soils can creep downhill over time, threatening structures and gardens.",
         "Our slope stabilisation solutions prevent soil movement while blending with the natural bush environment. We use materials and designs that complement native surroundings.",
       ],
-      image: "/images/services04.webp",
+      image: "/images/naturalstone3.jpeg",
       imageAlt: "Slope stabilisation retaining wall bush property",
       imagePosition: "right",
       items: [

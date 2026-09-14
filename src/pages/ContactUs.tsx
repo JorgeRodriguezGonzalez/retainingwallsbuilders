@@ -12,7 +12,7 @@ export default function ContactUs() {
       <SEO title={`Contact ${business.name} | Request a Retaining Wall Quote`} description={`Contact ${business.name} for retaining wall construction, repair and replacement across ${business.areaServed.display}.`} canonical={`${business.url}/contact-us/`} />
       <Header />
       <main>
-        <PageHero eyebrow="Contact Us" title="Tell us about your retaining wall project" description="Send the property location, wall requirements and any helpful details. For urgent enquiries, call us directly." image="/images/contact-us-hero.webp" />
+        <PageHero eyebrow="Contact Us" title="Tell us about your retaining wall project" description="Send the property location, wall requirements and any helpful details. For urgent enquiries, call us directly." image="/images/gabion2.jpg" />
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto grid max-w-7xl gap-10 px-5 sm:px-6 lg:grid-cols-[.8fr_1.2fr] lg:px-8">
             <div>

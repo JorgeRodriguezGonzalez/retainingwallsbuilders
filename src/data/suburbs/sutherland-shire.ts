@@ -20,7 +20,7 @@ export const cronulla: SuburbPageData = {
     title: "Retaining Wall Builders in Cronulla",
     description:
       "Coastal retaining wall specialists for Cronulla properties. We understand the sandy soils, salt air exposure and beachside conditions that affect wall construction in this iconic surf suburb.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/gabion1.jpeg",
     backgroundAlt: "Retaining wall construction in Cronulla",
     primaryCtaLabel: "Get a Free Quote",
     primaryCtaHref: "#quote",
@@ -42,7 +42,7 @@ export const cronulla: SuburbPageData = {
       "From the esplanade apartments to the hillside homes overlooking the ocean, we have built retaining walls across Cronulla that withstand the coastal environment. Our designs account for soil movement, drainage in sandy conditions and material choices that resist salt corrosion.",
       "Whether you are creating a level backyard for entertaining, stabilising a sloping front garden or building terraced areas to maximise ocean views, we deliver walls engineered for Cronulla conditions.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/gabion2.jpg",
     imageAlt: "Retaining wall project in Cronulla",
     checklist: [
       "Sandy soil expertise",
@@ -84,7 +84,7 @@ export const cronulla: SuburbPageData = {
   process: {
     eyebrow: "Our Approach",
     heading: "Building Your Cronulla Retaining Wall",
-    image: "/images/services02.webp",
+    image: "/images/gabion3.jpeg",
     imageAlt: "Retaining wall construction in Cronulla",
     steps: [
       {
@@ -177,7 +177,7 @@ export const caringbah: SuburbPageData = {
     title: "Retaining Wall Builders in Caringbah",
     description:
       "Trusted retaining wall construction for Caringbah homes. We work with the established residential blocks and varied terrain found throughout this central Shire suburb.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/concretesleeper.jpeg",
     backgroundAlt: "Retaining wall construction in Caringbah",
     primaryCtaLabel: "Get a Free Quote",
     primaryCtaHref: "#quote",
@@ -199,7 +199,7 @@ export const caringbah: SuburbPageData = {
       "We regularly work on Caringbah projects ranging from replacing aging timber walls to building new structures for renovations and extensions. Our team understands the access challenges of working in established residential streets and the care required around existing landscaping.",
       "Whether your backyard slopes away from the house, you need to level an area for a pool or outdoor entertaining, or existing walls have failed, we deliver solutions suited to Caringbah properties.",
     ],
-    image: "/images/services03.webp",
+    image: "/images/concretesleeper2.jpg",
     imageAlt: "Retaining wall project in Caringbah",
     checklist: [
       "Established block expertise",
@@ -241,7 +241,7 @@ export const caringbah: SuburbPageData = {
   process: {
     eyebrow: "How We Work",
     heading: "Your Caringbah Retaining Wall Project",
-    image: "/images/services04.webp",
+    image: "/images/concretesleeper3.jpeg",
     imageAlt: "Retaining wall construction process in Caringbah",
     steps: [
       {
@@ -334,7 +334,7 @@ export const sylvania: SuburbPageData = {
     title: "Retaining Wall Builders in Sylvania",
     description:
       "Waterfront and residential retaining wall specialists for Sylvania. We understand the unique challenges of properties along the Georges River and the sloping terrain throughout this waterside suburb.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/sandstone.jpeg",
     backgroundAlt: "Retaining wall construction in Sylvania",
     primaryCtaLabel: "Get a Free Quote",
     primaryCtaHref: "#quote",
@@ -356,7 +356,7 @@ export const sylvania: SuburbPageData = {
       "Waterfront properties face challenges including tidal influence, erosion, moisture levels and often require specialised approvals. Inland Sylvania blocks frequently slope toward the river, needing walls to create level outdoor areas and manage water flow.",
       "Our team has extensive experience building walls throughout Sylvania, from the marina precinct to the quieter residential streets. We understand the soil conditions, drainage requirements and aesthetic expectations of this sought after suburb.",
     ],
-    image: "/images/services05.webp",
+    image: "/images/sandstone2.webp",
     imageAlt: "Retaining wall project in Sylvania",
     checklist: [
       "Waterfront property expertise",
@@ -398,7 +398,7 @@ export const sylvania: SuburbPageData = {
   process: {
     eyebrow: "Our Method",
     heading: "Building Your Sylvania Retaining Wall",
-    image: "/images/services06.webp",
+    image: "/images/sandstone3.jpg",
     imageAlt: "Retaining wall construction in Sylvania",
     steps: [
       {
@@ -491,7 +491,7 @@ export const gymea: SuburbPageData = {
     title: "Retaining Wall Builders in Gymea",
     description:
       "Local retaining wall experts for Gymea properties. We specialise in the residential slopes and varying terrain found throughout this family-friendly Shire suburb.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/timber.jpeg",
     backgroundAlt: "Retaining wall construction in Gymea",
     primaryCtaLabel: "Get a Free Quote",
     primaryCtaHref: "#quote",
@@ -513,7 +513,7 @@ export const gymea: SuburbPageData = {
       "The suburb sits between the bay and inland bushland, with soil conditions varying from sandy near Gymea Bay to clay-based further inland. This variation requires careful assessment to design walls suited to your specific block.",
       "We have built walls throughout Gymea, from small garden terraces to substantial structures supporting new extensions. Our team understands the residential character of the area and works with minimal disruption to your household.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/timber2.jpeg",
     imageAlt: "Retaining wall project in Gymea",
     checklist: [
       "Family home expertise",
@@ -555,7 +555,7 @@ export const gymea: SuburbPageData = {
   process: {
     eyebrow: "How We Work",
     heading: "Your Gymea Retaining Wall Project",
-    image: "/images/services02.webp",
+    image: "/images/timber3.jpeg",
     imageAlt: "Retaining wall construction in Gymea",
     steps: [
       {
@@ -648,7 +648,7 @@ export const engadine: SuburbPageData = {
     title: "Retaining Wall Builders in Engadine",
     description:
       "Bushland retaining wall specialists for Engadine properties. We work with the steep terrain, larger blocks and natural settings that define this suburb on the edge of the Royal National Park.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/naturalstone.jpeg",
     backgroundAlt: "Retaining wall construction in Engadine",
     primaryCtaLabel: "Get a Free Quote",
     primaryCtaHref: "#quote",
@@ -670,7 +670,7 @@ export const engadine: SuburbPageData = {
       "The larger blocks common in Engadine often need substantial walls to create usable outdoor areas. Driveways climbing from the street, backyards falling away toward the bush and natural rock features all present opportunities for well-designed retaining structures.",
       "We appreciate the natural character that draws people to Engadine and design walls that work with the landscape. Whether you prefer sandstone that echoes local rock formations or contemporary concrete systems, we deliver walls suited to bushland living.",
     ],
-    image: "/images/services03.webp",
+    image: "/images/naturalstone2.jpeg",
     imageAlt: "Retaining wall project in Engadine bushland",
     checklist: [
       "Bushland block expertise",
@@ -712,7 +712,7 @@ export const engadine: SuburbPageData = {
   process: {
     eyebrow: "Our Approach",
     heading: "Building Your Engadine Retaining Wall",
-    image: "/images/services04.webp",
+    image: "/images/naturalstone3.jpeg",
     imageAlt: "Retaining wall construction in Engadine",
     steps: [
       {
@@ -805,7 +805,7 @@ export const menai: SuburbPageData = {
     title: "Retaining Wall Builders in Menai",
     description:
       "Hillside retaining wall specialists for Menai properties. We understand the varied terrain, modern developments and bushland borders that characterise this inland Shire suburb.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/concreteblock1.jpg",
     backgroundAlt: "Retaining wall construction in Menai",
     primaryCtaLabel: "Get a Free Quote",
     primaryCtaHref: "#quote",
@@ -827,7 +827,7 @@ export const menai: SuburbPageData = {
       "The suburb includes a mix of established homes from its original development and newer constructions. Both present opportunities for retaining walls, whether replacing aging structures or building new walls as part of property improvements.",
       "Bordered by bushland reserves, Menai properties often combine residential needs with natural settings. We design walls that create functional spaces while respecting the bushland character that makes this suburb appealing.",
     ],
-    image: "/images/services05.webp",
+    image: "/images/concreteblock2.jpeg",
     imageAlt: "Retaining wall project in Menai",
     checklist: [
       "Hilly terrain expertise",
@@ -869,7 +869,7 @@ export const menai: SuburbPageData = {
   process: {
     eyebrow: "How We Work",
     heading: "Your Menai Retaining Wall Project",
-    image: "/images/services06.webp",
+    image: "/images/concreteblock3.jpeg",
     imageAlt: "Retaining wall construction in Menai",
     steps: [
       {

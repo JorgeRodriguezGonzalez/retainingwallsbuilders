@@ -25,7 +25,7 @@ export const northernBeachesLocation: LocationPageData = {
     title: "Retaining Walls for Northern Beaches Properties",
     description:
       "Expert retaining wall construction for the unique coastal terrain of Northern Beaches. We engineer walls that handle sandy soils, salt exposure and sloped blocks with ocean views - protecting your property while maximising usable outdoor space.",
-    backgroundImage: "/images/home-hero.webp",
+    backgroundImage: "/images/concretesleeper.jpeg",
     backgroundAlt:
       "Retaining wall construction on sloped Northern Beaches property",
     primaryCtaLabel: "Get a Free Quote",
@@ -48,7 +48,7 @@ export const northernBeachesLocation: LocationPageData = {
       "Our team understands the specific demands of building on the peninsula. We engineer every wall to withstand the marine environment - using salt-resistant materials, proper drainage systems for sandy soils and foundations designed for the unique geology of the Northern Beaches coastline.",
       "From Manly to Avalon, we have built hundreds of retaining walls that level sloped gardens, create stable access paths and protect properties from erosion - all while meeting council requirements for this environmentally sensitive coastal zone.",
     ],
-    image: "/images/services01.webp",
+    image: "/images/concretesleeper2.jpg",
     imageAlt: "Completed retaining wall on coastal Northern Beaches property",
     checklist: [
       "Salt-resistant materials and coatings",
@@ -88,7 +88,7 @@ export const northernBeachesLocation: LocationPageData = {
   process: {
     eyebrow: "Our Process",
     heading: "From Site Assessment to Completion",
-    image: "/images/services02.webp",
+    image: "/images/concretesleeper3.jpeg",
     imageAlt: "Retaining wall construction process on Northern Beaches site",
     steps: [
       {
@@ -122,7 +122,7 @@ export const northernBeachesLocation: LocationPageData = {
         "Northern Beaches homes often sit on blocks that drop away towards the water, limiting usable garden space and creating access challenges. Our retaining walls transform these slopes into functional terraced areas - flat lawns, entertainment spaces or productive gardens.",
         "We also specialise in driveway retention walls that create level parking on steep blocks, pool surrounds that require precise engineering, and boundary walls that prevent neighbour erosion disputes.",
       ],
-      image: "/images/services03.webp",
+      image: "/images/gabion3.jpeg",
       imageAlt: "Terraced retaining wall system on Northern Beaches hillside",
       imagePosition: "right" as const,
       items: [

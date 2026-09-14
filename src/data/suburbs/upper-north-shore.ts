@@ -17,7 +17,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Wahroonga",
       description:
         "Wahroonga properties feature some of the steepest terrain on the Upper North Shore. Large bush blocks backing onto Ku-ring-gai Chase require careful retaining wall design that protects native vegetation while stabilising dramatic slopes.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/timber.jpeg",
       backgroundAlt: "Retaining wall on Wahroonga bush property",
       primaryCtaLabel: "Get Free Quote",
       primaryCtaHref: "/contact/",
@@ -39,7 +39,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
         "Our experience in Wahroonga includes working on heritage properties along the Wahroonga Heritage Conservation Area, managing access on steep driveways and building walls that integrate with bushfire asset protection zones.",
         "We understand the specific challenges of Wahroonga terrain and deliver retaining solutions that make steep bush blocks functional while respecting their natural character.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/timber2.jpeg",
       imageAlt: "Retaining wall construction Wahroonga hillside",
       checklist: [
         "Large bush block specialists",
@@ -81,7 +81,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Approach",
       heading: "Building Retaining Walls in Wahroonga",
-      image: "/images/services02.webp",
+      image: "/images/timber3.jpeg",
       imageAlt: "Retaining wall process Wahroonga",
       steps: [
         {
@@ -174,7 +174,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Pymble",
       description:
         "Pymble properties built in the 1960s and 70s often have ageing retaining walls that need replacement. We specialise in upgrading these structures while working around established pools, gardens and mature landscaping.",
-      backgroundImage: "/images/service-hero.webp",
+      backgroundImage: "/images/sandstone.jpeg",
       backgroundAlt: "Retaining wall renovation Pymble property",
       primaryCtaLabel: "Get Free Quote",
       primaryCtaHref: "/contact/",
@@ -196,7 +196,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
         "Our Pymble work often involves removing old walls and building modern replacements that improve drainage and add structural capacity. We navigate around in-ground pools, established hedges and mature trees that have grown up around original walls.",
         "Whether upgrading a single wall or renovating an entire rear yard, we deliver solutions that extend the life of your Pymble property infrastructure.",
       ],
-      image: "/images/services03.webp",
+      image: "/images/sandstone2.webp",
       imageAlt: "Retaining wall replacement Pymble",
       checklist: [
         "Old wall removal",
@@ -238,7 +238,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Process",
       heading: "Replacing Retaining Walls in Pymble",
-      image: "/images/services04.webp",
+      image: "/images/sandstone3.jpg",
       imageAlt: "Retaining wall replacement process Pymble",
       steps: [
         {
@@ -331,7 +331,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
       title: "Retaining Walls St Ives",
       description:
         "St Ives blocks are known for irregular shapes and challenging clay soils that move significantly with moisture changes. Our retaining walls are engineered specifically for these conditions, preventing cracking and movement over time.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/concreteblock1.jpg",
       backgroundAlt: "Retaining wall on St Ives property",
       primaryCtaLabel: "Get Free Quote",
       primaryCtaHref: "/contact/",
@@ -353,7 +353,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
         "Our St Ives walls are designed with deeper footings, flexible joints and comprehensive drainage systems that manage moisture levels in surrounding soil. This engineering prevents the cracking and leaning seen in walls built without clay soil expertise.",
         "From curved boundary walls on irregular blocks to tiered systems in sloping backyards, we build structures that perform long-term in St Ives conditions.",
       ],
-      image: "/images/services02.webp",
+      image: "/images/concreteblock2.jpeg",
       imageAlt: "Engineered retaining wall St Ives clay soil",
       checklist: [
         "Reactive clay expertise",
@@ -395,7 +395,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Approach",
       heading: "Building for St Ives Conditions",
-      image: "/images/services05.webp",
+      image: "/images/concreteblock3.jpeg",
       imageAlt: "Retaining wall construction St Ives",
       steps: [
         {
@@ -488,7 +488,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Turramurra",
       description:
         "Turramurra is known for its mature gardens and established streetscapes. Our retaining walls integrate seamlessly with existing landscaping, using materials and designs that complement decades of careful gardening.",
-      backgroundImage: "/images/service-hero.webp",
+      backgroundImage: "/images/naturalstone.jpeg",
       backgroundAlt: "Retaining wall integrated with Turramurra garden",
       primaryCtaLabel: "Get Free Quote",
       primaryCtaHref: "/contact/",
@@ -510,7 +510,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
         "We approach Turramurra projects with garden preservation as a priority. Access routes avoid specimen plants, construction methods protect root zones and finished walls enhance rather than dominate garden settings.",
         "Natural materials like sandstone are popular here, providing retaining function while maintaining the leafy aesthetic that defines Turramurra streetscapes.",
       ],
-      image: "/images/services01.webp",
+      image: "/images/naturalstone2.jpeg",
       imageAlt: "Sandstone retaining wall Turramurra garden",
       checklist: [
         "Mature garden protection",
@@ -552,7 +552,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Approach",
       heading: "Building in Established Turramurra Gardens",
-      image: "/images/services06.webp",
+      image: "/images/naturalstone3.jpeg",
       imageAlt: "Careful construction in Turramurra garden",
       steps: [
         {
@@ -645,7 +645,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Killara",
       description:
         "Killara sits on ridge and valley terrain where blocks often slope in multiple directions. This creates complex retaining wall requirements with intersecting walls, corner solutions and drainage that must handle water from several catchments.",
-      backgroundImage: "/images/home-hero.webp",
+      backgroundImage: "/images/gabion1.jpeg",
       backgroundAlt: "Multi-directional retaining wall Killara property",
       primaryCtaLabel: "Get Free Quote",
       primaryCtaHref: "/contact/",
@@ -667,7 +667,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
         "This complexity requires careful engineering. Intersecting walls must transfer loads correctly, corners need proper reinforcement and drainage systems must collect water from different catchment areas and direct it appropriately.",
         "Our experience with Killara terrain means we anticipate these challenges and design integrated solutions rather than treating each wall as a separate project.",
       ],
-      image: "/images/services04.webp",
+      image: "/images/gabion2.jpg",
       imageAlt: "Corner retaining wall solution Killara",
       checklist: [
         "Multi-directional slopes",
@@ -709,7 +709,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Approach",
       heading: "Managing Complex Killara Terrain",
-      image: "/images/services03.webp",
+      image: "/images/gabion3.jpeg",
       imageAlt: "Engineered retaining solution Killara",
       steps: [
         {
@@ -802,7 +802,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
       title: "Retaining Walls Roseville",
       description:
         "Roseville properties are typically more compact than other Upper North Shore suburbs but still feature significant slopes. Building retaining walls here requires precision work in tight spaces, often close to boundaries and neighbouring structures.",
-      backgroundImage: "/images/service-hero.webp",
+      backgroundImage: "/images/brick1.jpeg",
       backgroundAlt: "Precision retaining wall Roseville property",
       primaryCtaLabel: "Get Free Quote",
       primaryCtaHref: "/contact/",
@@ -824,7 +824,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
         "Tight access is common. Side passages may be too narrow for standard equipment, requiring smaller machines or manual construction methods. We have refined techniques for building quality walls in constrained spaces.",
         "Despite compact sites, Roseville terrain still presents significant slopes. Our designs maximise level area creation, turning steep backyards into usable outdoor rooms.",
       ],
-      image: "/images/services05.webp",
+      image: "/images/brick2.webp",
       imageAlt: "Compact retaining wall construction Roseville",
       checklist: [
         "Tight access specialists",
@@ -866,7 +866,7 @@ export const upperNorthShoreSuburbs: SuburbPageData[] = [
     process: {
       eyebrow: "Our Approach",
       heading: "Building on Compact Roseville Blocks",
-      image: "/images/services02.webp",
+      image: "/images/brick3.jpg",
       imageAlt: "Careful construction compact Roseville site",
       steps: [
         {

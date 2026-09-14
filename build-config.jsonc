@@ -51,7 +51,7 @@
   // --- Marca / colores ---
   "brand": {
     "colors": {
-      "primary":   "#5c6b4a",
+      "primary":   "#3e6920",
       "secondary": "#2c3424",
       "accent":    "#c4a35a"
     },

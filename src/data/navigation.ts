@@ -16,7 +16,7 @@ export const serviceNavigation: NavigationLink[] = serviceRoutes.map(({ path, da
 }));
 
 export const areaNavigation: NavigationLink[] = locationRoutes.map(({ path, data }) => ({
-  name: data.hero.title.replace(/^Retaining Walls in /, ""),
+  name: data.navLabel ?? data.slug,
   href: path,
 }));
 

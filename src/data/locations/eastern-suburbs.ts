@@ -3,6 +3,7 @@ import { business } from "@/data/business";
 
 export const easternSuburbs: LocationPageData = {
   slug: "eastern-suburbs",
+  navLabel: "Eastern Suburbs",
   childSuburbSlugs: [
     "vaucluse",
     "bellevue-hill",

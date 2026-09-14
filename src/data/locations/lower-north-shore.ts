@@ -7,6 +7,7 @@ const canonical = `${business.url}/${areaSlug}/`;
 
 export const lowerNorthShoreLocation: LocationPageData = {
   slug: areaSlug,
+  navLabel: "Lower North Shore",
   childSuburbSlugs: [
     "mosman",
     "cremorne",

@@ -3,6 +3,7 @@ import { business } from "@/data/business";
 
 export const sutherlandShire: LocationPageData = {
   slug: "sutherland-shire",
+  navLabel: "Sutherland Shire",
 
   childSuburbSlugs: [
     "cronulla",

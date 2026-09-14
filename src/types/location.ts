@@ -67,6 +67,12 @@ export interface LocationPageData {
   slug: string;
 
   /**
+   * Short label for navigation menus (e.g. "Sutherland Shire" instead of
+   * "Retaining Wall Builders in Sutherland Shire"). Optional for suburbs.
+   */
+  navLabel?: string;
+
+  /**
    * Optional list of child suburb slugs for area pages.
    * Used by LocationTemplate to render links to child suburb pages.
    */

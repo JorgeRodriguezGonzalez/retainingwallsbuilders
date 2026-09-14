@@ -3,6 +3,7 @@ import { business } from "@/data/business";
 
 export const hillsDistrictLocation: LocationPageData = {
   slug: "hills-district",
+  navLabel: "The Hills District",
   childSuburbSlugs: [
     "castle-hill",
     "baulkham-hills",

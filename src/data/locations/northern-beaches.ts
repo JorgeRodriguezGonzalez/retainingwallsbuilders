@@ -2,6 +2,7 @@ import type { LocationPageData } from "@/types/location";
 
 export const northernBeachesLocation: LocationPageData = {
   slug: "northern-beaches",
+  navLabel: "Northern Beaches",
 
   childSuburbSlugs: [
     "avalon-beach",

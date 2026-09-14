@@ -37,7 +37,7 @@ function isSuburbPage(
 
 function Eyebrow({ children }: { children: React.ReactNode }) {
   return (
-    <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#5c6b4a]">
+    <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#2e6957]">
       {children}
     </p>
   );
@@ -53,7 +53,7 @@ function SectionTitle({
   return (
     <h2
       className={`text-3xl font-semibold leading-tight md:text-4xl ${
-        dark ? "text-white" : "text-[#2c3424]"
+        dark ? "text-white" : "text-[#1d5242]"
       }`}
     >
       {children}
@@ -78,7 +78,7 @@ function Checklist({ items }: { items: string[] }) {
     <div className="mt-8 grid gap-4 sm:grid-cols-2">
       {items.map((item, index) => (
         <div key={index} className="flex items-start gap-3">
-          <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#5c6b4a]" />
+          <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-[#2e6957]" />
           <span className="text-sm leading-7 text-neutral-700">{item}</span>
         </div>
       ))}
@@ -95,9 +95,9 @@ function FAQAccordion({
     <div className="mx-auto mt-10 max-w-4xl divide-y divide-neutral-200 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
       {items.map((item, index) => (
         <details key={index} className="group">
-          <summary className="flex cursor-pointer list-none items-center justify-between gap-5 px-6 py-5 text-left font-medium text-[#2c3424]">
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-5 px-6 py-5 text-left font-medium text-[#1d5242]">
             <span>{item.question}</span>
-            <span className="text-[#5c6b4a] transition-transform duration-200 group-open:rotate-45">
+            <span className="text-[#2e6957] transition-transform duration-200 group-open:rotate-45">
               +
             </span>
           </summary>
@@ -165,15 +165,15 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
 
         <main>
           {/* HERO */}
-          <section className="relative isolate overflow-hidden bg-[#2c3424] pt-32 text-white md:pt-36">
+          <section className="relative isolate overflow-hidden bg-[#1d5242] pt-32 text-white md:pt-36">
             <div className="absolute inset-0">
               <img
                 src={data.hero.backgroundImage}
                 alt={data.hero.backgroundAlt}
                 className="h-full w-full object-cover opacity-35"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-[#2c3424]/95 via-[#2c3424]/75 to-[#2c3424]/35" />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#2c3424]/80 via-transparent to-[#2c3424]/35" />
+              <div className="absolute inset-0 bg-gradient-to-r from-[#1d5242]/95 via-[#1d5242]/75 to-[#1d5242]/35" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1d5242]/80 via-transparent to-[#1d5242]/35" />
             </div>
 
             <div className="relative mx-auto max-w-7xl px-6 pb-16 md:pb-20">
@@ -191,7 +191,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Link
                     to={data.hero.primaryCtaHref}
-                    className="inline-flex items-center gap-2 rounded-full bg-[#c4a35a] px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-[#2c3424] shadow-[0_18px_38px_rgba(201,120,69,0.28)] transition hover:-translate-y-0.5 hover:bg-[#ded4bf]"
+                    className="inline-flex items-center gap-2 rounded-full bg-[#c4a35a] px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-[#1d5242] shadow-[0_18px_38px_rgba(201,120,69,0.28)] transition hover:-translate-y-0.5 hover:bg-[#ded4bf]"
                   >
                     {data.hero.primaryCtaLabel}
                     <ArrowRight className="h-4 w-4" />
@@ -200,7 +200,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
                   {data.hero.secondaryCtaLabel && data.hero.secondaryCtaHref && (
                     <a
                       href={data.hero.secondaryCtaHref}
-                      className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-white backdrop-blur-sm transition hover:-translate-y-0.5 hover:bg-white hover:text-[#2c3424]"
+                      className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-white backdrop-blur-sm transition hover:-translate-y-0.5 hover:bg-white hover:text-[#1d5242]"
                     >
                       <Phone className="h-4 w-4" />
                       {data.hero.secondaryCtaLabel}
@@ -284,10 +284,10 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
                       <Link
                         key={suburb!.slug}
                         to={`/${suburb!.slug}/`}
-                        className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-white px-5 py-4 transition hover:border-[#5c6b4a] hover:shadow-sm"
+                        className="flex items-center gap-3 rounded-xl border border-neutral-200 bg-white px-5 py-4 transition hover:border-[#2e6957] hover:shadow-sm"
                       >
-                        <MapPin className="h-5 w-5 shrink-0 text-[#5c6b4a]" />
-                        <span className="font-medium text-[#2c3424]">
+                        <MapPin className="h-5 w-5 shrink-0 text-[#2e6957]" />
+                        <span className="font-medium text-[#1d5242]">
                           {suburb!.title}
                         </span>
                       </Link>
@@ -300,7 +300,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
 
           {/* BENEFITS */}
           {data.benefits?.items?.length ? (
-            <section className="bg-[#2c3424] py-20 md:py-24">
+            <section className="bg-[#1d5242] py-20 md:py-24">
               <div className="mx-auto max-w-7xl px-6">
                 <div className="max-w-2xl">
                   {data.benefits.eyebrow && (
@@ -344,11 +344,11 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
                   <div className="mt-10 space-y-6">
                     {data.process.steps.map((step, index) => (
                       <div key={index} className="flex gap-4">
-                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#5c6b4a]/10 text-sm font-semibold text-[#5c6b4a]">
+                        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#2e6957]/10 text-sm font-semibold text-[#2e6957]">
                           {index + 1}
                         </div>
                         <div>
-                          <h3 className="text-[#2c3424] text-xl font-semibold">
+                          <h3 className="text-[#1d5242] text-xl font-semibold">
                             {step.title}
                           </h3>
                           <p className="mt-2 text-sm leading-7 text-neutral-600">
@@ -381,7 +381,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
                 key={`${section.heading}-${index}`}
                 className={
                   dark
-                    ? "bg-[#2c3424] py-20 md:py-24"
+                    ? "bg-[#1d5242] py-20 md:py-24"
                     : "bg-white py-20 md:py-24"
                 }
               >
@@ -435,7 +435,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
 
           {/* CTA */}
           {data.cta ? (
-            <section className="bg-[#5c6b4a] py-14 md:py-16">
+            <section className="bg-[#2e6957] py-14 md:py-16">
               <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 px-6 lg:flex-row lg:items-center">
                 <div className="max-w-2xl">
                   {data.cta.eyebrow && (
@@ -454,7 +454,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
                 <div className="flex flex-wrap gap-4">
                   <Link
                     to={data.cta.primaryHref}
-                    className="inline-flex items-center gap-2 rounded-full bg-[#2c3424] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
+                    className="inline-flex items-center gap-2 rounded-full bg-[#1d5242] px-6 py-3 text-sm font-semibold text-white transition hover:opacity-90"
                   >
                     {data.cta.primaryLabel}
                     <ArrowRight className="h-4 w-4" />

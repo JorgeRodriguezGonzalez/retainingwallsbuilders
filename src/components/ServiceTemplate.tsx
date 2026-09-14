@@ -42,7 +42,7 @@ function SectionTitle({
   return (
     <h2
       className={`text-3xl font-semibold leading-tight md:text-4xl ${
-        dark ? "text-white" : "text-[#2c3424]"
+        dark ? "text-white" : "text-[#1d5242]"
       }`}
     >
       {children}
@@ -84,7 +84,7 @@ function FAQAccordion({
     <div className="mx-auto mt-10 max-w-4xl divide-y divide-neutral-200 overflow-hidden rounded-2xl border border-neutral-200 bg-white">
       {items.map((item, index) => (
         <details key={index} className="group">
-          <summary className="flex cursor-pointer list-none items-center justify-between gap-5 px-6 py-5 text-left font-medium text-[#2c3424]">
+          <summary className="flex cursor-pointer list-none items-center justify-between gap-5 px-6 py-5 text-left font-medium text-[#1d5242]">
             <span>{item.question}</span>
             <span className="text-[#c4a35a] transition-transform duration-200 group-open:rotate-45">
               +
@@ -166,7 +166,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                 <div className="mt-8 flex flex-wrap gap-4">
                   <Link
                     to={data.hero.primaryCtaHref}
-                    className="inline-flex items-center gap-2 rounded-full bg-[#c4a35a] px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-[#2c3424] shadow-[0_18px_38px_rgba(201,120,69,0.28)] transition hover:-translate-y-0.5 hover:bg-[#ded4bf]"
+                    className="inline-flex items-center gap-2 rounded-full bg-[#c4a35a] px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-[#1d5242] shadow-[0_18px_38px_rgba(201,120,69,0.28)] transition hover:-translate-y-0.5 hover:bg-[#ded4bf]"
                   >
                     {data.hero.primaryCtaLabel}
                     <ArrowRight className="h-4 w-4" />
@@ -175,7 +175,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                   {data.hero.secondaryCtaLabel && data.hero.secondaryCtaHref && (
                     <a
                       href={data.hero.secondaryCtaHref}
-                      className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-white backdrop-blur-sm transition hover:-translate-y-0.5 hover:bg-white hover:text-[#2c3424]"
+                      className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold uppercase tracking-[0.16em] text-white backdrop-blur-sm transition hover:-translate-y-0.5 hover:bg-white hover:text-[#1d5242]"
                     >
                       <Phone className="h-4 w-4" />
                       {data.hero.secondaryCtaLabel}
@@ -227,7 +227,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
 
           {/* BENEFITS */}
           {data.benefits?.items?.length ? (
-            <section className="bg-[#2c3424] py-20 md:py-24">
+            <section className="bg-[#1d5242] py-20 md:py-24">
               <div className="mx-auto max-w-7xl px-6">
                 <div className="max-w-2xl">
                   {data.benefits.eyebrow && <Eyebrow>{data.benefits.eyebrow}</Eyebrow>}
@@ -269,7 +269,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
                           {index + 1}
                         </div>
                         <div>
-                          <h3 className="text-[#2c3424] text-xl font-semibold">
+                          <h3 className="text-[#1d5242] text-xl font-semibold">
                             {step.title}
                           </h3>
                           <p className="mt-2 text-sm leading-7 text-neutral-600">
@@ -299,7 +299,7 @@ export default function ServiceTemplate({ data }: ServiceTemplateProps) {
             return (
               <section
                 key={`${section.heading}-${index}`}
-                className={index % 2 === 0 ? "bg-[#2c3424] py-20 md:py-24" : "bg-white py-20 md:py-24"}
+                className={index % 2 === 0 ? "bg-[#1d5242] py-20 md:py-24" : "bg-white py-20 md:py-24"}
               >
                 <div
                   className={`mx-auto grid max-w-7xl items-center gap-12 px-6 lg:grid-cols-2 ${

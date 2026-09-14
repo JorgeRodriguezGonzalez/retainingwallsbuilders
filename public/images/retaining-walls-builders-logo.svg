@@ -7,10 +7,10 @@
   </style>
   <g transform="translate(8 14)">
     <circle cx="72" cy="48" r="25" fill="#c4a35a"/>
-    <path d="M16 83 72 28l56 55" fill="none" stroke="#2c3424" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M23 105c25-17 47-17 69 0 22 17 43 17 65 0" fill="none" stroke="#5c6b4a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M16 83 72 28l56 55" fill="none" stroke="#1d5242" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M23 105c25-17 47-17 69 0 22 17 43 17 65 0" fill="none" stroke="#2e6957" stroke-width="10" stroke-linecap="round"/>
     <path d="M34 124c19-10 36-10 52 0 18 11 36 11 54 0" fill="none" stroke="#ded4bf" stroke-width="8" stroke-linecap="round"/>
   </g>
-  <text x="190" y="78" class="name" font-size="50" fill="#2c3424">RETAINING WALLS</text>
-  <text x="193" y="126" class="sub" font-size="29" fill="#5c6b4a">BUILDERS</text>
+  <text x="190" y="78" class="name" font-size="50" fill="#1d5242">RETAINING WALLS</text>
+  <text x="193" y="126" class="sub" font-size="29" fill="#2e6957">BUILDERS</text>
 </svg>

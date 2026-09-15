@@ -89,6 +89,7 @@ const SimpleContactForm = ({
         type="text"
         name="name"
         placeholder="Name"
+        aria-label="Name"
         required
         maxLength={100}
         autoComplete="name"
@@ -99,6 +100,7 @@ const SimpleContactForm = ({
         type="email"
         name="email"
         placeholder="Email"
+        aria-label="Email"
         required
         maxLength={255}
         autoComplete="email"
@@ -109,6 +111,7 @@ const SimpleContactForm = ({
         type="tel"
         name="phone"
         placeholder="Phone"
+        aria-label="Phone"
         required
         maxLength={30}
         autoComplete="tel"
@@ -128,6 +131,7 @@ const SimpleContactForm = ({
 
       <textarea
         name="description"
+        aria-label="Project details"
         rows={isHero ? 5 : 4}
         placeholder={fields?.messagePlaceholder ?? 'Tell us about your project'}
         required

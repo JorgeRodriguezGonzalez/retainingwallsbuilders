@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { MaterialGallery } from "@/components/shared/VisualExperience";
 import { CheckCircle2, Compass, MessageSquareText, ShieldCheck } from "lucide-react";
 import SEO from "@/components/SEO";
 import Header from "@/components/Header";
@@ -28,8 +29,9 @@ export default function AboutUs() {
             <img src="/images/concreteblock3.jpeg" alt={`${business.name} retaining wall team`} className="aspect-[4/3] w-full object-cover shadow-[0_28px_75px_rgba(22,58,53,.15)]" />
           </div>
         </section>
-        <section className="bg-brand-cream py-16 md:py-20"><div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8"><div className="grid gap-5 md:grid-cols-3">{values.map(({ icon: Icon, title, text }) => <div key={title} className="bg-white p-6"><Icon className="h-7 w-7 text-brand-gold" /><h2 className="mt-5 text-xl font-bold text-brand-deep">{title}</h2><p className="mt-3 text-sm leading-7 text-brand-slate">{text}</p></div>)}</div></div></section>
+        <section className="bg-brand-cream py-16 md:py-20"><div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8"><div className="values-grid grid gap-5 md:grid-cols-3">{values.map(({ icon: Icon, title, text }) => <div key={title} className="bg-white p-6"><Icon className="h-7 w-7 text-brand-gold" /><h2 className="mt-5 text-xl font-bold text-brand-deep">{title}</h2><p className="mt-3 text-sm leading-7 text-brand-slate">{text}</p></div>)}</div></div></section>
         <section className="bg-brand-deep py-16 text-white"><div className="mx-auto grid max-w-7xl gap-8 px-5 sm:px-6 lg:grid-cols-2 lg:px-8"><div><p className="text-xs font-bold uppercase tracking-[0.24em] text-brand-sand">Our Service Area</p><h2 className="mt-3 text-3xl font-bold text-white">{`Local coverage across ${business.areaServed.name}`}</h2></div><div className="space-y-3">{["Northern Beaches, Sutherland Shire and Eastern Suburbs", "Hills District, North Shore and Hornsby", "Parramatta, Blacktown and Western Sydney", "Campbelltown, Penrith and surrounding areas"].map((item) => <div key={item} className="flex gap-3"><CheckCircle2 className="mt-0.5 h-5 w-5 text-brand-gold" /><p className="text-sm leading-7 text-white/70">{item}</p></div>)}</div></div></section>
+        <MaterialGallery />
       </main>
       <Footer /><FloatingCTA onGetQuote={() => setQuoteOpen(true)} /><QuoteModal isOpen={quoteOpen} onClose={() => setQuoteOpen(false)} />
     </div>

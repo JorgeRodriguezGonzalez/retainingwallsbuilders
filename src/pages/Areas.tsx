@@ -12,6 +12,8 @@ import { business } from "@/data/business";
 
 export default function Areas() {
   const [quoteOpen, setQuoteOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const filtered = locations.filter((area) => area.hero.title.toLowerCase().includes(query.trim().toLowerCase()));
   return (
     <div className="min-h-screen bg-brand-cream">
       <SEO title={`Retaining Wall Service Areas ${business.areaServed.name} | ${business.name}`} description={`${business.name} provides retaining wall construction, repair and replacement across ${business.areaServed.primaryLocationListText} and surrounding ${business.areaServed.name} areas.`} canonical={`${business.url}/areas/`} />
@@ -21,10 +23,17 @@ export default function Areas() {
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
             <div className="max-w-3xl"><p className="text-xs font-bold uppercase tracking-[0.24em] text-brand-gold">Areas We Cover</p><h2 className="mt-3 text-3xl font-bold text-brand-deep sm:text-4xl">Local pages for residential, commercial and landscape projects</h2><p className="mt-4 text-base leading-8 text-brand-slate">{locations.length > 0 ? "Select an area to read about common site conditions, property needs and available services." : "Area pages are being developed. Contact us directly for projects in any Greater Sydney location."}</p></div>
+            <div className="catalog-tools">
+              <label htmlFor="area-search">Find your area</label>
+              <input id="area-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search service areas" />
+              <p role="status">{filtered.length} areas</p>
+            </div>
+            {filtered.length === 0 && <p className="search-empty">No matching area. Contact us to check your property location.</p>}
             {locations.length > 0 && (
-              <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-                {locations.map((area) => (
+              <div className="area-grid mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {filtered.map((area) => (
                   <Link key={area.slug} to={`/${area.slug}/`} className="group border border-brand-mist bg-brand-cream/55 p-5 transition hover:-translate-y-1 hover:border-brand-olive/40 hover:bg-white hover:shadow-[0_18px_45px_rgba(22,58,53,.1)]">
+                    <img className="area-photo" src={area.hero.backgroundImage} alt={area.hero.backgroundAlt} loading="lazy" decoding="async" />
                     <div className="flex h-10 w-10 items-center justify-center bg-brand-olive text-white"><MapPin className="h-5 w-5" /></div>
                     <h3 className="mt-4 text-xl font-bold text-brand-deep">{area.hero.title.replace("Retaining Walls in ", "")}</h3>
                     <p className="mt-2 line-clamp-3 text-sm leading-6 text-brand-slate">{area.hero.description}</p>

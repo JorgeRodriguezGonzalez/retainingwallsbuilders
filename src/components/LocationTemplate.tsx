@@ -1,6 +1,7 @@
 // src/components/LocationTemplate.tsx
 
 import { useState } from "react";
+import { ProcessPanel } from "@/components/shared/VisualExperience";
 import SEO from "@/components/SEO";
 import {
   SITE_URL,
@@ -160,12 +161,12 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
         schema={schemas}
       />
 
-      <div className="min-h-screen bg-white">
+      <div className="detail-page min-h-screen bg-white">
         <Header />
 
         <main>
           {/* HERO */}
-          <section className="relative isolate overflow-hidden bg-[#1d5242] pt-32 text-white md:pt-36">
+          <section className="split-hero relative isolate overflow-hidden bg-[#1d5242] pt-32 text-white md:pt-36">
             <div className="absolute inset-0">
               <img
                 src={data.hero.backgroundImage}
@@ -309,7 +310,7 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
                   <SectionTitle dark>{data.benefits.heading}</SectionTitle>
                 </div>
 
-                <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+                <div className="feature-strip mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
                   {data.benefits.items.map((item, index) => (
                     <div
                       key={index}
@@ -331,44 +332,8 @@ export default function LocationTemplate({ data }: LocationTemplateProps) {
             </section>
           ) : null}
 
-          {/* PROCESS */}
           {data.process?.steps?.length ? (
-            <section className="py-20 md:py-24">
-              <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[1.1fr_0.9fr]">
-                <div>
-                  {data.process.eyebrow && (
-                    <Eyebrow>{data.process.eyebrow}</Eyebrow>
-                  )}
-                  <SectionTitle>{data.process.heading}</SectionTitle>
-
-                  <div className="mt-10 space-y-6">
-                    {data.process.steps.map((step, index) => (
-                      <div key={index} className="flex gap-4">
-                        <div className="flex h-10 w-10 shrink-0 items-center justify-center bg-[#2e6957]/10 text-sm font-semibold text-[#2e6957]">
-                          {index + 1}
-                        </div>
-                        <div>
-                          <h3 className="text-[#1d5242] text-xl font-semibold">
-                            {step.title}
-                          </h3>
-                          <p className="mt-2 text-sm leading-7 text-neutral-600">
-                            {step.description}
-                          </p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-
-                <div>
-                  <img
-                    src={data.process.image}
-                    alt={data.process.imageAlt}
-                    className="h-full max-h-[760px] w-full object-cover shadow-sm"
-                  />
-                </div>
-              </div>
-            </section>
+            <ProcessPanel eyebrow={data.process.eyebrow} heading={data.process.heading} image={data.process.image} imageAlt={data.process.imageAlt} steps={data.process.steps} />
           ) : null}
 
           {/* FLEXIBLE CONTENT SECTIONS */}

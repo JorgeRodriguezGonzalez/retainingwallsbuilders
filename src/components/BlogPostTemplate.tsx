@@ -98,7 +98,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
   ]);
 
   return (
-    <div className="min-h-screen bg-[#f5f5f5]">
+    <div className="journal-page min-h-screen bg-brand-cream">
       <SEO
         title={data.seo.title}
         description={data.seo.description}
@@ -110,7 +110,7 @@ export default function BlogPostTemplate({ data }: BlogPostTemplateProps) {
       <Header />
 
       <main>
-        <section className="relative overflow-hidden bg-black pt-28 text-white md:pt-32">
+        <section className="split-hero relative overflow-hidden bg-black pt-28 text-white md:pt-32">
           <div className="absolute inset-0">
             <img
               src={data.image}

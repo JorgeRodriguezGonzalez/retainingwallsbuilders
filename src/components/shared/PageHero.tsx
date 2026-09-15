@@ -11,7 +11,7 @@ type PageHeroProps = {
 
 export default function PageHero({ eyebrow, title, description, image = "/images/retainingwall4.webp" }: PageHeroProps) {
   return (
-    <section className="relative isolate overflow-hidden bg-brand-deep pt-28 text-white md:pt-32">
+    <section className="split-hero relative isolate overflow-hidden bg-brand-deep pt-28 text-white md:pt-32">
       <div className="absolute inset-0">
         <img src={image} alt="" className="h-full w-full object-cover opacity-30" />
         <div className="absolute inset-0 bg-gradient-to-r from-brand-deep via-brand-deep/90 to-brand-deep/45" />
@@ -23,7 +23,7 @@ export default function PageHero({ eyebrow, title, description, image = "/images
           <h1 className="mt-4 text-4xl font-bold leading-[1.05] text-white sm:text-5xl lg:text-6xl">{title}</h1>
           <p className="mt-6 max-w-2xl text-base leading-8 text-white/80 md:text-lg">{description}</p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <Link to="/contact-us/" className="inline-flex items-center justify-center gap-2 bg-brand-gold px-6 py-3.5 text-sm font-bold text-white transition hover:-translate-y-0.5 hover:bg-brand-goldDark">
+            <Link to="/contact-us/" className="inline-flex items-center justify-center gap-2 bg-brand-gold px-6 py-3.5 text-sm font-bold text-brand-ink transition hover:-translate-y-0.5 hover:bg-brand-goldDark">
               Request a Quote <ArrowRight className="h-4 w-4" />
             </Link>
             <a href={business.contact.phoneHref} className="inline-flex items-center justify-center gap-2 border border-white/20 bg-white/10 px-6 py-3.5 text-sm font-bold text-white transition hover:bg-white hover:text-brand-deep">

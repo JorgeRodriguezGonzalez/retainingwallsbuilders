@@ -12,6 +12,8 @@ import { business } from "@/data/business";
 
 export default function Services() {
   const [quoteOpen, setQuoteOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const filtered = services.filter((service) => (service.hero.title + " " + service.hero.description).toLowerCase().includes(query.trim().toLowerCase()));
   return (
     <div className="min-h-screen bg-brand-cream">
       <SEO title={`Retaining Wall Services ${business.areaServed.name} | ${business.name}`} description={`Explore block, concrete sleeper, sandstone, timber, brick, gabion and rock retaining wall construction services across ${business.areaServed.display}. Repair and replacement also available.`} canonical={`${business.url}/services/`} />
@@ -21,10 +23,16 @@ export default function Services() {
         <section className="bg-white py-16 md:py-24">
           <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
             <div className="max-w-3xl"><p className="text-xs font-bold uppercase tracking-[0.24em] text-brand-gold">Choose a Service</p><h2 className="mt-3 text-3xl font-bold text-brand-deep sm:text-4xl">Start with the wall type, material or site requirement</h2><p className="mt-4 text-base leading-8 text-brand-slate">Each service page explains common use cases, what an assessment considers, the typical process and answers to frequent questions.</p></div>
-            <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-              {services.map((service) => (
-                <Link key={service.slug} to={`/${service.slug}/`} className="group flex h-full flex-col overflow-hidden border border-brand-mist bg-brand-cream/55 transition hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(22,58,53,.12)]">
-                  <div className="aspect-[16/9] overflow-hidden"><img src={service.hero.backgroundImage} alt={service.hero.backgroundAlt} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" /></div>
+            <div className="catalog-tools">
+              <label htmlFor="service-search">Find your wall system</label>
+              <input id="service-search" type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search materials or services" />
+              <p role="status">{filtered.length} services</p>
+            </div>
+            {filtered.length === 0 && <p className="search-empty">No matching services. Try a material such as timber or sandstone.</p>}
+            <div className="catalog-grid">
+              {filtered.map((service) => (
+                <Link key={service.slug} to={`/${service.slug}/`} className="catalog-card group flex h-full flex-col overflow-hidden border border-brand-mist bg-brand-cream/55 transition hover:-translate-y-1 hover:shadow-[0_22px_55px_rgba(22,58,53,.12)]">
+                  <div className="aspect-[16/9] overflow-hidden"><img loading="lazy" decoding="async" src={service.hero.backgroundImage} alt={service.hero.backgroundAlt} className="h-full w-full object-cover transition duration-500 group-hover:scale-105" /></div>
                   <div className="flex flex-1 flex-col p-6"><h3 className="text-xl font-bold text-brand-deep">{service.hero.title}</h3><p className="mt-3 flex-1 text-sm leading-7 text-brand-slate">{service.hero.description}</p><span className="mt-5 inline-flex items-center gap-2 text-sm font-bold text-brand-gold">View service <ArrowRight className="h-4 w-4 transition group-hover:translate-x-1" /></span></div>
                 </Link>
               ))}

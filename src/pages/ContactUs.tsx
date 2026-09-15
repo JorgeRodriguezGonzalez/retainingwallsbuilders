@@ -14,8 +14,8 @@ export default function ContactUs() {
       <main>
         <PageHero eyebrow="Contact Us" title="Tell us about your retaining wall project" description="Send the property location, wall requirements and any helpful details. For urgent enquiries, call us directly." image="/images/gabion2.jpg" />
         <section className="bg-white py-16 md:py-24">
-          <div className="mx-auto grid max-w-7xl gap-10 px-5 sm:px-6 lg:grid-cols-[.8fr_1.2fr] lg:px-8">
-            <div>
+          <div className="contact-layout mx-auto grid max-w-7xl gap-10 px-5 sm:px-6 lg:grid-cols-[.8fr_1.2fr] lg:px-8">
+            <div className="contact-info">
               <p className="text-xs font-bold uppercase tracking-[0.24em] text-brand-gold">Contact Details</p>
               <h2 className="mt-3 text-3xl font-bold text-brand-deep">{`Speak with ${business.name}`}</h2>
               <p className="mt-4 text-base leading-8 text-brand-slate">Describe the wall location, height, length and purpose. Photos of the site can help us understand the project.</p>
@@ -27,7 +27,7 @@ export default function ContactUs() {
                 <div className="flex items-center gap-4 bg-brand-cream p-4"><span className="flex h-11 w-11 items-center justify-center bg-brand-olive text-white"><MapPin className="h-5 w-5" /></span><span><strong className="block text-brand-deep">Service Area</strong><span className="text-sm text-brand-slate">{business.areaServed.display}</span></span></div>
               </div>
             </div>
-            <div className="border border-brand-mist bg-brand-cream/60 p-5 sm:p-8">
+            <div className="contact-form-panel border border-brand-mist bg-brand-cream/60 p-5 sm:p-8">
               <h2 className="text-2xl font-bold text-brand-deep">Request a retaining wall quote</h2>
               <p className="mt-2 text-sm leading-6 text-brand-slate">Complete the form and include enough detail for us to understand the property and wall requirements.</p>
               <SimpleContactForm formLocation="contact-page" className="mt-6 grid gap-4 md:grid-cols-2" fields={{ suburbLabel: "Suburb or address", suburbPlaceholder: "Suburb or address", messagePlaceholder: "Describe the retaining wall project or site" }} buttonLabel="Send Request" />

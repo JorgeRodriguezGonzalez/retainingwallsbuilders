@@ -1,6 +1,7 @@
 import { ArrowDown, ArrowRight, Phone } from "lucide-react";
 import { business } from "@/data/business";
 import { homeImages } from "@/data/home";
+import SimpleContactForm from "@/components/shared/SimpleContactForm";
 
 type Props = { onGetQuote: () => void };
 
@@ -17,10 +18,20 @@ export default function HomeHero({ onGetQuote }: Props) {
         </div>
         <a className="landscape-phone" href={business.contact.phoneHref}><Phone aria-hidden="true" size={16} />{business.contact.phoneDisplay}</a>
       </div>
-      <div className="landscape-photo">
+      <div className="landscape-photo landscape-quote">
         <img src={homeImages.hero} alt={`Retaining wall construction across ${business.areaServed.name}`} fetchPriority="high" />
-        <div className="landscape-caption"><span className="visual-label">Built for the way you live</span><span>Structure meets landscape.</span></div>
-        <span className="landscape-line" aria-hidden="true" />
+        <div className="landscape-quote-panel">
+          <p className="visual-label">Tell us about your project</p>
+          <h2>Get a retaining wall quote</h2>
+          <p className="landscape-quote-description">Share your suburb and wall requirements. We will help you work out the next practical step.</p>
+          <SimpleContactForm
+            formLocation="home-hero"
+            variant="hero"
+            className="modern-form mt-6 space-y-3"
+            fields={{ suburbLabel: "Suburb", suburbPlaceholder: `${business.areaServed.name} suburb`, messagePlaceholder: "Wall location, approximate height and purpose" }}
+            buttonLabel="Send Enquiry"
+          />
+        </div>
       </div>
       <div className="landscape-footnote"><span>Residential · Commercial · Landscape</span><a href="#wall-materials">Find your finish <ArrowDown aria-hidden="true" size={16} /></a></div>
     </section>

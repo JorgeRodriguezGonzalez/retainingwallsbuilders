@@ -264,3 +264,14 @@
 @media (prefers-reduced-motion: reduce) {
   .gallery-frame:hover img, .gallery-frame:focus-visible img, .visual-cta:hover { transform: none; }
 }
+
+/* Restore the hero enquiry form while retaining the photographic background. */
+.landscape-quote { display: grid; place-items: center; min-height: 0; padding: clamp(1.25rem, 3vw, 3rem); }
+.landscape-quote-panel { position: relative; z-index: 2; width: 100%; max-width: 32rem; min-width: 0; padding: clamp(1.25rem, 3vw, 2.5rem); background: var(--visual-cream); color: var(--visual-ink); border-top: 3px solid var(--visual-gold); }
+.landscape-quote-panel > .visual-label { color: theme("colors.brand.oliveDark"); }
+.landscape-quote-panel h2 { margin-top: .75rem; font-size: clamp(1.75rem, 2.4vw, 2.25rem); line-height: 1.1; color: var(--visual-green); }
+.landscape-quote-description { margin-top: .75rem; font-size: .875rem; line-height: 1.7; color: theme("colors.brand.slate"); }
+
+/* Hide only the scrollbar; keep touch, trackpad, keyboard and arrow scrolling. */
+.gallery-rail { scrollbar-width: none; }
+.gallery-rail::-webkit-scrollbar { display: none; width: 0; height: 0; }
